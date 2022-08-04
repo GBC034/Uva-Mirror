@@ -1,0 +1,45 @@
+<html><head>
+<meta name="autor" content="Gines, Murcia 23/9/17, dedicated to Rocio">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>The broken DNA of Jack the Ripper</title></head>
+<body lang="EN">
+<div align="center">
+<center>
+<table bgcolor="#0060f0" border="0">
+<tbody>
+<tr>
+<td><font color="#c0ffff" size="5"><b>&nbsp;C - The Broken DNA of Jack the Ripper&nbsp;</b></font></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<h2><a name="SECTION1"><font color="#0070e8">Context</font></a></h2>
+<p>DNA analysis allows the resolution of crimes committed in the distant past. Provided that there are biological remains of the criminals and the possible suspects, a proper comparison of DNA sequences can be used to identify the culprits. For example, the famous crimes of Jack the Ripper can be solved more than 120 years later thanks to DNA.</p>
+<p style="text-align: center;"><img alt="DNA, Wikipedia" src="dna.png"></p>
+<p>However, analyzing ancient DNA sequences is not an easy thing, since many parts of the sequences can be lost, mainly in the extremes of the sequences. As you should know, a DNA sequence can be represented as a list of letters: A, C, G, T. When we have some missing information of the DNA, we will use the character '-'. For example, a sequence such as: AC-CG-, means that the 3rd and 6th elements of the sequence are unknown, so they could correspond to any letter.</p>
+<h2><a name="SECTION1"><font color="#0070e8">The
+Problem</font></a></h2>
+<p>You have to help the police to identify Jack the Ripper's DNA. Given a list of DNA sequences, you have to identify which sequences have appeared previously in the list.</p>
+<p>All the sequences have the same length. They consist of 5 possible characters: A, C, G, T, -. This last character, '-', can correspond to any other character.</p>
+<p>For example, the sequence: AC-CG-, matches the sequence: A-A-GG. Both of them match with ACACGG. And the sequence: ------ would match any 6 characters sequence.</p>
+<h2><a name="SECTION2"><font color="#0070e8">The
+Input</font></a></h2>
+<p>The first line of the input contains an integer, indicating the number of existing DNA sequences. This number can be up to 20000.</p>
+<p>Each DNA sequence is described in a single line. This line consists of the characters: A, C, G, T, -. All the sequences have the same length, that will be no longer than 100 characters.</p>
+<h2><a name="SECTION2"><font color="#0070e8">The Output</font></a></h2>
+<p>For each DNA sequence in the input, you have to determine if that sequence matches any other sequence that has appeared previously in the input. In that case, you have to output:</p>
+<p><code>M: S1 S2 ... Sn</code></p>
+<p>Where M is the number of the current DNA sequence, and S1, S2 ... Sn are the numbers of the previous sequences that match sequence M, in increasing order. Sequences are numbered starting with 1. For example, if the 3rd sequence matches the 1st and the 2nd sequences, you have to output:</p>
+<p><code>3: 1 2</code></p>
+
+<h2><a name="SECTION3"><font color="#0070e8">Sample Input</font></a></h2>
+<pre>8<br>AC-CG-<br>A-A-GG<br>ACACGT<br>ACACGG<br>ACACAC<br>---TT-<br>------<br>ACACAC</pre>
+<h2><a name="SECTION4"><font color="#0070e8">Sample Output</font></a></h2>
+<pre>2: 1<br>3: 1<br>4: 1 2<br>7: 1 2 3 4 5 6<br>8: 5 7</pre>
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'17</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad
+de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad
+de Murcia</a></small></small></p>
+</body></html>

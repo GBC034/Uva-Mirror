@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Bishop's walk</title>
+
+</head>
+
+
+<body>
+<div align="center">
+<center>
+<table summary="Table used for layout (ugh)" bgcolor="#0060f0" border="0">
+<tbody>
+<tr>
+<td><b>&nbsp;<font color="#c0ffff" size="5">E - Bishop's Walk</font>&nbsp;</b></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<h2><font color="#0070e8">The Problem</font></h2>
+<p>You need to find the best strategy to win a game. In this
+game, a board is divided into squares arranged in a square grid (like a
+chessboard, but the number of squares may be different from 64). Each
+square has a number between 0 and 9 in it, which indicates its value.</p>
+<p>A
+chess bishop starts in a given square and you have to move it a number
+of times (<em>l</em>) diagonally (as in chess, it should
+move the same distance vertically and horizontally). Each time, you win
+the number of points of the destination square.</p>
+<p>For example, for the following board:</p>
+<div style="text-align: center;"><img style="width: 327px; height: 305px;" alt="Example" src="p12966.png">
+</div>
+<p>Starting at the circled square and with 4 moves, the blue path
+earns 17 points. On the other hand, the green path obtains 36 points,
+which is the maximum in this case.</p>
+<p>The program will receive the size of the board, the number of
+moves (<em>l</em>), and the coordinates of the starting
+square. It should calculate the maximum number of points that can be
+won from the starting square in <em>l</em> moves.</p>
+<h2><font color="#0070e8">The Input</font></h2>
+<p>The input format is as follows:</p>
+<p>An integer in a single line which says the number of problems
+to solve. Then, for each problem:</p>
+<ul>
+<li>
+<p>Two integers in a line separated by a space indicating the
+width of the board (<em>n</em>) and the number of moves (<em>l</em>).
+The height of the board is always the same as its width.</p>
+</li>
+<li>
+<p>Two integers in a line separated by a space indicating the
+horizontal and vertical coordinates, respectively, of the starting
+square. Coordinates start at 0 at the top left corner and increase
+rightwards and downwards.</p>
+</li>
+<li>
+<p><em>n</em> rows of <em>n</em>
+numbers each indicating the value of each square.</p>
+</li>
+</ul>
+<p>Both <em>n</em> and <em>l</em> are
+less or equal than 50.</p>
+<h2><font color="#0070e8">The Output</font></h2>
+<p>For each problem, a line with a single number indicating the
+maximum amount of points that can be obtained doing <em>l</em>
+moves starting from the given square.</p>
+<h2><font color="#0070e8">Sample Input</font></h2>
+<pre>1<br>8 4<br>6 5<br>1 0 3 7 2 5 4 6 <br>3 5 9 9 6 7 1 6 <br>0 1 1 8 1 4 1 1 <br>9 2 5 8 6 2 6 5 <br>4 9 2 7 5 7 4 8 <br>2 3 8 9 0 9 5 0 <br>1 6 8 3 0 0 4 0 <br>2 9 9 8 2 5 3 7 <br> </pre>
+<h2><font color="#0070e8">Sample Output</font></h2>
+<pre>36<br> </pre>
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'15</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad
+de Informática<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad
+de Murcia</a></small></small></p>
+</body></html>

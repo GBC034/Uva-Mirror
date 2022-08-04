@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta name="autor" content="Gines, Murcia 19/9/15, dedicated to Rocio">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Atragalus nitidiflorus</title>
+
+</head>
+<body lang="EN">
+<div align="center">
+<center>
+<table bgcolor="#0060f0" border="0">
+<tbody>
+<tr>
+<td><font color="#c0ffff" size="5"><b>&nbsp;B
+- Astragalus Nitidiflorus&nbsp;</b></font></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<div style="text-align: center;"><img style="width: 357px; height: 354px;" alt="Astragalus" src="p12963.png"><br><span style="font-style: italic;">What is an astragalus nitififlorus?</span><br style="font-style: italic;"><span style="font-style: italic;">What does it have?</span><br style="font-weight: normal;">
+
+</div><h2><a name="SECTION1"><font color="#0070e8">Context</font></a></h2>
+
+<p>For about 100 years, astragalus nitidiflorus, also known as
+the <span style="font-style: italic;">garbancillo of
+Tallante</span>,
+was thought to be an extinct plant species. However in 2004 it was
+rediscovered in a small hamlet of Cartagena called Tallante. This fact caused a
+great joy&nbsp;among biologists, botanists and local
+people, who celebrated the discovery with a party and a famous youtube video dedicated to the astragalus nitidiflorus.</p>
+<h2><a name="SECTION1"><font color="#0070e8">The
+Problem</font></a></h2>
+<p>In this problem, you have to help biologists look for the
+plants of astragalus nitidiflorus. They have made a map of all the
+possible locations of this elusive plant species. The map takes the
+form of a matrix of characters. The plants can be located in the
+intersections of one vertical occurrence of the word "ASTRAGALUS"&nbsp;and
+one horizontal occurrence of the word "GARBANCILLOS".</p>
+<p>For example, in the following map there is one possible
+location of the plant at the 6th row and 6th column:</p>
+<code>..............<br>
+</code><code>.....A........<br>
+</code><code>.....S........<br>
+</code><code></code><code>.....T........<br>
+</code><code>.....R........<br>
+</code><code></code><code>.GARBANCILLOS.<br>
+</code><code>.....G........<br>
+</code><code>.....A........<br>
+</code><code>.....L........<br>
+</code><code>.....U........<br>
+</code><code>.....S........</code>
+<p>We have used "." in order to improve visualization, but it
+could be
+replaced by any character. The occurrences of "GARBANCILLOS" are
+always from left to right, and "ASTRAGALUS"&nbsp;from up to down.</p>
+<p>Each occurrence of "ASTRAGALUS"&nbsp;or
+"GARBANCILLOS" can only be used once at most. So, for example, in the
+following map there are four intersections but only one possible
+location of the plant:</p>
+<p><code>.................<br>
+</code><code>....GARBANCILLOS.<br>
+</code><code>.....S...........<br>
+</code><code></code><code>.....T...........<br>
+</code><code>.....R...........<br>
+</code><code></code><code>.GARBANCILLOS....<br>
+</code><code>.....GARBANCILLOS<br>
+</code><code>.GARBANCILLOS....<br>
+</code><code>.....L...........<br>
+</code><code>.....U...........<br>
+</code><code>.....S...........</code></p>
+<p>Write a program that, given a map, computes the maximum number
+of possible locations of astragalus nitidiflorus.
+</p>
+<h2><a name="SECTION2"><font color="#0070e8">The
+Input</font></a></h2>
+<p>The input consists of a series of test cases. The first line
+contains a number that indicates the number of test cases.</p>
+<p>Each case begins with two numbers, <span style="font-style: italic;">R</span>, <span style="font-style: italic;">C</span>, indicating the
+number of rows and columns of the map, respectively. Both numbers will
+be between 1 and 150. Then, there are <span style="font-style: italic;">R</span> lines each with <span style="font-style: italic;">C</span> characters,
+representing the map.</p>
+<h2><a name="SECTION2"><font color="#0070e8">The
+Output</font></a></h2>
+<p> For each test case, you have to output the maximum possible
+locations of the plant; that is, the maximum number of intersections of
+a vertical "ASTRAGALUS" and a horizontal "GARBANCILLOS", where these
+occurrences cannot be used more than once.</p>
+<h2><a name="SECTION3"><font color="#0070e8">Sample
+Input</font></a></h2>
+<pre><code>2<br>11 14<br>..............<br>.....A........<br>.....S........<br>.....T........<br>.....R........<br>.GARBANCILLOS.<br>.....G........<br>.....A........<br>.....L........<br>.....U........<br>.....S........<br>13 23<br>GARBANCILLOS.......A...<br>A..........A.......S...<br>S..........S.......T...<br>T..........T..A....R...<br>R..........R..S....A...<br>A..........A..T....G...<br>G..........G..R....A...<br>A.........GARBANCILLOS.<br>L..........L..G....U...<br>U..........U..A....S...<br>GARBANCILLOS..L........<br>..............U........<br>...GARBANCILLOS........</code><code></code></pre>
+<h2><a name="SECTION4"><font color="#0070e8">Sample
+Output</font></a></h2>
+<pre>1<br>3<br></pre>
+<hr>
+<p align="right"><small><small><a href="http://olimpiada.inf.um.es/contest" target="_blank">OMP'15</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad
+de Informática<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad
+de Murcia</a></small></small></p>
+</body></html>

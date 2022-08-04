@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Average reuse distance</title>
+
+</head>
+<body>
+<div align="center">
+<center>
+<table bgcolor="#0060f0" border="0">
+<tbody>
+<tr>
+<td><b><font color="#c0ffff" size="5">&nbsp;A
+- Average Reuse Distance</font>&nbsp;</b></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<h2><font color="#0070e8">Background</font></h2>
+<p>Calculating the <span style="font-style: italic;">reuse distance</span> of a certain memory location is
+a
+very common technique in computer architecture, since it offers
+knowledge about the locality of programs that is independent of the
+architecture of the machine.</p>
+<h2><font color="#0070e8">The Problem</font></h2>
+<p>The reuse distance of a reference to a memory address in a
+program
+is defined by the number of different addresses that have been
+referenced since the last reference to the same address. In other
+words, if a program references the addresses 'a', 'b', 'c', 'd', and
+'a' (we will denote addresses by lower-case letters), the reuse
+distance of the last reference to 'a' (with respect to the previous
+reference to 'a') is 3, since references to 3 different addresses have
+been performed. Similarly, if the references in a program are 'a',
+'b', 'b', and 'a', the reuse distance of the last reference to 'a'
+will be 1.</p>
+<p>Your task is to write a program that calculates the average
+reuse
+distance of a sequence of references. You have to consider that the
+first reference to an address does not have reuse distance, and
+therefore is not computed.</p>
+<h2><font color="#0070e8">The Input</font></h2>
+<p>The program input consists of several lines, each one with a
+sequence of characters from 'a' to 'z' representing
+references to different memory locations. The input terminates with a
+line with the string 0.</p>
+<h2><font color="#0070e8">The Output</font></h2>
+<p>For each line, your program must print the average reuse
+distance
+of the performed references with four decimal digits, or "NaN" (Not a
+Number) if no reference is reused. The forth decimal digit must be
+rounded to the nearest value; for example, 1.000049 must be printed as
+1.0000; and 1.00005 and 1.00006 must be printed as 1.0001.</p>
+<p><span style="font-weight: bold;">Hint</span>: in C++, use:</p>
+<code>#include &lt;iomanip&gt;<br>
+...<br>
+cout &lt;&lt; setprecision(4) &lt;&lt; fixed;</code>
+<h2><font color="#0070e8">Sample Input</font></h2>
+<pre>a<br>ab<br>aa<br>aba<br>abba<br>abcbdac<br>abcdbac<br>problembyalbertorosbardisa<br>0<br></pre>
+<h2><font color="#0070e8">Sample Output</font></h2>
+<pre>NaN<br>NaN<br>0.0000<br>1.0000<br>0.5000<br>2.3333<br>2.6667<br>4.5385<br></pre>
+
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'15</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad
+de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad
+de Murcia</a></small></small></p>
+</body></html>

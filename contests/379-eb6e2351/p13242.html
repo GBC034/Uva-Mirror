@@ -1,0 +1,109 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <title>Pool filling</title>
+
+  <style>
+    table.lista-jarras { 
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    table.lista-jarras td, table.lista-jarras th { 
+      border: 1px solid black;
+      padding: 0.2em;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body bgcolor="#FFFFFF" lang="EN">
+  <div align="center">
+    <center>
+      <table border="0" bgcolor="#0060F0" summary="Table used for layout (ugh)">
+        <tbody>
+          <tr>
+            <td><b>&nbsp;<font color="#C0FFFF" size="5">B - Pool Filling</font>&nbsp;</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </div>
+
+  <h2><font color="#0070E8">The Problem</font></h2><!-- ¿Dónde fue el h1? -->
+
+  <p>There is an empty pool that needs to be filled with water at a desired temperature. To do this, you have a row of jars placed near the border of the pool and numbered starting at 0. Each jar contains a different volume of water at a different temperature. You can pour as many jars as you want to the pool, but only if they are consecutive.</p>
+<p>The objective is to fill at least half the capacity of the pool, without overflowing it, so that the resulting water temperature is as close as possible to a target temperature, and never more than 5 degrees hotter or warmer. We will assume that, when mixing two volumes of water, the resulting temperature of the mix is the average of the original temperatures weighted by volume.</p>
+
+  <p>For example, you may have 5 jars as follows:</p>
+
+  <table class="lista-jarras">
+    <tr><th>Jar number</th><th>Volume (l)</th><th>Temperature (°C)</th></tr>
+    <tr><td>0</td><td>45</td><td>23</td></tr>
+    <tr><td>1</td><td>20</td><td>40</td></tr>
+    <tr><td>2</td><td>67</td><td>22</td></tr>
+    <tr><td>3</td><td>109</td><td>11</td></tr>
+    <tr><td>4</td><td>9</td><td>56</td></tr>
+  </table>
+
+  <p>This way, for example, you could pour jars 1, 2 and 3 into the pool, but not only jars 1 and 3. The resulting total volume (assuming that the pool is large enough) would be 20 + 67 + 109 = 196 liters and the resulting temperature would be (20 × 40 + 67 × 22 + 109 × 11) / (20 + 67 +109) = 17.719388 °C.</p>
+
+    
+
+
+  <h2><font color="#0070E8">The Input</font></h2>
+
+  <p>The input format is as follows:</p>
+
+  <p>An integer in a single line which says the number of problems to
+    solve. Then, for each problem:</p>
+
+  <ul>
+    <li>A line with two integers: the maximum capacity of the pool and the target temperature.</li>
+    <li>A line with one integer: the number of jars, which will not be greater than 3000.</li>
+    <li>Then, a line for each jar containing two integers: the volume of water in the jar and its temperature.</li>
+  </ul>
+
+  <h2><font color="#0070E8">The Output</font></h2>
+
+  <p>For each problem, you have to print a line with two integers representing the first and the last jar to pour into the pool, minimizing the difference with respect to the target temperature.</p>
+<p>If there is no way to fill at least half the pool without overflowing it with water within the acceptable temperature range, the line should be “<tt>Not possible</tt>”. If there are many optimal solutions, you have to use the jars with the lowest numbers.</p>
+
+  <h2><font color="#0070E8">Sample Input</font></h2>
+
+  <pre>
+2
+615 11
+15
+24 18
+25 5
+74 4
+80 5
+75 3
+96 2
+53 6
+25 24
+74 20
+97 20
+76 3
+14 16
+8 3
+21 14
+82 18
+100 20
+3
+10 20
+66 40
+5 100
+</pre>
+
+  <h2><font color="#0070E8">Sample Output</font></h2>
+  <pre>
+5 12
+Not possible
+</pre>
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'17</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad de Murcia</a></small></small></p>
+</body></html>

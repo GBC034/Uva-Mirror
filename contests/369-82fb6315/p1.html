@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Growing trees</title>
+
+</head>
+
+<body style="background-color: rgb(255, 255, 255);" lang="EN">
+<div align="center">
+<center>
+<table bgcolor="#0060f0" border="0">
+<tbody>
+<tr>
+<td><b><font color="#c0ffff" size="5">&nbsp;B
+- Growing Trees</font>&nbsp;</b></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<h2><font color="#0070e8">Context</font></h2>
+<p>Over the past 50 years, about half the world's original forest
+cover has been lost. It is time to help with the reforestation of the
+planet and plant more trees!</p>
+<h2><font color="#0070e8">The Problem</font></h2>
+<p>We have been entrusted with the mission of planting trees and
+watch how they
+grow. The kind of trees that we have to plant and observe is known as a
+mathematical tree. These trees have the following characteristics. On each
+level, as depicted in the figure below, the tree decides whether
+branching or
+not in each subtree, depending on these rules:</p>
+<ul>
+<li>
+<p>At the level 1, it never branches.</p>
+</li>
+<li>
+<p>If the tree (or subtree) does not branch at the level i,
+then it will branch at the level i+1.</p>
+</li>
+<li>
+<p>If the tree (or subtree) branches at the level i, then
+only one of the two resulting branches will branch at the level i+1.</p>
+</li>
+</ul>
+<p align="center"><img style="width: 298px; height: 213px;" alt="Mathematical tree" src="mat-tree.png"><br>
+<em>Example of a mathematical tree.</em></p>
+<p>Leaves appear at the end of each branch on the last level of
+the
+tree. Your task, while observing the tree, is to count the number of
+leaves that the tree has in a particular level of growth,
+assuming that
+branches will never merge. However, you do not want to spend all your
+time counting the leaves by hand, so you want to create a program that
+tells you the number of leaves at any given level of growth.</p>
+<h2><font color="#0070e8">The Input</font></h2>
+<p>Your program receives a sequence of positive integers, one per
+line, each representing the level of growth of the tree you are
+observing. The
+maximum value for the level is 85. The input terminates with a 0.</p>
+<h2><font color="#0070e8">The Output</font></h2>
+<p>For each input case, your program must print the corresponding
+number of leaves that the tree has in such level.</p>
+<h2><font color="#0070e8">Sample Input</font><br>
+</h2>
+<pre>2<br>3<br>4<br>0<br></pre>
+<h2><font color="#0070e8">Sample Output</font></h2>
+<pre>1<br>2<br>3<br></pre>
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'16</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad
+de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad
+de Murcia</a></small></small></p>
+</body></html>

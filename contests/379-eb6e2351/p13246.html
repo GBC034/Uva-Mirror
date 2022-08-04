@@ -1,0 +1,63 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <title>Chained words</title>
+</head>
+
+<body bgcolor="#FFFFFF" lang="EN">
+  <div align="center">
+    <center>
+      <table border="0" bgcolor="#0060F0" summary="Table used for layout (ugh)">
+        <tbody>
+          <tr>
+            <td><b>&nbsp;<font color="#C0FFFF" size="5">F - Chained Words</font>&nbsp;</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </div>
+
+  <h2><font color="#0070E8">The Problem</font></h2><!-- ¿Dónde fue el h1? -->
+
+  <p>We call “<em>chained words</em>” to a sequence of words where each word starts with the last letter of the previous word, except the first one which starts with the last letter of the last word. For example “<tt>all lions seek koala</tt>” is a list of four chained words.</p>
+
+  <p>You have to write a program to find sequences of chained words. It will receive a list of words and it should rearrange them, if possible, to form a chain of words. If more than one chain can be formed, it should show only the first one in lexicographical order.</p>
+  
+  <h2><font color="#0070E8">The Input</font></h2>
+
+  <p>The input format is as follows:</p>
+
+  <p>An integer in a single line which says the number of problems to
+    solve. Then, for each problem:</p>
+
+  <ul>
+    <li>A line with one integer between 2 and 200000 representing the number of words in the text.</li>
+    <li>As many words as indicated by the previous integer, separated by any number of spaces or end of line characers (these whitespace characters are only separators and should be ignored). Words contain only lowercase letters and are less than 100 characters long.</li>
+  </ul>
+
+  <h2><font color="#0070E8">The Output</font></h2>
+
+  <p>For each problem, a line with the input words reordered to form a chain, separated by one space from each other. If there is no way to form a chain, the line should be “<tt>No way</tt>”.</p>
+
+  <h2><font color="#0070E8">Sample Input</font></h2>
+
+  <pre>
+2
+9
+rack car kiosk minumum atom
+metal lima arctic kenia
+5
+star rest type plane east
+</pre>
+
+  <h2><font color="#0070E8">Sample Output</font></h2>
+  <pre>
+arctic car rack kiosk kenia atom minumum metal lima
+No way
+</pre>
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'17</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad de Murcia</a></small></small></p>
+</body></html>

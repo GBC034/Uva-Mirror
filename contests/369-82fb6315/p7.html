@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <title>Travel planning</title>
+</head>
+
+<body bgcolor="#FFFFFF" lang="EN">
+  <div align="center">
+    <center>
+      <table border="0" bgcolor="#0060F0" summary="Table used for layout (ugh)">
+        <tbody>
+          <tr>
+            <td><b>&nbsp;<font color="#C0FFFF" size="5">H - Travel Planning</font>&nbsp;</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </div>
+
+  <h2><font color="#0070E8">The Problem</font></h2><!-- ¿Dónde fue el h1? -->
+
+  <p>You want to go from one city to another. For this, you can use a
+    combination of trains and planes. Some pairs of cities are
+    connected directly by train and others by plane, while others are
+    not connected at all. No pair of cities has both a train and a
+    plane line connecting them. Planes are usually much faster than
+    trains, but you can only take a limited number of them. To arrive
+    as fast as possible, you are going to write a program to plan the
+    fastest route.</p>
+
+  <p>For example, in the following map cities are connected by trains
+    represented by black lines and planes represented by red dashed
+    lines. Each route is labelled with its duration. The fastest
+    travel plan for going from city 8 to city 93 using at most 2
+    planes is marked in violet:</p>
+
+  <a href="example.svg"><img src="example.svg" style="max-width: 100%"></a>
+
+  <p>Starting from city 8, you take four trains (53 + 60 + 96 + 86),
+    then a plane (2), a train (51), another plane (6) and finally you
+    take another train (142) to arrive to city 93, for a total travel
+    duration of 496.</p>
+  
+<!--
+        _
+       //
+      ||              |\_/|     Me gusta este problema.
+       \\  .-""""-._,' e e(     Estos son mis favoritos
+        \\/         \  =_Y/= ------/
+         \    \       /`"`
+          \   | /    |
+          /  / -\   /
+          `\ \\  | ||
+       jgs  \_)) |_))
+-->
+
+  <h2><font color="#0070E8">The Input</font></h2>
+
+  <p>The input format is as follows:</p>
+
+  <p>An integer in a single line which says the number of problems to
+    solve. Then, for each problem:</p>
+
+  <ul>
+    <li><p>The number of cities (n ≤ 300) in the map, as an integer in
+      a single line. Cities will be numbered from 0 to n-1.</p></li>
+    <li><p>Two integers in a single line separated by a space. The
+      first is the starting city and the second is the destination
+      city.</p></li>
+    <li><p>The maximum number of planes that you can use (p ≤ 4), as
+      an integer in a single line.</p></li>
+    <li><p>The number of train routes, as an integer in a single
+        line. Then, for each train a line containing three integers
+        separated by spaces: the first two are the cities connected
+        and the third is the time taken by the train. All routes are
+        bidirectional.</p>
+    </li>
+    <li><p>The number of plane routes, as an integer in a single
+        line. Then, for each plane a line containing three integers
+        separated by spaces: the first two are the cities connected
+        and the third is the time taken by the plane. All routes are
+        bidirectional.</p>
+    </li>
+  </ul>
+
+  <p>You can assume that trains and planes can be taken at any time
+    without having to wait for them.</p>
+  
+  <h2><font color="#0070E8">The Output</font></h2>
+
+  <p>For each problem, a line with a single number indicating the
+    total duration of the shortest travel plan using at most p
+    planes. You can be sure that there is always a solution to the problem.</p>
+
+  <h2><font color="#0070E8">Sample Input</font></h2>
+
+  <pre>
+1
+10
+2 8
+2
+13
+2 1 130
+1 4 83
+4 7 105
+7 6 86
+7 8 64
+8 5 74
+1 0 72
+9 6 69
+0 3 56
+3 4 141
+6 3 124
+4 5 133
+5 2 140
+4
+6 8 5
+9 3 9
+2 9 10
+1 8 7
+  </pre>
+
+  <h2><font color="#0070E8">Sample Output</font></h2>
+  <pre>
+84
+</pre>
+  <hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'16</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad
+de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad
+de Murcia</a></small></small></p>
+</body>
+</html>

@@ -1,0 +1,3486 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<!-- EfA Scripts -->
+<script type="text/javascript" src="https://onlinejudge.org/templates/hm_yaml_2_5/js/efa/cookies.js"></script>
+<!-- // -->
+<title>Online Judge</title>
+<meta name="description" content="Online Judge" />
+<meta name="keywords" content="programming, contest, online, judge, problemset" />
+<meta name="Generator" content="Joomla! - Copyright (C) 2005 - 2007 Open Source Matters. All rights reserved." />
+<meta name="robots" content="index, follow" />
+<link rel="stylesheet" href="components/com_onlinejudge/css/onlinejudge.css" type="text/css" />
+<link rel="stylesheet" href="components/com_onlinejudge/css/tabber.css" type="text/css" />
+<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/layout_3col_vlines.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+	<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/explorer/iehacks_3col_vlines.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style type="text/css">
+#page_margins {min-width: 756px; max-width: 90em; }
+</style>
+
+			<!--[if lt IE 7]>
+				<script defer type="text/javascript" src="https://onlinejudge.org/templates/hm_yaml_2_5/js/pngfix.js"></script>
+			<![endif]-->
+		
+
+		<style type="text/css">
+		#page_margins {
+			margin:auto;
+		}
+		</style>
+		
+<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/navigation/nav_vlist.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="https://onlinejudge.org/images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="audience" content="All"/>
+<meta name="revisit-after" content="1 Day"/>
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-floating"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+
+
+
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:10000;"></div>
+<!-- <script type="text/javascript">if (efa_fontSize) efa_fontSize.efaInit();</script> -->
+<a id="start" name="start"></a>
+
+<div id="page_margins">
+<div id="page" class="hold_floats">
+
+<!-- #header: Start -->
+<div id="header">
+	<div id="topnav">
+		<a class="skip" href="#navigation" title="Direkt zur Navigation springen">Zur Navigation springen</a>
+		<a class="skip" href="#content" title="Direkt zum Content springen">Zum Content springen</a>	
+			</div>
+	<img src="https://onlinejudge.org/templates/hm_yaml_2_5/./img/ojlogo2.svg.png" alt="Online Judge"/>
+	<div id="headbanner" style="width:728px;height:90px;position:absolute;right:25px;top:25px;">
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-2439032012840386";
+	google_ad_slot = "8272437788";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	</script>
+	<script type="text/javascript"
+	src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+	--> 
+	</div>
+</div>
+<!-- #header: End -->
+
+<!-- #nav: Start -->
+<div id="nav">
+	<a id="navigation" name="navigation"></a>
+	<div id="nav_main" >
+			</div>
+</div>
+<!-- #nav: End -->
+
+<!-- #toolbar_box: Start -->
+<div class="clearfix" id="toolbar_box">
+	<div class="tool_pathway">
+		<span class="pathway"><a href="https://onlinejudge.org/index.php" class="pathway">Home</a> <img src="https://onlinejudge.org/templates/hm_yaml_2_5/images/arrow.png" border="0" alt="arrow" />   Browse Problems </span>	</div>
+<!--	<div class="tool_searchbox">
+		<form action="index.php" method="get">
+			<input class="inputbox" type="text" name="searchword" size="25" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" />
+			<input type="hidden" name="option" value="com_search" />
+		</form>
+	</div>-->
+	<div class="tool_fontsize">
+		<script type="text/javascript">	
+	<!--		if (efa_fontSize) document.write(efa_fontSize.allLinks);	-->
+		</script>
+	</div>
+	</div>
+<!-- #toolbar_box: End -->
+
+<!-- #main: Content Start -->
+<div id="main">
+
+
+<!-- #col1: Left Column of Content -->
+    <div id="col1">
+		<div id="col1_content" class="clearfix">
+			<!-- <div style="width:100%;text-align:center;">
+			<iframe src="http://www.indiegogo.com/project/361690/widget/2710044" width="224px" height="486px" frameborder="0" scrolling="no"></iframe></div> -->
+                        		<div class="moduletable">
+							<h3>
+					Login				</h3>
+				<form action="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=login" method="post" id="mod_loginform" style="margin:0px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mod_login">
+<tr><td><span id="mod_login_usernametext"><label for="mod_login_username">Username</label></span><br />
+<input type="text" name="username" id="mod_login_username" class="inputbox" size="10" /><br />
+<span id="mod_login_passwordtext"><label for="mod_login_password">Password</label></span><br /><span><input type="password" name="passwd" id="mod_login_password" class="inputbox" size="10" /></span><br />
+<input type="hidden" name="op2" value="login" />
+<input type="hidden" name="lang" value="english" />
+<input type="hidden" name="force_session" value="1" />
+<input type="hidden" name="return" value="B:aHR0cDovL29ubGluZWp1ZGdlLm9yZy9pbmRleC5waHA/b3B0aW9uPWNvbV9vbmxpbmVqdWRnZSZhbXA7SXRlbWlkPTgmYW1wO3BhZ2U9c2hvd19hdXRob3JzdGF0cyZhbXA7dXNlcmlkPTIwMDE0NDY=" />
+<input type="hidden" name="message" value="0" />
+<input type="hidden" name="loginfrom" value="loginmodule" />
+<input type="hidden" name="cbsecuritym3" value="cbm_316da932_6f011692_258772added702cb51e617f0fe23e7bf" />
+<input type="hidden" name="jf56b215638be61c315e8642d50b6142d" value="1" />
+<input type="checkbox" name="remember" id="mod_login_remember" value="yes" /> <span id="mod_login_remembermetext"><label for="mod_login_remember">Remember me</label></span><br />
+<input type="submit" name="Submit" class="button" value="Login" /></td></tr>
+<tr><td><a href="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=lostPassword" class="mod_login">Forgot login?</a></td></tr>
+<tr><td>No account yet? <a href="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=registers" class="mod_login">Register</a></td></tr>
+</table></form>		</div>
+							<div class="moduletable">
+			<!-- SiteSearch Google -->
+
+<form action="https://www.google.com/cse" id="cse-search-box" target="_blank">
+<div>
+<input type="hidden" name="cx" value="partner-pub-2439032012840386:3416984485" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="text" name="q" size="19" />
+<input type="submit" name="sa" value="Search" />
+</div>
+</form>
+<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+<!-- SiteSearch Google -->
+		</div>
+				<div class="moduletable">
+							<h3>
+					Main Menu				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_frontpage&amp;Itemid=1" class="mainlevel" >Home</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_contact&amp;Itemid=4" class="mainlevel" >Contact Us</a></td></tr>
+<tr align="left"><td><a href="http://livearchive.onlinejudge.org" target="_blank" class="mainlevel" >ICPC Live Archive</a></td></tr>
+</table>		</div>
+				<div class="moduletable">
+							<h3>
+					Online Judge				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="http://uhunt.felix-halim.net/id/0" target="_blank" class="mainlevel" >My uHunt with Virtual Contest Service</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8" class="mainlevel" id="active_menu">Browse Problems</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/local/online_judge/search_uva.html" target="_blank" class="mainlevel" >Quick access, info and search</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=44" class="mainlevel" >Problemsetters' Credits</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/local/online_judge/public_uva.html" target="_blank" class="mainlevel" >Live Rankings</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=5&amp;Itemid=18" class="mainlevel" >Site Statistics</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=10" class="mainlevel" >Contests</a></td></tr>
+<tr align="left"><td><a href="https://uva.onlinejudge.org/board/" class="mainlevel" >Electronic Board</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=29" class="mainlevel" >Additional Information</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=17&amp;Itemid=32" class="mainlevel" >Other Links</a></td></tr>
+</table>		</div>
+														<div style="text-align:center;">
+			<a href="http://uhunt.felix-halim.net/" target="_new">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAABGdBTUEAALGPC/xhBQAAAQtQTFRFRkZGRkZpRkaJRmmoRonGUVFRXFxcXV1daGhoaUZGaajic3NzdHR0fn5+iUZGicb/ioqKlZWVoqKiqGlGqMb/qOL/q6urra2tt7e3uLi4wsLCwxdWwxd1wxeSw0avw2/KxMTExiVgxolGxsb/xuL/xv//yjNqyjRrzhdWzkF1zpbl0lB/0lGA1V2J1xdW1xeS17r/2WyU2W2V3Hqe3Xuf3Xyf4Iip4UZW4Yqq4d3/4qhp4qiJ4v//5Jay5Zq15ubm5+fn6KS96Ke/7G9W7LTI7LbK7LrK7P//8vLy9ZZ19d3/9f//9+Hp+OHq+/D0/7qS/8aJ/92v/+Ko/+LG///G///K///i///l////+YMcUAAAA99JREFUaN7tm2tf0zAUh4NuDAbIinKNOjaVyZjagXjBywYD7ZQVRNR+/09imvSSW7u1NukLc15sy6V9Tv45SZP9GuAJNjk77u3Bwmyvd3w2ESmAp74rkEnRP09SwZNDqMwOJ4lgVyEWo105+KIFFVvrQgbuQw12LIDdA6jFDlwW7O5DTbbvMuADqM1e0OA+1GivY/A51GrnIdht6QW33ADch5qtT8CXULtdYnBfP7jvg0tosN9k4L0pA/wJgTtlgDseKEVppDU4LQd8Co7KAR+BXjngHuiUA+4AWJIZsAH/N+BHX/110a+XfM4VhA/f48XamKnfxXk/nqsEyyBSZwoHP/7u//rzlqouyVIAljQvu9J5wBKMjXNGUDFYEFasrQYsaN30ojKlYEHrHErnA3Na85UDRdKjLReY05pVmlScis4F5rRmlCZqRJYYcfnAjNakJPAikjm0caHg4PYjSumxILudKnY+MNOtNh1pdgwj3iVpnRNMlTNKE59GUPSoIDAVUM3ErlQCjrVOun0Q3hnBYv9w4MgzXmk+tIsGR1o3+emSG8i5wPRFPDjU2k6YLnOCxZ4jDRnzUfBKKgQRwc4NphUUgpfU+MLWC3Qe5Y5qcZWR4Ak3IXfpWrnAwW254SNGmydROqglxsks4DBIyHVh6krsDVYHW5jDs4JpJT0Jga5B6dCNYKznWbYwtsgdS2Y3NpsbxCkropS9k0C+kldg2tSlh/C3lAdy2qaNdV/UrClb3nQpP7spD+Qpu0U7qbWU1mPpNfFmZ2T2xwZswAZswAZswAbMgY0ZM2bM2D/Y3Y+394Kfd579vj+1dht91r1rzeC5da9UsH6plYLDjDB1s1hH+23sUh1vwttEaqbEt1WUuEaf7YLAP5+SfwlOBDBV4ifx79snhYHxjZHGfi4dXEKJ/1XHjs0Ipv5ykYKDBvkpDkyVVDxyVaU4MOlDkmLBdMkq8QKl5OBadqnpFAumSuJwlwZXDSwrA4fBLQUvA6ucFltgSxE46mP5FLMFBrOAiWp1Lws4PaoHwKtNBccjMgs4uKoiHcc1D3gb0+fqChlaH9ZFMJ4WT2TgcFjePJCANxB4MMNDAo1F5PecDIwahqAycNpcPfBfgW2oXVfIgquB370dqAGGawNKQKrB+DVnNU2ukIcU6ulrSYMx2KkqkpjYzSJXUnXCV9l3gKo2S8fSTvzyvqVzFWvRxxWW9HFXmHMSzoIu7oLDHklxNLV5xREO4Vj6+pc7drRbVY2t7soPWjmKJ8+Gk3i0bKgQ3RimHqYbbs6roM5vDqec4kPo7TVrqUD6/JK1tj0UMH8Bt4PfPqA/FOsAAAAASUVORK5CYII=" alt="uHunt" width="80" /><br/><br/></a>
+			<a href="https://www.udebug.com/UVa" target="_new"><img src="https://www.udebug.com/sites/default/files/udebug_logo_small.png" width="150" alt="uDebug" /></a>
+			</div>
+			<!--<div style="border-width:1px;border-style:solid;border-color:#000088;width=100%;text-align:center;margin-top:30px;">
+			<div style="background-color:#000088;color:white;text-align:left;">With the collaboration of</div>
+			<a href="http://www.relint.uva.es" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_uva.jpg" alt="UVa" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://icpc.baylor.edu" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_icpc.jpg" alt="ICPC" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://www.funge.uva.es" target="_new"><img src="https://uva.onlinejudge.org/images/funge_new.png" alt="Funge" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://www.parquecientificouva.es" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_parque.jpg" alt="Parque Cient&iacute;fico UVa" style="padding-top:10px;padding-bottom:10px;"/></a>
+			</div>-->
+		</div>
+    </div>
+<!-- #col1: End -->
+
+<!-- #col2: Right Column of Content -->
+    <div id="col2">
+		<div id="col2_content" class="clearfix">
+						<div class="moduletable">
+							<h3>
+					Our Patreons				</h3>
+				<h2><strong style="color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif; font-size: 13.3328px">Diamond Sponsors</strong></h2><p>Steven &amp; Felix Halim</p><p>Reinardus Pradhitya<span style="font-size: 13.3328px">&nbsp;</span></p><h2><strong style="color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif; font-size: 13.3328px">Gold Sponsors</strong></h2><p style="font-size: 13.3328px">--- YOUR NAME HERE ----<span style="font-size: 13.3328px">&nbsp;</span></p><h2 style="font-size: 13.3328px"><strong style="font-size: 13.3328px; color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif">Silver Sponsors</strong></h2><p style="font-size: 13.3328px"><span style="font-size: 13.3328px">--- YOUR NAME HERE ----</span>&nbsp;<span style="font-size: 13.3328px">&nbsp;</span></p><h2 style="font-size: 13.3328px"><strong style="font-size: 13.3328px; color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif">Bronze Sponsors</strong></h2><p style="font-size: 13.3328px">Christianto Handojo</p><p style="font-size: 13.3328px">Krzysztof Adamek</p><p style="font-size: 13.3328px">Fatima Broom</p><p style="font-size: 13.3328px"><a href="https://techbuy.in/upgrad-referral-code" target="_blank">Amal Augustine<img style="font-size: 13.3328px" src="/images/techbuy_logo.png" alt="TechBuy" width="100" height="27" align="absmiddle" /></a> </p>		</div>
+				<div class="moduletable">
+							<h3>
+					Contribute				</h3>
+				<p style="text-align: center"><a href="https://www.patreon.com/onlinejudge" target="_blank"><img src="images/patronbutton.png" alt="Become a patron" title="Become a patron" width="230" height="76" align="baseline" /></a></p><p style="text-align: center"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=D7XA3E822BTP8&amp;source=url" target="_blank"><img style="font-size: 13.3328px" src="https://www.paypalobjects.com/en_US/ES/i/btn/btn_donateCC_LG.gif" alt="PayPal" title="PayPal" width="152" height="47" /></a> &nbsp;</p><p style="text-align: center"><img src="images/bitcoinqr.png" alt="1ojudgeapLUjJcnUmze67a4w3TJ6WnPxo" title="1ojudgeapLUjJcnUmze67a4w3TJ6WnPxo" width="200" height="200" /></p><p style="text-align: center"><span style="font-size: 13.3328px">Bitcoin:&nbsp;</span></p><p style="text-align: center"><span style="font-size: 13.3328px; text-align: left">1ojudgeapLUjJcnU</span><span style="font-size: 13.3328px; text-align: left">m</span></p><p style="text-align: center"><span style="font-size: 13.3328px; text-align: left">ze</span><span style="font-size: 13.3328px; text-align: left">67a4w3TJ6WnPxo</span><span style="font-size: 13.3328px">&nbsp;</span></p>		</div>
+													</div>
+    </div>
+<!-- #col2: End -->
+
+<!-- #col3: Main Content -->
+    <div id="col3">
+      <div id="col3_content" class="clearfix">
+	  	<div id="col3_content_wrapper" class="floatbox">
+		  <a id="content" name="content"></a>
+						
+	<script type="text/javascript" src="components/com_onlinejudge/Graphs/excanvas.js"></script>
+        <script type="text/javascript" src="components/com_onlinejudge/Graphs/prototype.js"></script>
+        <script type="text/javascript" src="components/com_onlinejudge/Graphs/plotr.js"></script>
+
+	<div class="componentheading">User Statistics</div>
+	<div class="contentheading">
+		<img align="right" style="top:-80px;position:relative;" src="components/com_comprofiler/images/english/nophoto.jpg" alt="nophoto" height="100"/>
+		
+	Jiang Jiun Ting&Lin Sao Way</div>
+	
+	<div align="center">
+	<table cellspacing="0" cellpadding="4" border="0" style="width:100%">
+	<tr>
+	<td width="20%" align="center"><h1 style="margin-top:-20px;margin-bottom:-5px;">3975</h1></td>
+	<td width="20%" align="center"><h1 style="margin-top:-20px;margin-bottom:-5px;">728</h1></td>
+	<td width="20%" align="center"><h1 style="margin-top:-20px;margin-bottom:-5px;">520</h1></td>
+	<td width="20%" align="center"><h1 style="margin-top:-20px;margin-bottom:-5px;">1998-06-11</h1></td>
+	<td width="20%" align="center"><h1 style="margin-top:-20px;margin-bottom:-5px;">2004-01-28</h1></td>
+	</tr>
+	<tr>
+	<td align="center">SUBMISSIONS</td>
+	<td align="center">PROBLEMS TRIED</td>
+	<td align="center">PROBLEMS SOLVED</td>
+	<td align="center">FIRST SUBMISSION</td>
+	<td align="center">LAST SUBMISSION</td>
+	</tr>
+	</table>
+	</div>
+
+
+	
+	<table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+			<td align="center" width="50%">
+                           <div align="center"><div><canvas id="verdicts" width="300" height="250"></canvas></div></div>
+                        </td>
+                        <td align="center" width="50%">
+                           <div align="center"><div><canvas id="langs" width="300" height="250"></canvas></div></div>
+                        </td>
+                </tr>
+       </table>
+
+	<script type="text/javascript">
+		var dataset_ver = {
+			'AC (696)': [[0,696]],
+'PE (51)': [[0,51]],
+'WA (1605)': [[0,1605]],
+'ML (92)': [[0,92]],
+'TL (563)': [[0,563]],
+'RE (442)': [[0,442]],
+'CE (492)': [[0,492]],
+'SE (34)': [[0,34]]		} ;
+
+               var dataset_lang = {
+                     'ANSI C (23)': [[0,23]],
+'JAVA (2)': [[0,2]],
+'C++ (3950)': [[0,3950]]               } ;
+
+		var options = { padding: { left: -34 },colorScheme: 'blue', pieRadius: '0.4' } ;
+
+               Object.extend(options,{ legend: { hide: false, position: {left: '239px', top: '10px'}, style: {width: '95px'} } } ) ;
+
+               Object.extend(options,{ axis: { x: { hide: 'true'} } } ) ;
+
+		var pie_ver = new Plotr.PieChart('verdicts',options) ;
+		pie_ver.addDataset(dataset_ver) ;
+		pie_ver.render() ;
+
+               Object.extend(options,{ colorScheme: 'red' } ) ;
+
+               pie_ver.reset() ;
+               pie_ver.addDataset(dataset_lang) ;
+               pie_ver.render('langs',options) ;
+	</script>
+
+	
+        <div class="contentheading">Solved problems</div>
+	<table border="0" cellspacing="0" cellpadding="4" style="width:70%" align="center">
+	<tr class="sectiontableheader"><th align="center">Problem</th><th align="center">Ranking</th><th align="center">Submission</th><th align="center">Date</th><th align="center">Run time</th></tr>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=36">100</a></td>
+	<td align="center">86153</td>
+	<td align="center">19837</td>
+	<td align="center">1998-07-22 17:53:17</td>
+	<td align="center">3.879</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=40">104</a></td>
+	<td align="center">2684</td>
+	<td align="center">205558</td>
+	<td align="center">2000-05-03 15:46:59</td>
+	<td align="center">0.210</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=43">107</a></td>
+	<td align="center">5794</td>
+	<td align="center">1781690</td>
+	<td align="center">2003-08-06 16:07:26</td>
+	<td align="center">4.250</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=44">108</a></td>
+	<td align="center">7576</td>
+	<td align="center">211221</td>
+	<td align="center">2000-05-21 15:07:32</td>
+	<td align="center">0.030</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=47">111</a></td>
+	<td align="center">6022</td>
+	<td align="center">219078</td>
+	<td align="center">2000-06-09 05:47:17</td>
+	<td align="center">0.020</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=48">112</a></td>
+	<td align="center">2646</td>
+	<td align="center">699210</td>
+	<td align="center">2001-12-30 07:55:07</td>
+	<td align="center">0.190</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=49">113</a></td>
+	<td align="center">8182</td>
+	<td align="center">224244</td>
+	<td align="center">2000-06-21 14:40:14</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=51">115</a></td>
+	<td align="center">841</td>
+	<td align="center">181390</td>
+	<td align="center">2000-03-12 08:23:40</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=52">116</a></td>
+	<td align="center">6570</td>
+	<td align="center">165947</td>
+	<td align="center">2000-01-28 02:47:03</td>
+	<td align="center">0.660</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=68">132</a></td>
+	<td align="center">101</td>
+	<td align="center">813888</td>
+	<td align="center">2002-04-08 15:30:20</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=74">138</a></td>
+	<td align="center">4138</td>
+	<td align="center">46216</td>
+	<td align="center">1998-12-29 13:30:21</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=76">140</a></td>
+	<td align="center">3178</td>
+	<td align="center">183039</td>
+	<td align="center">2000-03-16 11:25:38</td>
+	<td align="center">5.290</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=79">143</a></td>
+	<td align="center">1124</td>
+	<td align="center">894945</td>
+	<td align="center">2002-06-09 10:31:59</td>
+	<td align="center">7.709</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=82">146</a></td>
+	<td align="center">244</td>
+	<td align="center">198909</td>
+	<td align="center">2000-04-17 11:29:11</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=88">152</a></td>
+	<td align="center">3087</td>
+	<td align="center">146092</td>
+	<td align="center">1999-12-04 06:27:33</td>
+	<td align="center">55.770</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=90">154</a></td>
+	<td align="center">1888</td>
+	<td align="center">156200</td>
+	<td align="center">2000-01-03 05:12:05</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=93">157</a></td>
+	<td align="center">403</td>
+	<td align="center">182444</td>
+	<td align="center">2000-03-14 17:27:37</td>
+	<td align="center">0.020</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=94">158</a></td>
+	<td align="center">10</td>
+	<td align="center">190341</td>
+	<td align="center">2000-04-04 09:14:03</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=100">164</a></td>
+	<td align="center">2169</td>
+	<td align="center">330348</td>
+	<td align="center">2000-11-17 15:15:43</td>
+	<td align="center">3.781</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=102">166</a></td>
+	<td align="center">33</td>
+	<td align="center">374022</td>
+	<td align="center">2001-01-26 16:41:40</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=104">168</a></td>
+	<td align="center">1484</td>
+	<td align="center">144878</td>
+	<td align="center">1999-11-30 13:10:25</td>
+	<td align="center">9.300</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=107">171</a></td>
+	<td align="center">319</td>
+	<td align="center">437079</td>
+	<td align="center">2001-04-29 08:52:36</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=108">172</a></td>
+	<td align="center">54</td>
+	<td align="center">512173</td>
+	<td align="center">2001-08-05 06:39:39</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=115">179</a></td>
+	<td align="center">13</td>
+	<td align="center">389890</td>
+	<td align="center">2001-02-17 06:55:07</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=118">182</a></td>
+	<td align="center">75</td>
+	<td align="center">1107564</td>
+	<td align="center">2002-09-22 16:53:09</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=124">188</a></td>
+	<td align="center">16</td>
+	<td align="center">142307</td>
+	<td align="center">1999-11-24 04:06:36</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=125">189</a></td>
+	<td align="center">83</td>
+	<td align="center">699353</td>
+	<td align="center">2001-12-30 12:41:34</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=129">193</a></td>
+	<td align="center">2527</td>
+	<td align="center">828985</td>
+	<td align="center">2002-04-20 13:14:22</td>
+	<td align="center">0.030</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=146">210</a></td>
+	<td align="center">816</td>
+	<td align="center">1433372</td>
+	<td align="center">2003-02-28 16:00:57</td>
+	<td align="center">0.748</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=147">211</a></td>
+	<td align="center">667</td>
+	<td align="center">1800166</td>
+	<td align="center">2003-08-14 05:03:17</td>
+	<td align="center">2.631</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=151">215</a></td>
+	<td align="center">315</td>
+	<td align="center">156613</td>
+	<td align="center">2000-01-04 10:50:01</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=154">218</a></td>
+	<td align="center">1171</td>
+	<td align="center">591005</td>
+	<td align="center">2001-10-06 22:44:20</td>
+	<td align="center">0.141</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=163">227</a></td>
+	<td align="center">3072</td>
+	<td align="center">550688</td>
+	<td align="center">2001-09-08 18:23:00</td>
+	<td align="center">0.070</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=166">230</a></td>
+	<td align="center">1620</td>
+	<td align="center">512279</td>
+	<td align="center">2001-08-05 08:52:37</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=167">231</a></td>
+	<td align="center">4</td>
+	<td align="center">168777</td>
+	<td align="center">2000-02-07 08:13:11</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=168">232</a></td>
+	<td align="center">3016</td>
+	<td align="center">330357</td>
+	<td align="center">2000-11-17 15:36:27</td>
+	<td align="center">0.320</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=181">245</a></td>
+	<td align="center">1169</td>
+	<td align="center">915470</td>
+	<td align="center">2002-06-24 14:39:59</td>
+	<td align="center">1.130</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=191">255</a></td>
+	<td align="center">1575</td>
+	<td align="center">1828886</td>
+	<td align="center">2003-08-25 11:45:26</td>
+	<td align="center">4.928</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=193">257</a></td>
+	<td align="center">444</td>
+	<td align="center">545819</td>
+	<td align="center">2001-09-04 22:25:53</td>
+	<td align="center">0.720</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=194">258</a></td>
+	<td align="center">119</td>
+	<td align="center">829318</td>
+	<td align="center">2002-04-20 19:41:01</td>
+	<td align="center">0.410</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=195">259</a></td>
+	<td align="center">2012</td>
+	<td align="center">2248141</td>
+	<td align="center">2004-01-28 09:27:18</td>
+	<td align="center">0.051</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=196">260</a></td>
+	<td align="center">3413</td>
+	<td align="center">239345</td>
+	<td align="center">2000-07-19 20:37:51</td>
+	<td align="center">0.250</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=200">264</a></td>
+	<td align="center">5192</td>
+	<td align="center">115502</td>
+	<td align="center">1999-10-05 20:02:33</td>
+	<td align="center">0.020</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=213">277</a></td>
+	<td align="center">54</td>
+	<td align="center">510494</td>
+	<td align="center">2001-08-03 11:11:51</td>
+	<td align="center">0.060</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=214">278</a></td>
+	<td align="center">4005</td>
+	<td align="center">146227</td>
+	<td align="center">1999-12-04 10:06:39</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=219">283</a></td>
+	<td align="center">16</td>
+	<td align="center">1773484</td>
+	<td align="center">2003-08-03 16:16:44</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=224">288</a></td>
+	<td align="center">238</td>
+	<td align="center">817231</td>
+	<td align="center">2002-04-11 04:26:44</td>
+	<td align="center">10.790</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=226">290</a></td>
+	<td align="center">755</td>
+	<td align="center">600074</td>
+	<td align="center">2001-10-12 01:43:57</td>
+	<td align="center">3.230</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=230">294</a></td>
+	<td align="center">9842</td>
+	<td align="center">148455</td>
+	<td align="center">1999-12-10 15:59:12</td>
+	<td align="center">4.720</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=232">296</a></td>
+	<td align="center">769</td>
+	<td align="center">550637</td>
+	<td align="center">2001-09-08 17:49:12</td>
+	<td align="center">0.990</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=233">297</a></td>
+	<td align="center">3067</td>
+	<td align="center">203379</td>
+	<td align="center">2000-04-28 05:49:23</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=234">298</a></td>
+	<td align="center">241</td>
+	<td align="center">836650</td>
+	<td align="center">2002-04-27 09:35:26</td>
+	<td align="center">0.220</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=238">302</a></td>
+	<td align="center">902</td>
+	<td align="center">1922753</td>
+	<td align="center">2003-09-26 12:52:49</td>
+	<td align="center">0.191</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=247">311</a></td>
+	<td align="center">2311</td>
+	<td align="center">140424</td>
+	<td align="center">1999-11-20 07:27:13</td>
+	<td align="center">0.050</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=250">314</a></td>
+	<td align="center">1525</td>
+	<td align="center">330654</td>
+	<td align="center">2000-11-18 02:24:06</td>
+	<td align="center">1.230</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=251">315</a></td>
+	<td align="center">6353</td>
+	<td align="center">510410</td>
+	<td align="center">2001-08-03 09:48:30</td>
+	<td align="center">0.760</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=257">321</a></td>
+	<td align="center">1077</td>
+	<td align="center">661829</td>
+	<td align="center">2001-11-23 10:28:31</td>
+	<td align="center">0.650</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=261">325</a></td>
+	<td align="center">88</td>
+	<td align="center">166157</td>
+	<td align="center">2000-01-28 20:59:32</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=263">327</a></td>
+	<td align="center">804</td>
+	<td align="center">166469</td>
+	<td align="center">2000-01-29 22:09:15</td>
+	<td align="center">0.230</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=264">328</a></td>
+	<td align="center">154</td>
+	<td align="center">165858</td>
+	<td align="center">2000-01-27 17:24:08</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=267">331</a></td>
+	<td align="center">1020</td>
+	<td align="center">187359</td>
+	<td align="center">2000-03-28 17:46:01</td>
+	<td align="center">0.020</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=268">332</a></td>
+	<td align="center">881</td>
+	<td align="center">186239</td>
+	<td align="center">2000-03-24 15:47:58</td>
+	<td align="center">0.172</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=270">334</a></td>
+	<td align="center">513</td>
+	<td align="center">140534</td>
+	<td align="center">1999-11-20 09:32:31</td>
+	<td align="center">0.006</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=276">340</a></td>
+	<td align="center">6125</td>
+	<td align="center">102304</td>
+	<td align="center">1999-09-08 19:58:27</td>
+	<td align="center">0.210</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=279">343</a></td>
+	<td align="center">3442</td>
+	<td align="center">308095</td>
+	<td align="center">2000-10-23 10:38:46</td>
+	<td align="center">3.280</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=281">345</a></td>
+	<td align="center">11</td>
+	<td align="center">227796</td>
+	<td align="center">2000-07-02 00:57:02</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=284">348</a></td>
+	<td align="center">4092</td>
+	<td align="center">189793</td>
+	<td align="center">2000-04-03 03:48:36</td>
+	<td align="center">1.340</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=288">352</a></td>
+	<td align="center">3</td>
+	<td align="center">187427</td>
+	<td align="center">2000-03-28 19:39:53</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=289">353</a></td>
+	<td align="center">1595</td>
+	<td align="center">1773583</td>
+	<td align="center">2003-08-03 17:03:08</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=291">355</a></td>
+	<td align="center">2832</td>
+	<td align="center">201611</td>
+	<td align="center">2000-04-23 18:24:23</td>
+	<td align="center">0.060</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=292">356</a></td>
+	<td align="center">1092</td>
+	<td align="center">200462</td>
+	<td align="center">2000-04-20 10:57:17</td>
+	<td align="center">0.030</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=294">358</a></td>
+	<td align="center">176</td>
+	<td align="center">1885582</td>
+	<td align="center">2003-09-13 17:37:46</td>
+	<td align="center">0.211</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=302">366</a></td>
+	<td align="center">25</td>
+	<td align="center">186980</td>
+	<td align="center">2000-03-27 13:45:47</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=307">371</a></td>
+	<td align="center">7345</td>
+	<td align="center">191445</td>
+	<td align="center">2000-04-06 06:15:12</td>
+	<td align="center">2.460</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=316">380</a></td>
+	<td align="center">901</td>
+	<td align="center">125369</td>
+	<td align="center">1999-10-25 22:42:27</td>
+	<td align="center">0.030</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=321">385</a></td>
+	<td align="center">139</td>
+	<td align="center">223551</td>
+	<td align="center">2000-06-19 20:11:11</td>
+	<td align="center">0.210</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=327">391</a></td>
+	<td align="center">79</td>
+	<td align="center">314862</td>
+	<td align="center">2000-10-30 20:06:43</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=329">393</a></td>
+	<td align="center">585</td>
+	<td align="center">330345</td>
+	<td align="center">2000-11-17 15:00:45</td>
+	<td align="center">16.050</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=344">403</a></td>
+	<td align="center">24</td>
+	<td align="center">150765</td>
+	<td align="center">1999-12-16 17:19:08</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=348">407</a></td>
+	<td align="center">86</td>
+	<td align="center">1995712</td>
+	<td align="center">2003-10-17 14:46:47</td>
+	<td align="center">0.027</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=357">416</a></td>
+	<td align="center">1246</td>
+	<td align="center">110057</td>
+	<td align="center">1999-09-26 06:51:09</td>
+	<td align="center">0.060</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=358">417</a></td>
+	<td align="center">62</td>
+	<td align="center">199588</td>
+	<td align="center">2000-04-18 15:18:19</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=362">421</a></td>
+	<td align="center">100</td>
+	<td align="center">148080</td>
+	<td align="center">1999-12-09 14:56:54</td>
+	<td align="center">7.500</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=366">425</a></td>
+	<td align="center">248</td>
+	<td align="center">365330</td>
+	<td align="center">2001-01-14 17:34:21</td>
+	<td align="center">1.840</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=368">427</a></td>
+	<td align="center">403</td>
+	<td align="center">146322</td>
+	<td align="center">1999-12-04 13:04:56</td>
+	<td align="center">0.020</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=370">429</a></td>
+	<td align="center">3050</td>
+	<td align="center">197587</td>
+	<td align="center">2000-04-15 06:34:02</td>
+	<td align="center">0.346</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=373">432</a></td>
+	<td align="center">59</td>
+	<td align="center">696875</td>
+	<td align="center">2001-12-27 17:38:23</td>
+	<td align="center">0.110</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=374">433</a></td>
+	<td align="center">391</td>
+	<td align="center">197588</td>
+	<td align="center">2000-04-15 06:34:27</td>
+	<td align="center">0.180</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=376">435</a></td>
+	<td align="center">351</td>
+	<td align="center">1776807</td>
+	<td align="center">2003-08-04 19:28:46</td>
+	<td align="center">0.062</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=377">436</a></td>
+	<td align="center">1629</td>
+	<td align="center">190097</td>
+	<td align="center">2000-04-04 01:57:01</td>
+	<td align="center">0.710</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=385">444</a></td>
+	<td align="center">1207</td>
+	<td align="center">189293</td>
+	<td align="center">2000-04-02 06:34:55</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=387">446</a></td>
+	<td align="center">6</td>
+	<td align="center">188363</td>
+	<td align="center">2000-03-31 09:13:14</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=389">448</a></td>
+	<td align="center">938</td>
+	<td align="center">195366</td>
+	<td align="center">2000-04-12 08:23:36</td>
+	<td align="center">0.080</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=391">450</a></td>
+	<td align="center">1005</td>
+	<td align="center">364847</td>
+	<td align="center">2001-01-13 21:05:50</td>
+	<td align="center">0.210</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=392">451</a></td>
+	<td align="center">149</td>
+	<td align="center">1777464</td>
+	<td align="center">2003-08-05 03:06:35</td>
+	<td align="center">0.357</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=395">454</a></td>
+	<td align="center">926</td>
+	<td align="center">189096</td>
+	<td align="center">2000-04-01 21:05:48</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=396">455</a></td>
+	<td align="center">2</td>
+	<td align="center">189102</td>
+	<td align="center">2000-04-01 21:23:35</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=398">457</a></td>
+	<td align="center">1647</td>
+	<td align="center">395315</td>
+	<td align="center">2001-02-25 04:45:11</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=399">458</a></td>
+	<td align="center">28469</td>
+	<td align="center">251365</td>
+	<td align="center">2000-08-10 09:09:28</td>
+	<td align="center">0.760</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=400">459</a></td>
+	<td align="center">1</td>
+	<td align="center">187247</td>
+	<td align="center">2000-03-28 12:43:37</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=401">460</a></td>
+	<td align="center">2057</td>
+	<td align="center">187800</td>
+	<td align="center">2000-03-29 19:26:29</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=403">462</a></td>
+	<td align="center">2257</td>
+	<td align="center">191484</td>
+	<td align="center">2000-04-06 07:38:16</td>
+	<td align="center">0.920</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=405">464</a></td>
+	<td align="center">180</td>
+	<td align="center">430126</td>
+	<td align="center">2001-04-16 10:37:14</td>
+	<td align="center">0.210</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=409">468</a></td>
+	<td align="center">350</td>
+	<td align="center">192031</td>
+	<td align="center">2000-04-07 05:58:34</td>
+	<td align="center">0.006</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=410">469</a></td>
+	<td align="center">3812</td>
+	<td align="center">195302</td>
+	<td align="center">2000-04-12 06:57:40</td>
+	<td align="center">0.371</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=412">471</a></td>
+	<td align="center">1938</td>
+	<td align="center">201613</td>
+	<td align="center">2000-04-23 18:44:47</td>
+	<td align="center">4.770</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=415">474</a></td>
+	<td align="center">1743</td>
+	<td align="center">193152</td>
+	<td align="center">2000-04-09 08:58:16</td>
+	<td align="center">0.220</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=417">476</a></td>
+	<td align="center">3819</td>
+	<td align="center">242158</td>
+	<td align="center">2000-07-24 23:27:04</td>
+	<td align="center">0.050</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=418">477</a></td>
+	<td align="center">2721</td>
+	<td align="center">242174</td>
+	<td align="center">2000-07-24 23:51:06</td>
+	<td align="center">0.060</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=419">478</a></td>
+	<td align="center">1902</td>
+	<td align="center">242827</td>
+	<td align="center">2000-07-25 17:19:05</td>
+	<td align="center">0.060</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=423">482</a></td>
+	<td align="center">2418</td>
+	<td align="center">559175</td>
+	<td align="center">2001-09-16 08:09:00</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=424">483</a></td>
+	<td align="center">3</td>
+	<td align="center">187823</td>
+	<td align="center">2000-03-29 21:03:27</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=425">484</a></td>
+	<td align="center">8266</td>
+	<td align="center">189213</td>
+	<td align="center">2000-04-02 03:58:57</td>
+	<td align="center">0.340</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=426">485</a></td>
+	<td align="center">969</td>
+	<td align="center">471906</td>
+	<td align="center">2001-06-19 00:38:43</td>
+	<td align="center">0.120</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=429">488</a></td>
+	<td align="center">16207</td>
+	<td align="center">189220</td>
+	<td align="center">2000-04-02 04:09:38</td>
+	<td align="center">2.047</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=434">493</a></td>
+	<td align="center">570</td>
+	<td align="center">187827</td>
+	<td align="center">2000-03-29 21:58:42</td>
+	<td align="center">22.650</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=436">495</a></td>
+	<td align="center">6280</td>
+	<td align="center">313794</td>
+	<td align="center">2000-10-29 19:34:26</td>
+	<td align="center">0.555</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=437">496</a></td>
+	<td align="center">1431</td>
+	<td align="center">187726</td>
+	<td align="center">2000-03-29 15:10:29</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=438">497</a></td>
+	<td align="center">3801</td>
+	<td align="center">211794</td>
+	<td align="center">2000-05-23 13:07:24</td>
+	<td align="center">0.100</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=439">498</a></td>
+	<td align="center">1787</td>
+	<td align="center">145778</td>
+	<td align="center">1999-12-03 13:40:07</td>
+	<td align="center">0.746</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=444">503</a></td>
+	<td align="center">100</td>
+	<td align="center">374759</td>
+	<td align="center">2001-01-27 10:23:43</td>
+	<td align="center">0.020</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=446">505</a></td>
+	<td align="center">263</td>
+	<td align="center">838573</td>
+	<td align="center">2002-04-29 12:56:51</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=453">512</a></td>
+	<td align="center">1173</td>
+	<td align="center">1794602</td>
+	<td align="center">2003-08-11 09:24:08</td>
+	<td align="center">0.850</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=455">514</a></td>
+	<td align="center">10916</td>
+	<td align="center">157343</td>
+	<td align="center">2000-01-07 02:22:55</td>
+	<td align="center">0.520</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=456">515</a></td>
+	<td align="center">574</td>
+	<td align="center">1892653</td>
+	<td align="center">2003-09-16 15:22:36</td>
+	<td align="center">0.912</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=460">519</a></td>
+	<td align="center">334</td>
+	<td align="center">150980</td>
+	<td align="center">1999-12-17 08:30:51</td>
+	<td align="center">3.090</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=461">520</a></td>
+	<td align="center">192</td>
+	<td align="center">829598</td>
+	<td align="center">2002-04-21 06:10:56</td>
+	<td align="center">0.370</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=462">521</a></td>
+	<td align="center">163</td>
+	<td align="center">1984761</td>
+	<td align="center">2003-10-14 12:35:14</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=464">523</a></td>
+	<td align="center">520</td>
+	<td align="center">511125</td>
+	<td align="center">2001-08-04 01:04:18</td>
+	<td align="center">0.590</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=465">524</a></td>
+	<td align="center">8176</td>
+	<td align="center">506580</td>
+	<td align="center">2001-07-31 07:20:34</td>
+	<td align="center">1.360</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=470">529</a></td>
+	<td align="center">1204</td>
+	<td align="center">420840</td>
+	<td align="center">2001-04-03 18:39:12</td>
+	<td align="center">0.710</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=472">531</a></td>
+	<td align="center">3068</td>
+	<td align="center">189534</td>
+	<td align="center">2000-04-02 14:10:35</td>
+	<td align="center">0.148</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=476">535</a></td>
+	<td align="center">869</td>
+	<td align="center">146640</td>
+	<td align="center">1999-12-05 10:47:10</td>
+	<td align="center">0.610</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=479">538</a></td>
+	<td align="center">508</td>
+	<td align="center">406571</td>
+	<td align="center">2001-03-13 09:37:44</td>
+	<td align="center">0.370</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=481">540</a></td>
+	<td align="center">5409</td>
+	<td align="center">1036097</td>
+	<td align="center">2002-08-21 14:56:19</td>
+	<td align="center">0.740</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=488">547</a></td>
+	<td align="center">606</td>
+	<td align="center">822875</td>
+	<td align="center">2002-04-16 03:38:36</td>
+	<td align="center">1.020</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=489">548</a></td>
+	<td align="center">2660</td>
+	<td align="center">1034038</td>
+	<td align="center">2002-08-20 18:54:07</td>
+	<td align="center">0.450</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=492">551</a></td>
+	<td align="center">695</td>
+	<td align="center">611624</td>
+	<td align="center">2001-10-18 17:34:01</td>
+	<td align="center">0.030</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=499">558</a></td>
+	<td align="center">6113</td>
+	<td align="center">186948</td>
+	<td align="center">2000-03-27 11:57:23</td>
+	<td align="center">0.160</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=500">559</a></td>
+	<td align="center">108</td>
+	<td align="center">204154</td>
+	<td align="center">2000-04-29 16:43:45</td>
+	<td align="center">1.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=501">560</a></td>
+	<td align="center">51</td>
+	<td align="center">358184</td>
+	<td align="center">2001-01-05 21:56:56</td>
+	<td align="center">0.310</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=502">561</a></td>
+	<td align="center">111</td>
+	<td align="center">848407</td>
+	<td align="center">2002-05-06 16:29:02</td>
+	<td align="center">0.030</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=504">563</a></td>
+	<td align="center">673</td>
+	<td align="center">197515</td>
+	<td align="center">2000-04-15 02:44:09</td>
+	<td align="center">0.240</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=506">565</a></td>
+	<td align="center">462</td>
+	<td align="center">313297</td>
+	<td align="center">2000-10-29 06:56:33</td>
+	<td align="center">0.984</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=507">566</a></td>
+	<td align="center">82</td>
+	<td align="center">813758</td>
+	<td align="center">2002-04-08 13:33:52</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=512">571</a></td>
+	<td align="center">965</td>
+	<td align="center">200914</td>
+	<td align="center">2000-04-21 16:52:03</td>
+	<td align="center">0.020</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=513">572</a></td>
+	<td align="center">9391</td>
+	<td align="center">46223</td>
+	<td align="center">1998-12-29 13:59:01</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=514">573</a></td>
+	<td align="center">71</td>
+	<td align="center">46237</td>
+	<td align="center">1998-12-29 17:13:48</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=515">574</a></td>
+	<td align="center">5127</td>
+	<td align="center">112710</td>
+	<td align="center">1999-10-01 03:38:07</td>
+	<td align="center">0.040</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=520">579</a></td>
+	<td align="center">15683</td>
+	<td align="center">209375</td>
+	<td align="center">2000-05-15 12:37:24</td>
+	<td align="center">0.640</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=524">583</a></td>
+	<td align="center">5111</td>
+	<td align="center">1035088</td>
+	<td align="center">2002-08-21 08:08:19</td>
+	<td align="center">1.060</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=525">584</a></td>
+	<td align="center">1205</td>
+	<td align="center">1006730</td>
+	<td align="center">2002-08-08 13:52:11</td>
+	<td align="center">0.730</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=529">588</a></td>
+	<td align="center">429</td>
+	<td align="center">372318</td>
+	<td align="center">2001-01-24 04:28:56</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=533">592</a></td>
+	<td align="center">16</td>
+	<td align="center">699807</td>
+	<td align="center">2001-12-31 03:44:10</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=535">594</a></td>
+	<td align="center">2715</td>
+	<td align="center">200948</td>
+	<td align="center">2000-04-21 18:25:24</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=539">598</a></td>
+	<td align="center">738</td>
+	<td align="center">359802</td>
+	<td align="center">2001-01-08 08:49:21</td>
+	<td align="center">0.280</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=543">602</a></td>
+	<td align="center">646</td>
+	<td align="center">821765</td>
+	<td align="center">2002-04-15 06:51:51</td>
+	<td align="center">0.170</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=547">606</a></td>
+	<td align="center">84</td>
+	<td align="center">802079</td>
+	<td align="center">2002-03-28 18:37:13</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=556">615</a></td>
+	<td align="center">2310</td>
+	<td align="center">1036234</td>
+	<td align="center">2002-08-21 16:01:08</td>
+	<td align="center">0.031</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=560">619</a></td>
+	<td align="center">360</td>
+	<td align="center">548092</td>
+	<td align="center">2001-09-06 18:58:01</td>
+	<td align="center">0.080</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=561">620</a></td>
+	<td align="center">646</td>
+	<td align="center">164435</td>
+	<td align="center">2000-01-23 20:44:52</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=562">621</a></td>
+	<td align="center">7322</td>
+	<td align="center">171898</td>
+	<td align="center">2000-02-16 09:25:04</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=565">624</a></td>
+	<td align="center">5952</td>
+	<td align="center">158823</td>
+	<td align="center">2000-01-11 06:46:37</td>
+	<td align="center">0.120</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=566">625</a></td>
+	<td align="center">10</td>
+	<td align="center">423805</td>
+	<td align="center">2001-04-07 19:00:44</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=567">626</a></td>
+	<td align="center">929</td>
+	<td align="center">159182</td>
+	<td align="center">2000-01-12 04:02:54</td>
+	<td align="center">0.220</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=569">628</a></td>
+	<td align="center">3045</td>
+	<td align="center">160519</td>
+	<td align="center">2000-01-14 11:06:20</td>
+	<td align="center">1.090</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=571">630</a></td>
+	<td align="center">3</td>
+	<td align="center">159352</td>
+	<td align="center">2000-01-12 11:33:45</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=573">632</a></td>
+	<td align="center">249</td>
+	<td align="center">170929</td>
+	<td align="center">2000-02-13 13:13:28</td>
+	<td align="center">0.150</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=574">633</a></td>
+	<td align="center">349</td>
+	<td align="center">420734</td>
+	<td align="center">2001-04-03 14:59:18</td>
+	<td align="center">0.030</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=575">634</a></td>
+	<td align="center">55</td>
+	<td align="center">374852</td>
+	<td align="center">2001-01-27 14:12:39</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=576">635</a></td>
+	<td align="center">69</td>
+	<td align="center">160873</td>
+	<td align="center">2000-01-15 04:48:00</td>
+	<td align="center">0.050</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=577">636</a></td>
+	<td align="center">22</td>
+	<td align="center">170941</td>
+	<td align="center">2000-02-13 13:47:44</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=578">637</a></td>
+	<td align="center">2</td>
+	<td align="center">162449</td>
+	<td align="center">2000-01-18 16:14:10</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=579">638</a></td>
+	<td align="center">393</td>
+	<td align="center">162934</td>
+	<td align="center">2000-01-19 11:53:11</td>
+	<td align="center">0.664</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=580">639</a></td>
+	<td align="center">1068</td>
+	<td align="center">163097</td>
+	<td align="center">2000-01-19 15:03:37</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=581">640</a></td>
+	<td align="center">5166</td>
+	<td align="center">255289</td>
+	<td align="center">2000-08-15 15:37:25</td>
+	<td align="center">3.290</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=582">641</a></td>
+	<td align="center">457</td>
+	<td align="center">163118</td>
+	<td align="center">2000-01-19 15:34:22</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=583">642</a></td>
+	<td align="center">6</td>
+	<td align="center">162511</td>
+	<td align="center">2000-01-18 18:17:01</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=584">643</a></td>
+	<td align="center">1</td>
+	<td align="center">162848</td>
+	<td align="center">2000-01-19 09:16:19</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=585">644</a></td>
+	<td align="center">2948</td>
+	<td align="center">162472</td>
+	<td align="center">2000-01-18 16:58:10</td>
+	<td align="center">0.250</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=586">645</a></td>
+	<td align="center">42</td>
+	<td align="center">390407</td>
+	<td align="center">2001-02-17 19:57:18</td>
+	<td align="center">0.006</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=588">647</a></td>
+	<td align="center">402</td>
+	<td align="center">164075</td>
+	<td align="center">2000-01-22 14:04:43</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=592">651</a></td>
+	<td align="center">743</td>
+	<td align="center">226339</td>
+	<td align="center">2000-06-27 15:00:02</td>
+	<td align="center">0.310</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=595">654</a></td>
+	<td align="center">312</td>
+	<td align="center">162197</td>
+	<td align="center">2000-01-18 09:31:03</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=598">657</a></td>
+	<td align="center">947</td>
+	<td align="center">229614</td>
+	<td align="center">2000-07-06 10:32:03</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=602">661</a></td>
+	<td align="center">4982</td>
+	<td align="center">232243</td>
+	<td align="center">2000-07-13 04:39:20</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=604">663</a></td>
+	<td align="center">1</td>
+	<td align="center">354478</td>
+	<td align="center">2000-12-30 12:56:28</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=606">665</a></td>
+	<td align="center">1354</td>
+	<td align="center">229071</td>
+	<td align="center">2000-07-05 02:57:50</td>
+	<td align="center">0.040</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=609">668</a></td>
+	<td align="center">787</td>
+	<td align="center">229567</td>
+	<td align="center">2000-07-06 07:26:19</td>
+	<td align="center">28.320</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=611">670</a></td>
+	<td align="center">965</td>
+	<td align="center">806907</td>
+	<td align="center">2002-04-02 15:06:47</td>
+	<td align="center">0.530</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=612">671</a></td>
+	<td align="center">484</td>
+	<td align="center">216548</td>
+	<td align="center">2000-06-04 03:38:18</td>
+	<td align="center">1.690</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=614">673</a></td>
+	<td align="center">15555</td>
+	<td align="center">343840</td>
+	<td align="center">2000-12-10 18:55:02</td>
+	<td align="center">0.350</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=615">674</a></td>
+	<td align="center">11765</td>
+	<td align="center">369406</td>
+	<td align="center">2001-01-20 08:51:49</td>
+	<td align="center">0.780</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=618">677</a></td>
+	<td align="center">1239</td>
+	<td align="center">362285</td>
+	<td align="center">2001-01-10 19:57:32</td>
+	<td align="center">1.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=620">679</a></td>
+	<td align="center">4570</td>
+	<td align="center">385485</td>
+	<td align="center">2001-02-10 18:30:16</td>
+	<td align="center">0.270</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=621">680</a></td>
+	<td align="center">40</td>
+	<td align="center">386290</td>
+	<td align="center">2001-02-12 11:44:35</td>
+	<td align="center">0.380</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=622">681</a></td>
+	<td align="center">1921</td>
+	<td align="center">557069</td>
+	<td align="center">2001-09-14 12:14:06</td>
+	<td align="center">0.870</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=625">684</a></td>
+	<td align="center">258</td>
+	<td align="center">1020755</td>
+	<td align="center">2002-08-14 16:53:11</td>
+	<td align="center">0.460</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=629">688</a></td>
+	<td align="center">566</td>
+	<td align="center">350070</td>
+	<td align="center">2000-12-21 10:34:53</td>
+	<td align="center">0.050</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=630">689</a></td>
+	<td align="center">44</td>
+	<td align="center">980628</td>
+	<td align="center">2002-07-29 09:08:27</td>
+	<td align="center">0.006</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=635">694</a></td>
+	<td align="center">10806</td>
+	<td align="center">255227</td>
+	<td align="center">2000-08-15 14:25:46</td>
+	<td align="center">0.470</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=637">696</a></td>
+	<td align="center">3865</td>
+	<td align="center">268853</td>
+	<td align="center">2000-09-04 13:04:04</td>
+	<td align="center">0.510</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=641">700</a></td>
+	<td align="center">11</td>
+	<td align="center">231939</td>
+	<td align="center">2000-07-12 08:52:40</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=642">701</a></td>
+	<td align="center">2836</td>
+	<td align="center">200984</td>
+	<td align="center">2000-04-21 22:07:03</td>
+	<td align="center">2.770</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=644">703</a></td>
+	<td align="center">821</td>
+	<td align="center">169690</td>
+	<td align="center">2000-02-10 03:09:00</td>
+	<td align="center">0.400</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=645">704</a></td>
+	<td align="center">1230</td>
+	<td align="center">438309</td>
+	<td align="center">2001-05-02 04:31:16</td>
+	<td align="center">2.450</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=646">705</a></td>
+	<td align="center">2123</td>
+	<td align="center">185639</td>
+	<td align="center">2000-03-22 16:23:38</td>
+	<td align="center">0.070</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=647">706</a></td>
+	<td align="center">3440</td>
+	<td align="center">1781641</td>
+	<td align="center">2003-08-06 15:47:29</td>
+	<td align="center">0.031</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=650">709</a></td>
+	<td align="center">243</td>
+	<td align="center">370535</td>
+	<td align="center">2001-01-21 20:25:59</td>
+	<td align="center">0.090</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=651">710</a></td>
+	<td align="center">453</td>
+	<td align="center">169828</td>
+	<td align="center">2000-02-10 08:55:42</td>
+	<td align="center">0.090</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=652">711</a></td>
+	<td align="center">182</td>
+	<td align="center">173119</td>
+	<td align="center">2000-02-18 19:02:39</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=659">718</a></td>
+	<td align="center">141</td>
+	<td align="center">1827590</td>
+	<td align="center">2003-08-25 08:30:12</td>
+	<td align="center">0.016</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=662">721</a></td>
+	<td align="center">656</td>
+	<td align="center">1837767</td>
+	<td align="center">2003-08-28 13:08:33</td>
+	<td align="center">8.518</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=667">726</a></td>
+	<td align="center">195</td>
+	<td align="center">1847604</td>
+	<td align="center">2003-09-01 17:11:45</td>
+	<td align="center">0.623</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=670">729</a></td>
+	<td align="center">4488</td>
+	<td align="center">289142</td>
+	<td align="center">2000-09-30 09:50:05</td>
+	<td align="center">0.640</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=677">736</a></td>
+	<td align="center">84</td>
+	<td align="center">407334</td>
+	<td align="center">2001-03-14 15:42:31</td>
+	<td align="center">0.129</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=681">740</a></td>
+	<td align="center">930</td>
+	<td align="center">170833</td>
+	<td align="center">2000-02-13 07:45:02</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=684">743</a></td>
+	<td align="center">225</td>
+	<td align="center">209992</td>
+	<td align="center">2000-05-17 08:53:55</td>
+	<td align="center">0.070</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=685">744</a></td>
+	<td align="center">24</td>
+	<td align="center">384950</td>
+	<td align="center">2001-02-09 19:59:57</td>
+	<td align="center">0.990</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=686">745</a></td>
+	<td align="center">270</td>
+	<td align="center">308718</td>
+	<td align="center">2000-10-24 05:52:03</td>
+	<td align="center">0.470</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=689">748</a></td>
+	<td align="center">1501</td>
+	<td align="center">170262</td>
+	<td align="center">2000-02-11 13:04:30</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=694">753</a></td>
+	<td align="center">962</td>
+	<td align="center">1853000</td>
+	<td align="center">2003-09-03 15:49:56</td>
+	<td align="center">0.102</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=696">755</a></td>
+	<td align="center">3640</td>
+	<td align="center">170377</td>
+	<td align="center">2000-02-12 00:42:34</td>
+	<td align="center">8.070</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=700">759</a></td>
+	<td align="center">361</td>
+	<td align="center">418742</td>
+	<td align="center">2001-03-31 16:38:54</td>
+	<td align="center">0.280</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=701">760</a></td>
+	<td align="center">1106</td>
+	<td align="center">802919</td>
+	<td align="center">2002-03-29 14:48:04</td>
+	<td align="center">0.060</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=703">762</a></td>
+	<td align="center">1691</td>
+	<td align="center">393421</td>
+	<td align="center">2001-02-22 10:15:13</td>
+	<td align="center">0.080</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=704">763</a></td>
+	<td align="center">1235</td>
+	<td align="center">358628</td>
+	<td align="center">2001-01-06 12:42:16</td>
+	<td align="center">0.610</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=708">767</a></td>
+	<td align="center">12</td>
+	<td align="center">1916057</td>
+	<td align="center">2003-09-24 15:23:39</td>
+	<td align="center">0.032</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=717">776</a></td>
+	<td align="center">934</td>
+	<td align="center">635253</td>
+	<td align="center">2001-11-02 19:40:03</td>
+	<td align="center">0.471</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=723">782</a></td>
+	<td align="center">578</td>
+	<td align="center">365271</td>
+	<td align="center">2001-01-14 15:03:17</td>
+	<td align="center">0.346</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=724">783</a></td>
+	<td align="center">86</td>
+	<td align="center">1002434</td>
+	<td align="center">2002-08-06 14:20:33</td>
+	<td align="center">0.729</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=725">784</a></td>
+	<td align="center">3309</td>
+	<td align="center">693225</td>
+	<td align="center">2001-12-23 18:00:09</td>
+	<td align="center">0.148</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=728">787</a></td>
+	<td align="center">2787</td>
+	<td align="center">364045</td>
+	<td align="center">2001-01-12 19:20:47</td>
+	<td align="center">4.523</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=734">793</a></td>
+	<td align="center">6969</td>
+	<td align="center">444701</td>
+	<td align="center">2001-05-11 18:38:32</td>
+	<td align="center">1.303</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=737">796</a></td>
+	<td align="center">3592</td>
+	<td align="center">821832</td>
+	<td align="center">2002-04-15 07:39:51</td>
+	<td align="center">0.045</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=756">815</a></td>
+	<td align="center">1582</td>
+	<td align="center">1299242</td>
+	<td align="center">2002-12-20 04:17:59</td>
+	<td align="center">0.170</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=766">825</a></td>
+	<td align="center">31</td>
+	<td align="center">1268152</td>
+	<td align="center">2002-11-28 16:01:03</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=769">828</a></td>
+	<td align="center">107</td>
+	<td align="center">1828219</td>
+	<td align="center">2003-08-25 10:04:09</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=774">833</a></td>
+	<td align="center">10</td>
+	<td align="center">919558</td>
+	<td align="center">2002-06-27 14:19:20</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=775">834</a></td>
+	<td align="center">14</td>
+	<td align="center">917500</td>
+	<td align="center">2002-06-26 03:30:17</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=776">835</a></td>
+	<td align="center">99</td>
+	<td align="center">1776467</td>
+	<td align="center">2003-08-04 16:03:35</td>
+	<td align="center">6.064</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=784">843</a></td>
+	<td align="center">1286</td>
+	<td align="center">1747394</td>
+	<td align="center">2003-07-25 10:07:53</td>
+	<td align="center">0.052</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=786">845</a></td>
+	<td align="center">15</td>
+	<td align="center">919493</td>
+	<td align="center">2002-06-27 13:18:57</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=787">846</a></td>
+	<td align="center">2204</td>
+	<td align="center">917622</td>
+	<td align="center">2002-06-26 05:40:38</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=788">847</a></td>
+	<td align="center">23</td>
+	<td align="center">918234</td>
+	<td align="center">2002-06-26 16:00:18</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=792">851</a></td>
+	<td align="center">145</td>
+	<td align="center">1857690</td>
+	<td align="center">2003-09-05 05:53:59</td>
+	<td align="center">63.020</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=796">855</a></td>
+	<td align="center">1631</td>
+	<td align="center">1600332</td>
+	<td align="center">2003-05-20 10:24:28</td>
+	<td align="center">0.109</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=799">858</a></td>
+	<td align="center">387</td>
+	<td align="center">1707468</td>
+	<td align="center">2003-07-06 16:01:22</td>
+	<td align="center">0.279</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=800">859</a></td>
+	<td align="center">15</td>
+	<td align="center">1737207</td>
+	<td align="center">2003-07-21 13:37:49</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=801">860</a></td>
+	<td align="center">313</td>
+	<td align="center">1600268</td>
+	<td align="center">2003-05-20 09:48:10</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=943">10002</a></td>
+	<td align="center">1096</td>
+	<td align="center">557373</td>
+	<td align="center">2001-09-14 16:25:20</td>
+	<td align="center">1.131</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=944">10003</a></td>
+	<td align="center">11944</td>
+	<td align="center">419108</td>
+	<td align="center">2001-04-01 09:33:24</td>
+	<td align="center">2.281</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=945">10004</a></td>
+	<td align="center">9195</td>
+	<td align="center">400001</td>
+	<td align="center">2001-03-02 18:45:31</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=947">10006</a></td>
+	<td align="center">7272</td>
+	<td align="center">424862</td>
+	<td align="center">2001-04-09 11:14:15</td>
+	<td align="center">0.867</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=949">10008</a></td>
+	<td align="center">7106</td>
+	<td align="center">400048</td>
+	<td align="center">2001-03-02 19:58:47</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=950">10009</a></td>
+	<td align="center">1288</td>
+	<td align="center">418829</td>
+	<td align="center">2001-03-31 18:56:43</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=951">10010</a></td>
+	<td align="center">6306</td>
+	<td align="center">407377</td>
+	<td align="center">2001-03-14 16:59:38</td>
+	<td align="center">0.030</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=953">10012</a></td>
+	<td align="center">1194</td>
+	<td align="center">478826</td>
+	<td align="center">2001-06-28 10:37:22</td>
+	<td align="center">0.643</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=954">10013</a></td>
+	<td align="center">4715</td>
+	<td align="center">406643</td>
+	<td align="center">2001-03-13 11:10:02</td>
+	<td align="center">4.018</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=955">10014</a></td>
+	<td align="center">1163</td>
+	<td align="center">805636</td>
+	<td align="center">2002-04-01 13:41:44</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=957">10016</a></td>
+	<td align="center">461</td>
+	<td align="center">512904</td>
+	<td align="center">2001-08-06 04:09:16</td>
+	<td align="center">0.299</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=959">10018</a></td>
+	<td align="center">15485</td>
+	<td align="center">470494</td>
+	<td align="center">2001-06-16 19:13:34</td>
+	<td align="center">0.027</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=967">10026</a></td>
+	<td align="center">1</td>
+	<td align="center">483696</td>
+	<td align="center">2001-07-04 17:35:37</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=968">10027</a></td>
+	<td align="center">9</td>
+	<td align="center">487969</td>
+	<td align="center">2001-07-11 01:06:55</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=974">10033</a></td>
+	<td align="center">1</td>
+	<td align="center">483649</td>
+	<td align="center">2001-07-04 16:28:03</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=977">10036</a></td>
+	<td align="center">3355</td>
+	<td align="center">491500</td>
+	<td align="center">2001-07-14 18:19:00</td>
+	<td align="center">0.859</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=978">10037</a></td>
+	<td align="center">2074</td>
+	<td align="center">2035523</td>
+	<td align="center">2003-10-30 06:02:06</td>
+	<td align="center">0.021</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=979">10038</a></td>
+	<td align="center">14038</td>
+	<td align="center">480724</td>
+	<td align="center">2001-06-30 14:26:10</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=982">10041</a></td>
+	<td align="center">13443</td>
+	<td align="center">483555</td>
+	<td align="center">2001-07-04 14:19:11</td>
+	<td align="center">0.127</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=983">10042</a></td>
+	<td align="center">2054</td>
+	<td align="center">483429</td>
+	<td align="center">2001-07-04 11:08:50</td>
+	<td align="center">0.059</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=985">10044</a></td>
+	<td align="center">2135</td>
+	<td align="center">483470</td>
+	<td align="center">2001-07-04 12:31:10</td>
+	<td align="center">1.189</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=989">10048</a></td>
+	<td align="center">4905</td>
+	<td align="center">514590</td>
+	<td align="center">2001-08-07 18:00:26</td>
+	<td align="center">0.190</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=990">10049</a></td>
+	<td align="center">3</td>
+	<td align="center">489067</td>
+	<td align="center">2001-07-11 19:45:03</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=991">10050</a></td>
+	<td align="center">156</td>
+	<td align="center">850197</td>
+	<td align="center">2002-05-08 06:45:14</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=992">10051</a></td>
+	<td align="center">2213</td>
+	<td align="center">2030327</td>
+	<td align="center">2003-10-28 13:26:51</td>
+	<td align="center">3.877</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=997">10056</a></td>
+	<td align="center">1721</td>
+	<td align="center">795590</td>
+	<td align="center">2002-03-24 09:12:09</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=999">10058</a></td>
+	<td align="center">269</td>
+	<td align="center">428776</td>
+	<td align="center">2001-04-13 18:10:02</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1002">10061</a></td>
+	<td align="center">1334</td>
+	<td align="center">491449</td>
+	<td align="center">2001-07-14 16:21:03</td>
+	<td align="center">0.756</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1004">10063</a></td>
+	<td align="center">1122</td>
+	<td align="center">420702</td>
+	<td align="center">2001-04-03 13:46:54</td>
+	<td align="center">0.891</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1008">10067</a></td>
+	<td align="center">4109</td>
+	<td align="center">429966</td>
+	<td align="center">2001-04-16 06:18:13</td>
+	<td align="center">1.576</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1010">10069</a></td>
+	<td align="center">2687</td>
+	<td align="center">795484</td>
+	<td align="center">2002-03-24 07:37:35</td>
+	<td align="center">0.635</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1011">10070</a></td>
+	<td align="center">6211</td>
+	<td align="center">420868</td>
+	<td align="center">2001-04-03 19:26:24</td>
+	<td align="center">0.620</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1012">10071</a></td>
+	<td align="center">32448</td>
+	<td align="center">419352</td>
+	<td align="center">2001-04-01 16:14:46</td>
+	<td align="center">0.092</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1015">10074</a></td>
+	<td align="center">2005</td>
+	<td align="center">425096</td>
+	<td align="center">2001-04-09 15:59:15</td>
+	<td align="center">0.025</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1016">10075</a></td>
+	<td align="center">962</td>
+	<td align="center">429945</td>
+	<td align="center">2001-04-16 05:25:05</td>
+	<td align="center">2.650</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1020">10079</a></td>
+	<td align="center">6451</td>
+	<td align="center">425150</td>
+	<td align="center">2001-04-09 17:24:35</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1021">10080</a></td>
+	<td align="center">2521</td>
+	<td align="center">866954</td>
+	<td align="center">2002-05-19 17:58:28</td>
+	<td align="center">1.190</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1022">10081</a></td>
+	<td align="center">17</td>
+	<td align="center">471885</td>
+	<td align="center">2001-06-18 22:55:02</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1023">10082</a></td>
+	<td align="center">49</td>
+	<td align="center">471875</td>
+	<td align="center">2001-06-18 22:16:05</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1024">10083</a></td>
+	<td align="center">358</td>
+	<td align="center">492099</td>
+	<td align="center">2001-07-15 18:19:23</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1026">10085</a></td>
+	<td align="center">613</td>
+	<td align="center">437851</td>
+	<td align="center">2001-05-01 05:07:58</td>
+	<td align="center">22.035</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1029">10088</a></td>
+	<td align="center">821</td>
+	<td align="center">827956</td>
+	<td align="center">2002-04-19 13:39:59</td>
+	<td align="center">0.076</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1031">10090</a></td>
+	<td align="center">2937</td>
+	<td align="center">828346</td>
+	<td align="center">2002-04-19 19:54:34</td>
+	<td align="center">6.549</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1033">10092</a></td>
+	<td align="center">1515</td>
+	<td align="center">850435</td>
+	<td align="center">2002-05-08 11:31:51</td>
+	<td align="center">1.242</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1034">10093</a></td>
+	<td align="center">1123</td>
+	<td align="center">438129</td>
+	<td align="center">2001-05-01 16:40:38</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1035">10094</a></td>
+	<td align="center">256</td>
+	<td align="center">419213</td>
+	<td align="center">2001-04-01 11:38:16</td>
+	<td align="center">0.051</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1038">10097</a></td>
+	<td align="center">392</td>
+	<td align="center">828611</td>
+	<td align="center">2002-04-20 04:54:38</td>
+	<td align="center">0.441</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1040">10099</a></td>
+	<td align="center">5113</td>
+	<td align="center">828683</td>
+	<td align="center">2002-04-20 05:42:28</td>
+	<td align="center">0.135</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1041">10100</a></td>
+	<td align="center">726</td>
+	<td align="center">821873</td>
+	<td align="center">2002-04-15 08:17:43</td>
+	<td align="center">0.008</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1043">10102</a></td>
+	<td align="center">1925</td>
+	<td align="center">867875</td>
+	<td align="center">2002-05-20 15:00:53</td>
+	<td align="center">0.061</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1045">10104</a></td>
+	<td align="center">6106</td>
+	<td align="center">492322</td>
+	<td align="center">2001-07-16 03:00:52</td>
+	<td align="center">0.738</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1046">10105</a></td>
+	<td align="center">1095</td>
+	<td align="center">484302</td>
+	<td align="center">2001-07-05 15:50:50</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1048">10107</a></td>
+	<td align="center">4334</td>
+	<td align="center">440837</td>
+	<td align="center">2001-05-05 15:43:12</td>
+	<td align="center">0.068</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1052">10111</a></td>
+	<td align="center">626</td>
+	<td align="center">1863454</td>
+	<td align="center">2003-09-06 17:16:39</td>
+	<td align="center">5.221</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1053">10112</a></td>
+	<td align="center">30</td>
+	<td align="center">477076</td>
+	<td align="center">2001-06-25 16:05:25</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1054">10113</a></td>
+	<td align="center">1096</td>
+	<td align="center">477138</td>
+	<td align="center">2001-06-25 18:09:29</td>
+	<td align="center">0.180</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1056">10115</a></td>
+	<td align="center">1744</td>
+	<td align="center">476491</td>
+	<td align="center">2001-06-24 18:59:18</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1057">10116</a></td>
+	<td align="center">59</td>
+	<td align="center">471175</td>
+	<td align="center">2001-06-18 00:03:37</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1058">10117</a></td>
+	<td align="center">62</td>
+	<td align="center">2030703</td>
+	<td align="center">2003-10-28 15:35:14</td>
+	<td align="center">0.242</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1061">10120</a></td>
+	<td align="center">723</td>
+	<td align="center">491415</td>
+	<td align="center">2001-07-14 15:37:43</td>
+	<td align="center">3.039</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1066">10125</a></td>
+	<td align="center">3409</td>
+	<td align="center">471234</td>
+	<td align="center">2001-06-18 01:28:52</td>
+	<td align="center">10.570</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1068">10127</a></td>
+	<td align="center">31</td>
+	<td align="center">471183</td>
+	<td align="center">2001-06-18 00:28:48</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1069">10128</a></td>
+	<td align="center">1164</td>
+	<td align="center">704913</td>
+	<td align="center">2002-01-05 18:39:12</td>
+	<td align="center">0.020</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1070">10129</a></td>
+	<td align="center">2041</td>
+	<td align="center">476460</td>
+	<td align="center">2001-06-24 18:31:44</td>
+	<td align="center">0.060</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1071">10130</a></td>
+	<td align="center">8259</td>
+	<td align="center">470472</td>
+	<td align="center">2001-06-16 18:22:57</td>
+	<td align="center">0.450</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1072">10131</a></td>
+	<td align="center">7081</td>
+	<td align="center">634573</td>
+	<td align="center">2001-11-02 12:35:05</td>
+	<td align="center">0.040</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1073">10132</a></td>
+	<td align="center">1788</td>
+	<td align="center">867525</td>
+	<td align="center">2002-05-20 09:55:44</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1078">10137</a></td>
+	<td align="center">4064</td>
+	<td align="center">972006</td>
+	<td align="center">2002-07-24 07:57:01</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1080">10139</a></td>
+	<td align="center">2692</td>
+	<td align="center">506240</td>
+	<td align="center">2001-07-30 21:26:10</td>
+	<td align="center">0.246</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1081">10140</a></td>
+	<td align="center">3207</td>
+	<td align="center">504991</td>
+	<td align="center">2001-07-29 16:44:58</td>
+	<td align="center">0.830</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1082">10141</a></td>
+	<td align="center">99</td>
+	<td align="center">1858187</td>
+	<td align="center">2003-09-05 09:16:05</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1083">10142</a></td>
+	<td align="center">4067</td>
+	<td align="center">874602</td>
+	<td align="center">2002-05-26 09:14:28</td>
+	<td align="center">2.828</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1086">10145</a></td>
+	<td align="center">279</td>
+	<td align="center">890965</td>
+	<td align="center">2002-06-06 16:14:14</td>
+	<td align="center">0.720</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1087">10146</a></td>
+	<td align="center">139</td>
+	<td align="center">845406</td>
+	<td align="center">2002-05-04 02:47:19</td>
+	<td align="center">0.550</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1088">10147</a></td>
+	<td align="center">2641</td>
+	<td align="center">569388</td>
+	<td align="center">2001-09-23 14:49:39</td>
+	<td align="center">7.320</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1091">10150</a></td>
+	<td align="center">2220</td>
+	<td align="center">974603</td>
+	<td align="center">2002-07-25 06:59:00</td>
+	<td align="center">4.230</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1093">10152</a></td>
+	<td align="center">3765</td>
+	<td align="center">605260</td>
+	<td align="center">2001-10-14 14:56:48</td>
+	<td align="center">1.930</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1097">10156</a></td>
+	<td align="center">175</td>
+	<td align="center">1268118</td>
+	<td align="center">2002-11-28 15:37:56</td>
+	<td align="center">0.961</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1098">10157</a></td>
+	<td align="center">927</td>
+	<td align="center">1869879</td>
+	<td align="center">2003-09-08 12:55:57</td>
+	<td align="center">14.832</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1100">10159</a></td>
+	<td align="center">249</td>
+	<td align="center">2047138</td>
+	<td align="center">2003-11-03 04:31:22</td>
+	<td align="center">6.584</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1102">10161</a></td>
+	<td align="center">52</td>
+	<td align="center">568527</td>
+	<td align="center">2001-09-23 02:03:21</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1103">10162</a></td>
+	<td align="center">1001</td>
+	<td align="center">534641</td>
+	<td align="center">2001-08-26 12:24:09</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1106">10165</a></td>
+	<td align="center">1079</td>
+	<td align="center">662171</td>
+	<td align="center">2001-11-23 15:33:27</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1108">10167</a></td>
+	<td align="center">1958</td>
+	<td align="center">2099586</td>
+	<td align="center">2003-11-24 09:19:44</td>
+	<td align="center">0.313</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1109">10168</a></td>
+	<td align="center">6400</td>
+	<td align="center">568482</td>
+	<td align="center">2001-09-23 00:53:04</td>
+	<td align="center">2.701</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1111">10170</a></td>
+	<td align="center">3621</td>
+	<td align="center">971883</td>
+	<td align="center">2002-07-24 07:16:58</td>
+	<td align="center">0.162</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1112">10171</a></td>
+	<td align="center">1748</td>
+	<td align="center">608431</td>
+	<td align="center">2001-10-16 18:13:48</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1114">10173</a></td>
+	<td align="center">449</td>
+	<td align="center">1019501</td>
+	<td align="center">2002-08-14 06:41:47</td>
+	<td align="center">0.221</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1115">10174</a></td>
+	<td align="center">26</td>
+	<td align="center">692865</td>
+	<td align="center">2001-12-23 10:16:20</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1117">10176</a></td>
+	<td align="center">1368</td>
+	<td align="center">568456</td>
+	<td align="center">2001-09-22 23:53:15</td>
+	<td align="center">0.027</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1119">10178</a></td>
+	<td align="center">10</td>
+	<td align="center">551918</td>
+	<td align="center">2001-09-09 19:05:35</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1120">10179</a></td>
+	<td align="center">2798</td>
+	<td align="center">552019</td>
+	<td align="center">2001-09-09 21:10:20</td>
+	<td align="center">0.068</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1121">10180</a></td>
+	<td align="center">585</td>
+	<td align="center">662414</td>
+	<td align="center">2001-11-23 22:01:14</td>
+	<td align="center">0.947</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1123">10182</a></td>
+	<td align="center">927</td>
+	<td align="center">568220</td>
+	<td align="center">2001-09-22 19:33:13</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1124">10183</a></td>
+	<td align="center">645</td>
+	<td align="center">568057</td>
+	<td align="center">2001-09-22 17:46:36</td>
+	<td align="center">0.008</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1126">10185</a></td>
+	<td align="center">57</td>
+	<td align="center">1262097</td>
+	<td align="center">2002-11-25 13:55:28</td>
+	<td align="center">0.137</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1130">10189</a></td>
+	<td align="center">7618</td>
+	<td align="center">590528</td>
+	<td align="center">2001-10-06 14:00:02</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1131">10190</a></td>
+	<td align="center">2072</td>
+	<td align="center">590332</td>
+	<td align="center">2001-10-06 11:00:09</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1132">10191</a></td>
+	<td align="center">1575</td>
+	<td align="center">607865</td>
+	<td align="center">2001-10-16 13:10:40</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1135">10194</a></td>
+	<td align="center">1447</td>
+	<td align="center">971679</td>
+	<td align="center">2002-07-24 05:22:50</td>
+	<td align="center">0.012</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1136">10195</a></td>
+	<td align="center">2995</td>
+	<td align="center">656329</td>
+	<td align="center">2001-11-18 15:13:54</td>
+	<td align="center">0.016</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1137">10196</a></td>
+	<td align="center">1371</td>
+	<td align="center">972400</td>
+	<td align="center">2002-07-24 10:01:19</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1138">10197</a></td>
+	<td align="center">315</td>
+	<td align="center">866542</td>
+	<td align="center">2002-05-19 12:50:08</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1139">10198</a></td>
+	<td align="center">1935</td>
+	<td align="center">605821</td>
+	<td align="center">2001-10-14 19:58:57</td>
+	<td align="center">0.084</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1140">10199</a></td>
+	<td align="center">3309</td>
+	<td align="center">847070</td>
+	<td align="center">2002-05-05 13:04:37</td>
+	<td align="center">0.283</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1142">10201</a></td>
+	<td align="center">1292</td>
+	<td align="center">2036071</td>
+	<td align="center">2003-10-30 10:22:47</td>
+	<td align="center">1.713</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1148">10207</a></td>
+	<td align="center">200</td>
+	<td align="center">1270684</td>
+	<td align="center">2002-11-30 10:03:56</td>
+	<td align="center">9.418</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1150">10209</a></td>
+	<td align="center">2445</td>
+	<td align="center">708358</td>
+	<td align="center">2002-01-10 20:16:32</td>
+	<td align="center">0.199</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1154">10213</a></td>
+	<td align="center">1470</td>
+	<td align="center">844541</td>
+	<td align="center">2002-05-03 14:36:46</td>
+	<td align="center">0.450</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1160">10219</a></td>
+	<td align="center">136</td>
+	<td align="center">794880</td>
+	<td align="center">2002-03-23 16:02:18</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1162">10221</a></td>
+	<td align="center">107</td>
+	<td align="center">821940</td>
+	<td align="center">2002-04-15 09:25:14</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1163">10222</a></td>
+	<td align="center">76</td>
+	<td align="center">692728</td>
+	<td align="center">2001-12-23 06:38:33</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1164">10223</a></td>
+	<td align="center">68</td>
+	<td align="center">692723</td>
+	<td align="center">2001-12-23 06:24:33</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1166">10225</a></td>
+	<td align="center">316</td>
+	<td align="center">863225</td>
+	<td align="center">2002-05-17 14:45:30</td>
+	<td align="center">1.268</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1168">10227</a></td>
+	<td align="center">722</td>
+	<td align="center">846029</td>
+	<td align="center">2002-05-04 13:20:16</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1170">10229</a></td>
+	<td align="center">2219</td>
+	<td align="center">794829</td>
+	<td align="center">2002-03-23 15:28:22</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1171">10230</a></td>
+	<td align="center">136</td>
+	<td align="center">836284</td>
+	<td align="center">2002-04-26 20:54:30</td>
+	<td align="center">1.370</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1173">10232</a></td>
+	<td align="center">167</td>
+	<td align="center">2090777</td>
+	<td align="center">2003-11-20 13:36:55</td>
+	<td align="center">0.006</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1174">10233</a></td>
+	<td align="center">21</td>
+	<td align="center">820332</td>
+	<td align="center">2002-04-13 15:48:26</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1176">10235</a></td>
+	<td align="center">8512</td>
+	<td align="center">763059</td>
+	<td align="center">2002-02-27 04:52:56</td>
+	<td align="center">0.410</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1183">10242</a></td>
+	<td align="center">2281</td>
+	<td align="center">817762</td>
+	<td align="center">2002-04-11 13:31:35</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1186">10245</a></td>
+	<td align="center">3318</td>
+	<td align="center">817720</td>
+	<td align="center">2002-04-11 12:55:17</td>
+	<td align="center">0.943</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1189">10248</a></td>
+	<td align="center">157</td>
+	<td align="center">1918845</td>
+	<td align="center">2003-09-25 11:47:18</td>
+	<td align="center">0.055</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1192">10251</a></td>
+	<td align="center">202</td>
+	<td align="center">2099888</td>
+	<td align="center">2003-11-24 13:21:12</td>
+	<td align="center">0.082</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1193">10252</a></td>
+	<td align="center">4638</td>
+	<td align="center">816725</td>
+	<td align="center">2002-04-10 15:49:54</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1197">10256</a></td>
+	<td align="center">398</td>
+	<td align="center">2007245</td>
+	<td align="center">2003-10-21 02:22:27</td>
+	<td align="center">1.812</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1198">10257</a></td>
+	<td align="center">367</td>
+	<td align="center">846251</td>
+	<td align="center">2002-05-04 16:50:47</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1199">10258</a></td>
+	<td align="center">9</td>
+	<td align="center">837875</td>
+	<td align="center">2002-04-28 17:49:03</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1201">10260</a></td>
+	<td align="center">26</td>
+	<td align="center">837883</td>
+	<td align="center">2002-04-28 18:07:47</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1203">10262</a></td>
+	<td align="center">148</td>
+	<td align="center">2187558</td>
+	<td align="center">2004-01-02 06:39:07</td>
+	<td align="center">2.461</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1204">10263</a></td>
+	<td align="center">11</td>
+	<td align="center">838723</td>
+	<td align="center">2002-04-29 14:21:05</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1208">10267</a></td>
+	<td align="center">2521</td>
+	<td align="center">1745603</td>
+	<td align="center">2003-07-24 14:13:45</td>
+	<td align="center">0.055</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1209">10268</a></td>
+	<td align="center">1502</td>
+	<td align="center">841527</td>
+	<td align="center">2002-05-01 14:56:01</td>
+	<td align="center">0.119</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1210">10269</a></td>
+	<td align="center">540</td>
+	<td align="center">2078760</td>
+	<td align="center">2003-11-14 06:18:45</td>
+	<td align="center">0.110</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1216">10275</a></td>
+	<td align="center">219</td>
+	<td align="center">841870</td>
+	<td align="center">2002-05-01 19:35:38</td>
+	<td align="center">0.754</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1217">10276</a></td>
+	<td align="center">2716</td>
+	<td align="center">841814</td>
+	<td align="center">2002-05-01 18:47:25</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1218">10277</a></td>
+	<td align="center">241</td>
+	<td align="center">847166</td>
+	<td align="center">2002-05-05 14:38:49</td>
+	<td align="center">0.400</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1220">10279</a></td>
+	<td align="center">823</td>
+	<td align="center">841496</td>
+	<td align="center">2002-05-01 14:32:02</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1222">10281</a></td>
+	<td align="center">1959</td>
+	<td align="center">841788</td>
+	<td align="center">2002-05-01 18:10:18</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1223">10282</a></td>
+	<td align="center">4140</td>
+	<td align="center">840732</td>
+	<td align="center">2002-05-01 02:57:12</td>
+	<td align="center">0.787</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1226">10285</a></td>
+	<td align="center">3921</td>
+	<td align="center">894838</td>
+	<td align="center">2002-06-09 08:16:32</td>
+	<td align="center">0.135</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1229">10288</a></td>
+	<td align="center">590</td>
+	<td align="center">885459</td>
+	<td align="center">2002-06-03 12:23:19</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1232">10291</a></td>
+	<td align="center">82</td>
+	<td align="center">1025779</td>
+	<td align="center">2002-08-17 03:25:58</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1234">10293</a></td>
+	<td align="center">44</td>
+	<td align="center">885567</td>
+	<td align="center">2002-06-03 13:27:22</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1236">10295</a></td>
+	<td align="center">2676</td>
+	<td align="center">1021555</td>
+	<td align="center">2002-08-15 04:38:55</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1237">10296</a></td>
+	<td align="center">242</td>
+	<td align="center">1025321</td>
+	<td align="center">2002-08-16 18:46:41</td>
+	<td align="center">0.014</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1238">10297</a></td>
+	<td align="center">1288</td>
+	<td align="center">1022991</td>
+	<td align="center">2002-08-15 16:23:50</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1240">10299</a></td>
+	<td align="center">2414</td>
+	<td align="center">1532813</td>
+	<td align="center">2003-04-20 15:02:04</td>
+	<td align="center">0.869</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1242">10301</a></td>
+	<td align="center">613</td>
+	<td align="center">1028656</td>
+	<td align="center">2002-08-18 14:36:16</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1245">10304</a></td>
+	<td align="center">1826</td>
+	<td align="center">967947</td>
+	<td align="center">2002-07-22 14:54:51</td>
+	<td align="center">29.781</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1246">10305</a></td>
+	<td align="center">12079</td>
+	<td align="center">904457</td>
+	<td align="center">2002-06-15 11:00:57</td>
+	<td align="center">0.014</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1250">10309</a></td>
+	<td align="center">889</td>
+	<td align="center">1071609</td>
+	<td align="center">2002-09-07 15:51:12</td>
+	<td align="center">0.092</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1251">10310</a></td>
+	<td align="center">2252</td>
+	<td align="center">904325</td>
+	<td align="center">2002-06-15 09:20:52</td>
+	<td align="center">0.029</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1252">10311</a></td>
+	<td align="center">2089</td>
+	<td align="center">1020933</td>
+	<td align="center">2002-08-14 18:01:27</td>
+	<td align="center">12.842</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1256">10315</a></td>
+	<td align="center">1511</td>
+	<td align="center">1018006</td>
+	<td align="center">2002-08-13 16:16:21</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1257">10316</a></td>
+	<td align="center">423</td>
+	<td align="center">967121</td>
+	<td align="center">2002-07-22 08:31:01</td>
+	<td align="center">3.684</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1259">10318</a></td>
+	<td align="center">152</td>
+	<td align="center">1089728</td>
+	<td align="center">2002-09-15 13:35:16</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1261">10320</a></td>
+	<td align="center">107</td>
+	<td align="center">966946</td>
+	<td align="center">2002-07-22 07:24:29</td>
+	<td align="center">0.166</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1264">10323</a></td>
+	<td align="center">4960</td>
+	<td align="center">941142</td>
+	<td align="center">2002-07-09 14:50:59</td>
+	<td align="center">0.064</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1266">10325</a></td>
+	<td align="center">1297</td>
+	<td align="center">954467</td>
+	<td align="center">2002-07-16 17:58:21</td>
+	<td align="center">0.143</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1267">10326</a></td>
+	<td align="center">399</td>
+	<td align="center">956046</td>
+	<td align="center">2002-07-17 10:53:16</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1268">10327</a></td>
+	<td align="center">11088</td>
+	<td align="center">958650</td>
+	<td align="center">2002-07-18 10:16:35</td>
+	<td align="center">0.383</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1269">10328</a></td>
+	<td align="center">266</td>
+	<td align="center">968062</td>
+	<td align="center">2002-07-22 15:55:56</td>
+	<td align="center">0.322</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1270">10329</a></td>
+	<td align="center">261</td>
+	<td align="center">959610</td>
+	<td align="center">2002-07-18 16:41:59</td>
+	<td align="center">4.398</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1271">10330</a></td>
+	<td align="center">1901</td>
+	<td align="center">960481</td>
+	<td align="center">2002-07-19 03:35:18</td>
+	<td align="center">0.174</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1272">10331</a></td>
+	<td align="center">144</td>
+	<td align="center">987727</td>
+	<td align="center">2002-07-31 16:15:33</td>
+	<td align="center">2.629</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1274">10333</a></td>
+	<td align="center">92</td>
+	<td align="center">962910</td>
+	<td align="center">2002-07-20 03:36:56</td>
+	<td align="center">0.018</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1278">10337</a></td>
+	<td align="center">1355</td>
+	<td align="center">1016634</td>
+	<td align="center">2002-08-13 06:28:56</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1279">10338</a></td>
+	<td align="center">3005</td>
+	<td align="center">1000246</td>
+	<td align="center">2002-08-05 19:12:09</td>
+	<td align="center">0.236</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1281">10340</a></td>
+	<td align="center">6280</td>
+	<td align="center">1001934</td>
+	<td align="center">2002-08-06 11:30:41</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1282">10341</a></td>
+	<td align="center">6518</td>
+	<td align="center">1004988</td>
+	<td align="center">2002-08-07 18:14:24</td>
+	<td align="center">0.150</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1284">10343</a></td>
+	<td align="center">6</td>
+	<td align="center">1069290</td>
+	<td align="center">2002-09-06 14:37:59</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1285">10344</a></td>
+	<td align="center">4863</td>
+	<td align="center">1006027</td>
+	<td align="center">2002-08-08 08:36:10</td>
+	<td align="center">4.578</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1287">10346</a></td>
+	<td align="center">118</td>
+	<td align="center">1066769</td>
+	<td align="center">2002-09-05 08:04:29</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1288">10347</a></td>
+	<td align="center">2607</td>
+	<td align="center">1067805</td>
+	<td align="center">2002-09-05 17:36:42</td>
+	<td align="center">0.012</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1290">10349</a></td>
+	<td align="center">860</td>
+	<td align="center">1068957</td>
+	<td align="center">2002-09-06 11:57:45</td>
+	<td align="center">0.053</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1291">10350</a></td>
+	<td align="center">680</td>
+	<td align="center">1725230</td>
+	<td align="center">2003-07-16 10:55:22</td>
+	<td align="center">0.477</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1293">10352</a></td>
+	<td align="center">97</td>
+	<td align="center">1068740</td>
+	<td align="center">2002-09-06 09:09:12</td>
+	<td align="center">0.941</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1297">10356</a></td>
+	<td align="center">751</td>
+	<td align="center">1242358</td>
+	<td align="center">2002-11-16 13:51:24</td>
+	<td align="center">0.137</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1300">10359</a></td>
+	<td align="center">331</td>
+	<td align="center">1242477</td>
+	<td align="center">2002-11-16 14:56:22</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1301">10360</a></td>
+	<td align="center">3023</td>
+	<td align="center">1242435</td>
+	<td align="center">2002-11-16 14:37:07</td>
+	<td align="center">1.451</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1304">10363</a></td>
+	<td align="center">65</td>
+	<td align="center">1269113</td>
+	<td align="center">2002-11-29 11:34:39</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1305">10364</a></td>
+	<td align="center">1829</td>
+	<td align="center">1304058</td>
+	<td align="center">2002-12-23 13:40:33</td>
+	<td align="center">4.865</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1306">10365</a></td>
+	<td align="center">442</td>
+	<td align="center">1318123</td>
+	<td align="center">2003-01-06 16:15:45</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1311">10370</a></td>
+	<td align="center">6043</td>
+	<td align="center">1164198</td>
+	<td align="center">2002-10-12 12:02:28</td>
+	<td align="center">0.006</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1312">10371</a></td>
+	<td align="center">228</td>
+	<td align="center">1164158</td>
+	<td align="center">2002-10-12 11:50:16</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1318">10377</a></td>
+	<td align="center">1044</td>
+	<td align="center">1259612</td>
+	<td align="center">2002-11-24 08:13:59</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1325">10384</a></td>
+	<td align="center">220</td>
+	<td align="center">1560664</td>
+	<td align="center">2003-05-02 14:44:06</td>
+	<td align="center">1.287</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1326">10385</a></td>
+	<td align="center">446</td>
+	<td align="center">1435833</td>
+	<td align="center">2003-03-01 19:52:44</td>
+	<td align="center">0.322</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1328">10387</a></td>
+	<td align="center">284</td>
+	<td align="center">1313605</td>
+	<td align="center">2003-01-03 04:46:29</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1332">10391</a></td>
+	<td align="center">2845</td>
+	<td align="center">1269756</td>
+	<td align="center">2002-11-29 18:49:17</td>
+	<td align="center">1.676</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1333">10392</a></td>
+	<td align="center">2273</td>
+	<td align="center">1300527</td>
+	<td align="center">2002-12-21 03:42:30</td>
+	<td align="center">0.283</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1334">10393</a></td>
+	<td align="center">866</td>
+	<td align="center">1300592</td>
+	<td align="center">2002-12-21 04:47:39</td>
+	<td align="center">0.027</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1335">10394</a></td>
+	<td align="center">6782</td>
+	<td align="center">1258432</td>
+	<td align="center">2002-11-23 15:42:21</td>
+	<td align="center">2.686</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1338">10397</a></td>
+	<td align="center">3071</td>
+	<td align="center">1424552</td>
+	<td align="center">2003-02-24 09:49:57</td>
+	<td align="center">2.252</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1341">10400</a></td>
+	<td align="center">913</td>
+	<td align="center">1507320</td>
+	<td align="center">2003-04-08 11:45:59</td>
+	<td align="center">0.463</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1342">10401</a></td>
+	<td align="center">885</td>
+	<td align="center">1358576</td>
+	<td align="center">2003-01-25 17:24:00</td>
+	<td align="center">0.291</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1344">10403</a></td>
+	<td align="center">46</td>
+	<td align="center">1452740</td>
+	<td align="center">2003-03-08 15:48:53</td>
+	<td align="center">0.934</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1345">10404</a></td>
+	<td align="center">2219</td>
+	<td align="center">1521717</td>
+	<td align="center">2003-04-15 05:49:45</td>
+	<td align="center">4.096</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1346">10405</a></td>
+	<td align="center">5537</td>
+	<td align="center">1270821</td>
+	<td align="center">2002-11-30 12:01:46</td>
+	<td align="center">0.020</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1349">10408</a></td>
+	<td align="center">1074</td>
+	<td align="center">1318156</td>
+	<td align="center">2003-01-06 16:44:33</td>
+	<td align="center">0.723</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1350">10409</a></td>
+	<td align="center">1869</td>
+	<td align="center">1258952</td>
+	<td align="center">2002-11-23 20:05:59</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1356">10415</a></td>
+	<td align="center">1263</td>
+	<td align="center">1317820</td>
+	<td align="center">2003-01-06 12:42:24</td>
+	<td align="center">0.051</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1357">10416</a></td>
+	<td align="center">196</td>
+	<td align="center">1307944</td>
+	<td align="center">2002-12-26 17:12:40</td>
+	<td align="center">0.008</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1361">10420</a></td>
+	<td align="center">4664</td>
+	<td align="center">1394067</td>
+	<td align="center">2003-02-11 16:33:47</td>
+	<td align="center">0.012</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1365">10424</a></td>
+	<td align="center">5777</td>
+	<td align="center">1377310</td>
+	<td align="center">2003-02-03 18:38:03</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1369">10428</a></td>
+	<td align="center">214</td>
+	<td align="center">1739573</td>
+	<td align="center">2003-07-22 13:42:29</td>
+	<td align="center">0.238</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1373">10432</a></td>
+	<td align="center">1730</td>
+	<td align="center">1394151</td>
+	<td align="center">2003-02-11 16:52:54</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1374">10433</a></td>
+	<td align="center">281</td>
+	<td align="center">1406076</td>
+	<td align="center">2003-02-15 19:51:16</td>
+	<td align="center">0.363</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1377">10436</a></td>
+	<td align="center">191</td>
+	<td align="center">1546803</td>
+	<td align="center">2003-04-26 17:26:39</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1378">10437</a></td>
+	<td align="center">64</td>
+	<td align="center">1424756</td>
+	<td align="center">2003-02-24 11:28:08</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1379">10438</a></td>
+	<td align="center">21</td>
+	<td align="center">1399071</td>
+	<td align="center">2003-02-13 14:12:11</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1380">10439</a></td>
+	<td align="center">319</td>
+	<td align="center">1394502</td>
+	<td align="center">2003-02-11 19:11:52</td>
+	<td align="center">0.120</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1382">10441</a></td>
+	<td align="center">275</td>
+	<td align="center">1922422</td>
+	<td align="center">2003-09-26 11:02:54</td>
+	<td align="center">0.070</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1384">10443</a></td>
+	<td align="center">1510</td>
+	<td align="center">1393295</td>
+	<td align="center">2003-02-11 13:01:38</td>
+	<td align="center">1.047</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1394">10453</a></td>
+	<td align="center">1340</td>
+	<td align="center">1475698</td>
+	<td align="center">2003-03-22 02:48:32</td>
+	<td align="center">1.693</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1395">10454</a></td>
+	<td align="center">175</td>
+	<td align="center">1463518</td>
+	<td align="center">2003-03-14 12:48:33</td>
+	<td align="center">2.963</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1397">10456</a></td>
+	<td align="center">87</td>
+	<td align="center">1720453</td>
+	<td align="center">2003-07-14 18:28:23</td>
+	<td align="center">0.129</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1398">10457</a></td>
+	<td align="center">242</td>
+	<td align="center">1520104</td>
+	<td align="center">2003-04-14 11:16:31</td>
+	<td align="center">4.211</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1399">10458</a></td>
+	<td align="center">93</td>
+	<td align="center">2210496</td>
+	<td align="center">2004-01-12 13:26:08</td>
+	<td align="center">0.959</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1400">10459</a></td>
+	<td align="center">979</td>
+	<td align="center">1741645</td>
+	<td align="center">2003-07-23 08:13:13</td>
+	<td align="center">1.598</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1401">10460</a></td>
+	<td align="center">613</td>
+	<td align="center">1492034</td>
+	<td align="center">2003-03-31 13:28:46</td>
+	<td align="center">0.025</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1403">10462</a></td>
+	<td align="center">1551</td>
+	<td align="center">1500004</td>
+	<td align="center">2003-04-04 18:35:47</td>
+	<td align="center">0.537</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1405">10464</a></td>
+	<td align="center">269</td>
+	<td align="center">1500412</td>
+	<td align="center">2003-04-05 04:18:54</td>
+	<td align="center">0.141</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1413">10472</a></td>
+	<td align="center">40</td>
+	<td align="center">1603934</td>
+	<td align="center">2003-05-22 04:55:46</td>
+	<td align="center">0.279</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1417">10476</a></td>
+	<td align="center">70</td>
+	<td align="center">1531173</td>
+	<td align="center">2003-04-19 18:34:04</td>
+	<td align="center">0.436</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1418">10477</a></td>
+	<td align="center">173</td>
+	<td align="center">1757763</td>
+	<td align="center">2003-07-29 10:33:50</td>
+	<td align="center">2.982</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1420">10479</a></td>
+	<td align="center">138</td>
+	<td align="center">1543323</td>
+	<td align="center">2003-04-25 06:32:36</td>
+	<td align="center">0.008</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1421">10480</a></td>
+	<td align="center">1443</td>
+	<td align="center">1543239</td>
+	<td align="center">2003-04-25 05:42:50</td>
+	<td align="center">0.021</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1423">10482</a></td>
+	<td align="center">741</td>
+	<td align="center">1559757</td>
+	<td align="center">2003-05-02 08:26:00</td>
+	<td align="center">1.260</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1424">10483</a></td>
+	<td align="center">265</td>
+	<td align="center">1541090</td>
+	<td align="center">2003-04-24 09:14:49</td>
+	<td align="center">0.137</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1425">10484</a></td>
+	<td align="center">926</td>
+	<td align="center">1558851</td>
+	<td align="center">2003-05-01 21:14:45</td>
+	<td align="center">0.312</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1427">10486</a></td>
+	<td align="center">120</td>
+	<td align="center">1719894</td>
+	<td align="center">2003-07-14 14:01:40</td>
+	<td align="center">0.918</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1428">10487</a></td>
+	<td align="center">3983</td>
+	<td align="center">1559144</td>
+	<td align="center">2003-05-02 00:08:52</td>
+	<td align="center">0.105</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1431">10490</a></td>
+	<td align="center">52</td>
+	<td align="center">1600619</td>
+	<td align="center">2003-05-20 11:52:48</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1435">10494</a></td>
+	<td align="center">3203</td>
+	<td align="center">1723010</td>
+	<td align="center">2003-07-15 14:58:01</td>
+	<td align="center">0.107</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1438">10497</a></td>
+	<td align="center">479</td>
+	<td align="center">1708508</td>
+	<td align="center">2003-07-07 03:51:46</td>
+	<td align="center">0.232</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1439">10498</a></td>
+	<td align="center">301</td>
+	<td align="center">1920004</td>
+	<td align="center">2003-09-25 17:10:01</td>
+	<td align="center">0.219</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1441">10500</a></td>
+	<td align="center">323</td>
+	<td align="center">1725137</td>
+	<td align="center">2003-07-16 10:20:10</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1443">10502</a></td>
+	<td align="center">588</td>
+	<td align="center">1723837</td>
+	<td align="center">2003-07-16 02:54:55</td>
+	<td align="center">0.010</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1444">10503</a></td>
+	<td align="center">1797</td>
+	<td align="center">1767932</td>
+	<td align="center">2003-08-01 15:24:38</td>
+	<td align="center">0.043</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1445">10504</a></td>
+	<td align="center">207</td>
+	<td align="center">1737377</td>
+	<td align="center">2003-07-21 14:48:59</td>
+	<td align="center">0.557</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1448">10507</a></td>
+	<td align="center">53</td>
+	<td align="center">1769173</td>
+	<td align="center">2003-08-02 05:22:06</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1449">10508</a></td>
+	<td align="center">1000</td>
+	<td align="center">1764331</td>
+	<td align="center">2003-07-31 12:36:23</td>
+	<td align="center">0.342</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1456">10515</a></td>
+	<td align="center">2888</td>
+	<td align="center">1739687</td>
+	<td align="center">2003-07-22 14:54:07</td>
+	<td align="center">1.582</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1459">10518</a></td>
+	<td align="center">380</td>
+	<td align="center">1741788</td>
+	<td align="center">2003-07-23 08:57:57</td>
+	<td align="center">0.004</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1460">10519</a></td>
+	<td align="center">1481</td>
+	<td align="center">1767855</td>
+	<td align="center">2003-08-01 14:50:57</td>
+	<td align="center">1.479</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1461">10520</a></td>
+	<td align="center">859</td>
+	<td align="center">1769086</td>
+	<td align="center">2003-08-02 04:45:10</td>
+	<td align="center">1.561</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1462">10521</a></td>
+	<td align="center">75</td>
+	<td align="center">1767715</td>
+	<td align="center">2003-08-01 14:13:25</td>
+	<td align="center">0.426</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1465">10524</a></td>
+	<td align="center">88</td>
+	<td align="center">1856661</td>
+	<td align="center">2003-09-04 19:39:08</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1467">10526</a></td>
+	<td align="center">150</td>
+	<td align="center">1755203</td>
+	<td align="center">2003-07-28 15:22:12</td>
+	<td align="center">5.537</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1471">10530</a></td>
+	<td align="center">2362</td>
+	<td align="center">1779415</td>
+	<td align="center">2003-08-06 03:55:44</td>
+	<td align="center">0.006</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1474">10533</a></td>
+	<td align="center">4862</td>
+	<td align="center">1778606</td>
+	<td align="center">2003-08-05 18:56:02</td>
+	<td align="center">3.957</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1475">10534</a></td>
+	<td align="center">3443</td>
+	<td align="center">1781865</td>
+	<td align="center">2003-08-06 17:26:47</td>
+	<td align="center">1.141</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1476">10535</a></td>
+	<td align="center">308</td>
+	<td align="center">2104331</td>
+	<td align="center">2003-11-26 14:12:23</td>
+	<td align="center">5.004</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1480">10539</a></td>
+	<td align="center">2299</td>
+	<td align="center">1912511</td>
+	<td align="center">2003-09-23 15:40:08</td>
+	<td align="center">0.340</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1482">10541</a></td>
+	<td align="center">426</td>
+	<td align="center">2103818</td>
+	<td align="center">2003-11-26 09:58:49</td>
+	<td align="center">0.029</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1484">10543</a></td>
+	<td align="center">554</td>
+	<td align="center">2105985</td>
+	<td align="center">2003-11-27 12:06:41</td>
+	<td align="center">0.410</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1489">10548</a></td>
+	<td align="center">151</td>
+	<td align="center">2194854</td>
+	<td align="center">2004-01-05 09:52:16</td>
+	<td align="center">0.033</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1504">10563</a></td>
+	<td align="center">133</td>
+	<td align="center">2126620</td>
+	<td align="center">2003-12-07 05:31:19</td>
+	<td align="center">0.469</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1505">10564</a></td>
+	<td align="center">791</td>
+	<td align="center">2101807</td>
+	<td align="center">2003-11-25 10:16:46</td>
+	<td align="center">3.895</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1507">10566</a></td>
+	<td align="center">970</td>
+	<td align="center">2090842</td>
+	<td align="center">2003-11-20 13:55:15</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1509">10568</a></td>
+	<td align="center">169</td>
+	<td align="center">2102576</td>
+	<td align="center">2003-11-25 16:36:33</td>
+	<td align="center">7.584</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1511">10570</a></td>
+	<td align="center">574</td>
+	<td align="center">2077331</td>
+	<td align="center">2003-11-13 14:51:52</td>
+	<td align="center">1.760</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1512">10571</a></td>
+	<td align="center">64</td>
+	<td align="center">2099777</td>
+	<td align="center">2003-11-24 11:39:39</td>
+	<td align="center">0.023</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1514">10573</a></td>
+	<td align="center">808</td>
+	<td align="center">2036544</td>
+	<td align="center">2003-10-30 13:46:25</td>
+	<td align="center">0.002</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1515">10574</a></td>
+	<td align="center">403</td>
+	<td align="center">2105695</td>
+	<td align="center">2003-11-27 09:40:37</td>
+	<td align="center">5.285</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1516">10575</a></td>
+	<td align="center">195</td>
+	<td align="center">2106302</td>
+	<td align="center">2003-11-27 14:55:44</td>
+	<td align="center">1.943</td>
+		<tr class="sectiontableentry1">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1518">10577</a></td>
+	<td align="center">19</td>
+	<td align="center">2107547</td>
+	<td align="center">2003-11-28 07:12:55</td>
+	<td align="center">0.000</td>
+		<tr class="sectiontableentry2">
+	<td align="center"><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1521">10580</a></td>
+	<td align="center">81</td>
+	<td align="center">2126754</td>
+	<td align="center">2003-12-07 06:55:42</td>
+	<td align="center">0.244</td>
+		</table>
+
+
+
+					</div>
+      </div>
+	  
+      <!-- IE Column Clearing -->
+         <div id="ie_clearing">&nbsp;</div>
+      <!-- Ende: IE Column Clearing -->	  
+	</div>
+<!-- #main: Content End -->
+
+</div>
+
+<!-- #footer: Start -->
+<div id="footer" style="text-align:center;">
+<!--	<a href="http://www.hieblmedia.de"><img src="https://onlinejudge.org/templates/hm_yaml_2_5/img/hieblmedia_logo.jpg" border="0" alt="HieblMedia WebSolutions"/></a><br />
+-->
+<!--		<a href="http://yaml.to-joomla.de" target="_blank">YAML to Joomla Template</a> &copy; 2006 - 2022 by Reinhard Hiebl [ <a href="http://www.hieblmedia.de">HieblMedia</a> ]<br />
+	-->
+	
+<!--    <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img
+            src="http://www.w3.org/Icons/valid-xhtml10"
+	            alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+
+<a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=207390&amp;t=209" target="_new"><img border="0" alt="Firefox 2" title="Firefox 2" src="http://sfx-images.mozilla.org/affiliates/Buttons/firefox2/firefox-spread-btn-1.png"/></a> -->
+
+<script type="text/javascript">
+google_ad_client = "ca-pub-2439032012840386";
+google_ad_slot = "7763957826";
+google_ad_width = 728;
+google_ad_height = 90;
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+
+
+<!--	<a href="http://validator.w3.org/check?uri=http://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_authorstats&amp;userid=2001446" target="_blank">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_authorstats&amp;userid=2001446" target="_blank">CSS</a> | -->
+
+	
+<!--	 <hr />	<div align="center">
+	&copy; 2022 Online Judge</div>
+
+<div align="center">
+	<a href="http://www.joomla.org">Joomla!</a> is Free Software released under the GNU/GPL License.</div> -->
+<!--	<br /><div id="loading_template_time">Load Total: 0,018 sec. </div>-->
+</div>
+<!-- #footer: End -->
+
+</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9887308-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+<!-- 1659476125 -->

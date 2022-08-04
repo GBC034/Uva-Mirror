@@ -1,0 +1,41 @@
+<html><head>
+<meta name="autor" content="Gines, Murcia 23/9/17, dedicated to Rocio">
+<meta name="isthere" content="yeeees, there is a little secret :-)">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Rogue One: Time to impact</title></head>
+<body lang="EN">
+<div align="center">
+<center>
+<table bgcolor="#0060f0" border="0">
+<tbody>
+<tr>
+<td><font color="#c0ffff" size="5"><b>&nbsp;H - Rogue One: Time to Impact&nbsp;</b></font></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<h2><a name="SECTION1"><font color="#0070e8">Context</font></a></h2>
+<p>You have been assigned to the Rogue One mission on planet Scarif. Your task is to help the rebels steal the plans of the Death Star.</p>
+<p>Everything seemed to go well... until a great ball of fire suddenly appeared in the sky. The evil Darth Vader has fired with the Death Star directly at your position. In a few moments, you and the whole planet will be reduced to ashes.</p>
+<p style="text-align: center;"><img alt="Rogue One" src="time0.jpg">  <img alt="Rogue One" src="time10.jpg"><br>
+A great ball of fire approaching you (left); 10 seconds later (right); and 20 seconds later... (c) Disney.</p>
+<p>The only thing you can do now is to estimate the time to impact, how long you have left of life.</p>
+<h2><a name="SECTION1"><font color="#0070e8">The Problem</font></a></h2>
+<p>A big ball of fire is approaching you. We want to calculate the time to impact, although we do not know the size of the ball, the speed of the ball or its current distance. The only information available is a couple of images captured by an assistant robot. The first image of the ball of fire was taken at time 0, and the second image 10 seconds later. The robot has estimated the diameter of the ball in pixels in both images, using a computer vision algorithm.</p>
+<p>Will you be able to estimate the time to impact using only the two estimated sizes in the images?</p>
+<p>The ball is supposed to have a constant speed, and it goes directly to your position. The effect of the speed of light is considered negligible (i.e., as if it were infinite). The impact occurs when the center of the ball reaches the camera.</p>
+<h2><a name="SECTION2"><font color="#0070e8">The Input</font></a></h2>
+<p>The input contains several test cases. The first line of the input indicates the number of test cases.</p>
+<p>Each test case is described in a line with two positive integer numbers: <i>A</i>
+<i>B</i>. <i>A</i> is the diameter of the ball in the image at time 0, measured in pixels. <i>B</i> is the diameter of the ball in the image 10 seconds later, also in pixels, and it will be greater than <i>A</i>.</p>
+<h2><a name="SECTION2"><font color="#0070e8">The Output</font></a></h2>
+<p>For each test case, you have to produce one output line with an integer number. This number indicates the time to impact in seconds (counting from time 0). If this number is not integer, it has to be truncated to an integer; e.g., if the value is 92.99, you have to output 92.</p>
+<h2><a name="SECTION3"><font color="#0070e8">Sample Input</font></a></h2>
+<pre>3<br>10 20<br>10 21<br>10 19</pre>
+<h2><a name="SECTION4"><font color="#0070e8">Sample Output</font></a></h2>
+<pre>20<br>19<br>21</pre>
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'17</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad de Murcia</a></small></small></p>
+</body></html>

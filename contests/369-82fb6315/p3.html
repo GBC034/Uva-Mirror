@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta name="autor" content="Gines, Murcia 16/1/16, dedicated to Rocio">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Dijkstractions</title>
+
+</head>
+<body lang="EN">
+<div align="center">
+<center>
+<table bgcolor="#0060f0" border="0">
+<tbody>
+<tr>
+<td><font color="#c0ffff" size="5"><b>&nbsp;D
+- Dijkstractions&nbsp;</b></font></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<h2><a name="SECTION1"><font color="#0070e8">Context</font></a></h2>
+<p>Astrijdk Geders has two passions: her cat and Dijkstra's
+algorithm. She loves walking with her cat in a cage through the
+shortest paths of her town.</p>
+<!--
+   /\     /\
+  {  `---'  }
+  {  O   O  }    HOLA! Yo soy el gato de Astrijdk.
+  ~~>  V  <~~  __/  Te daré una pista si consigues
+   \  \|/  /        adivinar el número secreto de
+    `-----'____             mi dueña.
+    /     \    \_
+   {       }\  )_\_   _
+   |  \_/  |/ /  \_\_/ )
+    \__/  /(_/     \__/
+      (__/
+
+Te contaré un pequeño truco. Como ya sabrás, hay que usar
+el orden topológico dentro del algoritmo. Además, debe ser
+el orden inverso, desde el destino hasta el origen. Ahora
+usa aquí la llave secreta para saber más cosas:
+
+http://onlinejudge.inf.um.es/trucoXXX.html
+
+-->
+	
+<p>She also spends hours and hours studying properties and
+variations of Dijkstra's algorithm. For example, she has studied how to
+adapt the algorithm when the
+graph is directed and acyclic, or what to do when the cost of a path is
+given by the product of the edges, instead of the sum.</p>
+<p>Now she is studying an even more crazily complex variation:
+what happens when the cost of a path with edges (<i>a</i>,
+<i>b</i>, <i>c, d</i>...) is given by a
+successive exponentiation
+<i>a</i><sup><i>b</i><sup><i>c</i><sup><i>d</i><sup>...</sup></sup></sup></sup></p>
+<h2><a name="SECTION1"><font color="#0070e8">The
+Problem</font></a></h2>
+<p>Given a directed acyclic graph weighted with integer numbers
+(from 1 to 10<sup>6</sup>), find the longest path between
+two given nodes. In this problem, the
+length of a path is defined as the successive exponentiation of the
+cost of the edges. That is, if the path goes through the edges (<i>a</i>,
+<i>b</i>, <i>c</i>...),
+in that order, then the cost of the path is <i>a</i><sup><i>b</i><sup><i>c</i><sup>...</sup></sup></sup>.
+So, for example, if the path has only one edge of cost
+<i>a</i>, the length of the path is <i>a</i>;
+if it has edges (<i>a</i>, <i>b</i>), the
+length is <i>a</i><sup><i>b</i></sup>;
+and so on.</p>
+<p>Please, observe that: <i>a</i><sup><i>b</i><sup><i>c</i></sup></sup>
+is the same as:
+<i>a</i><sup>(<i>b</i><sup><i>c</i></sup>)</sup>,
+which
+is not the same as (<i>a</i><sup><i>b</i></sup>)<sup><i>c</i></sup>.</p>
+<h2><a name="SECTION2"><font color="#0070e8">The
+Input</font></a></h2>
+<p>The input consists of a series of test cases. The first line
+contains a number that indicates the number of test cases.</p>
+<p>Each case begins with two numbers, <i>N</i> and <i>A</i>,
+indicating the number of nodes and edges of the graph, respectively. Nodes are
+numbered from 1 to <i>N</i>, and <i>N</i> is not greater than 10000.
+The following line contains two different numbers, <i>S</i> and <i>E</i>,
+the start and the end of the path, respectively. Then, there are <i>A</i> lines, each of them with three numbers: <i>V</i> <i>W</i> <i>C</i>, indicating an edge from <i>V</i> to <i>W</i> with cost <i>C</i>. Remember that the graph is directed an acyclic.</p>
+<h2><a name="SECTION2"><font color="#0070e8">The
+Output</font></a></h2>
+<p> For each test case, the program has to output one line. This line is the sequence of nodes of the longest path, starting with <i>S</i> and ending with <i>E</i>, separated by spaces.</p><p>If
+there is no path, the output will be an empty line. If there
+are many optimal solutions, you have to output the one that goes
+through the node with lowest number first (that is, the solution with
+the lowest lexicographical order).</p>
+<h2><a name="SECTION3"><font color="#0070e8">Sample
+Input</font></a></h2>
+<pre>3
+4 4
+1 4
+1 2 4
+2 4 1
+1 3 2
+3 4 8
+4 4
+4 1
+1 2 4
+2 4 1
+1 3 2
+3 4 8
+5 7
+4 1
+4 2 3
+5 1 1
+3 1 3
+2 3 3
+2 5 2
+4 5 10
+5 3 2
+</pre>
+<h2><a name="SECTION4"><font color="#0070e8">Sample
+Output</font></a></h2>
+<pre>1 3 4
+
+4 2 5 3 1
+</pre>
+<hr>
+<!--
+  La clave secreta no   _
+   está aquí. Está en  | \
+   tu cerebro...       | |
+       /               | |
+  |\  /                | |
+ /, ~\                / /
+X     `-.....-------./ /
+ ~-.                   |
+    \             /    |
+     \  /_     ___|   /
+     | /\ ~~~~~   \  |
+     | | \        || |
+     | |\ \       || )
+    (_/ (_/      ((_/
+-->
+
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'16</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad
+de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad
+de Murcia</a></small></small></p>
+</body></html>

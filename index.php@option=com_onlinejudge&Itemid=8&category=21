@@ -1,0 +1,3720 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<!-- EfA Scripts -->
+<script type="text/javascript" src="https://onlinejudge.org/templates/hm_yaml_2_5/js/efa/cookies.js"></script>
+<!-- // -->
+<title>Online Judge</title>
+<meta name="description" content="Online Judge" />
+<meta name="keywords" content="programming, contest, online, judge, problemset" />
+<meta name="Generator" content="Joomla! - Copyright (C) 2005 - 2007 Open Source Matters. All rights reserved." />
+<meta name="robots" content="index, follow" />
+<link rel="stylesheet" href="components/com_onlinejudge/css/onlinejudge.css" type="text/css" />
+<link rel="stylesheet" href="components/com_onlinejudge/css/tabber.css" type="text/css" />
+<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/layout_3col_vlines.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+	<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/explorer/iehacks_3col_vlines.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style type="text/css">
+#page_margins {min-width: 756px; max-width: 90em; }
+</style>
+
+			<!--[if lt IE 7]>
+				<script defer type="text/javascript" src="https://onlinejudge.org/templates/hm_yaml_2_5/js/pngfix.js"></script>
+			<![endif]-->
+		
+
+		<style type="text/css">
+		#page_margins {
+			margin:auto;
+		}
+		</style>
+		
+<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/navigation/nav_vlist.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="https://onlinejudge.org/images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="audience" content="All"/>
+<meta name="revisit-after" content="1 Day"/>
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-floating"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+
+
+
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:10000;"></div>
+<!-- <script type="text/javascript">if (efa_fontSize) efa_fontSize.efaInit();</script> -->
+<a id="start" name="start"></a>
+
+<div id="page_margins">
+<div id="page" class="hold_floats">
+
+<!-- #header: Start -->
+<div id="header">
+	<div id="topnav">
+		<a class="skip" href="#navigation" title="Direkt zur Navigation springen">Zur Navigation springen</a>
+		<a class="skip" href="#content" title="Direkt zum Content springen">Zum Content springen</a>	
+			</div>
+	<img src="https://onlinejudge.org/templates/hm_yaml_2_5/./img/ojlogo2.svg.png" alt="Online Judge"/>
+	<div id="headbanner" style="width:728px;height:90px;position:absolute;right:25px;top:25px;">
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-2439032012840386";
+	google_ad_slot = "8272437788";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	</script>
+	<script type="text/javascript"
+	src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+	--> 
+	</div>
+</div>
+<!-- #header: End -->
+
+<!-- #nav: Start -->
+<div id="nav">
+	<a id="navigation" name="navigation"></a>
+	<div id="nav_main" >
+			</div>
+</div>
+<!-- #nav: End -->
+
+<!-- #toolbar_box: Start -->
+<div class="clearfix" id="toolbar_box">
+	<div class="tool_pathway">
+		<span class="pathway"><a href="https://onlinejudge.org/index.php" class="pathway">Home</a> <img src="https://onlinejudge.org/templates/hm_yaml_2_5/images/arrow.png" border="0" alt="arrow" />   Browse Problems </span>	</div>
+<!--	<div class="tool_searchbox">
+		<form action="index.php" method="get">
+			<input class="inputbox" type="text" name="searchword" size="25" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" />
+			<input type="hidden" name="option" value="com_search" />
+		</form>
+	</div>-->
+	<div class="tool_fontsize">
+		<script type="text/javascript">	
+	<!--		if (efa_fontSize) document.write(efa_fontSize.allLinks);	-->
+		</script>
+	</div>
+	</div>
+<!-- #toolbar_box: End -->
+
+<!-- #main: Content Start -->
+<div id="main">
+
+
+<!-- #col1: Left Column of Content -->
+    <div id="col1">
+		<div id="col1_content" class="clearfix">
+			<!-- <div style="width:100%;text-align:center;">
+			<iframe src="http://www.indiegogo.com/project/361690/widget/2710044" width="224px" height="486px" frameborder="0" scrolling="no"></iframe></div> -->
+                        		<div class="moduletable">
+							<h3>
+					Login				</h3>
+				<form action="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=login" method="post" id="mod_loginform" style="margin:0px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mod_login">
+<tr><td><span id="mod_login_usernametext"><label for="mod_login_username">Username</label></span><br />
+<input type="text" name="username" id="mod_login_username" class="inputbox" size="10" /><br />
+<span id="mod_login_passwordtext"><label for="mod_login_password">Password</label></span><br /><span><input type="password" name="passwd" id="mod_login_password" class="inputbox" size="10" /></span><br />
+<input type="hidden" name="op2" value="login" />
+<input type="hidden" name="lang" value="english" />
+<input type="hidden" name="force_session" value="1" />
+<input type="hidden" name="return" value="B:aHR0cDovL29ubGluZWp1ZGdlLm9yZy9pbmRleC5waHA/b3B0aW9uPWNvbV9vbmxpbmVqdWRnZSZhbXA7SXRlbWlkPTgmYW1wO2NhdGVnb3J5PTIx" />
+<input type="hidden" name="message" value="0" />
+<input type="hidden" name="loginfrom" value="loginmodule" />
+<input type="hidden" name="cbsecuritym3" value="cbm_3d45da45_285d93ef_efcdd5541b7d91e29f4454f0133c0458" />
+<input type="hidden" name="jf56b215638be61c315e8642d50b6142d" value="1" />
+<input type="checkbox" name="remember" id="mod_login_remember" value="yes" /> <span id="mod_login_remembermetext"><label for="mod_login_remember">Remember me</label></span><br />
+<input type="submit" name="Submit" class="button" value="Login" /></td></tr>
+<tr><td><a href="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=lostPassword" class="mod_login">Forgot login?</a></td></tr>
+<tr><td>No account yet? <a href="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=registers" class="mod_login">Register</a></td></tr>
+</table></form>		</div>
+							<div class="moduletable">
+			<!-- SiteSearch Google -->
+
+<form action="https://www.google.com/cse" id="cse-search-box" target="_blank">
+<div>
+<input type="hidden" name="cx" value="partner-pub-2439032012840386:3416984485" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="text" name="q" size="19" />
+<input type="submit" name="sa" value="Search" />
+</div>
+</form>
+<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+<!-- SiteSearch Google -->
+		</div>
+				<div class="moduletable">
+							<h3>
+					Main Menu				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_frontpage&amp;Itemid=1" class="mainlevel" >Home</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_contact&amp;Itemid=4" class="mainlevel" >Contact Us</a></td></tr>
+<tr align="left"><td><a href="http://livearchive.onlinejudge.org" target="_blank" class="mainlevel" >ICPC Live Archive</a></td></tr>
+</table>		</div>
+				<div class="moduletable">
+							<h3>
+					Online Judge				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="http://uhunt.felix-halim.net/id/0" target="_blank" class="mainlevel" >My uHunt with Virtual Contest Service</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8" class="mainlevel" id="active_menu">Browse Problems</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/local/online_judge/search_uva.html" target="_blank" class="mainlevel" >Quick access, info and search</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=44" class="mainlevel" >Problemsetters' Credits</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/local/online_judge/public_uva.html" target="_blank" class="mainlevel" >Live Rankings</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=5&amp;Itemid=18" class="mainlevel" >Site Statistics</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=10" class="mainlevel" >Contests</a></td></tr>
+<tr align="left"><td><a href="https://uva.onlinejudge.org/board/" class="mainlevel" >Electronic Board</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=29" class="mainlevel" >Additional Information</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=17&amp;Itemid=32" class="mainlevel" >Other Links</a></td></tr>
+</table>		</div>
+														<div style="text-align:center;">
+			<a href="http://uhunt.felix-halim.net/" target="_new">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAABGdBTUEAALGPC/xhBQAAAQtQTFRFRkZGRkZpRkaJRmmoRonGUVFRXFxcXV1daGhoaUZGaajic3NzdHR0fn5+iUZGicb/ioqKlZWVoqKiqGlGqMb/qOL/q6urra2tt7e3uLi4wsLCwxdWwxd1wxeSw0avw2/KxMTExiVgxolGxsb/xuL/xv//yjNqyjRrzhdWzkF1zpbl0lB/0lGA1V2J1xdW1xeS17r/2WyU2W2V3Hqe3Xuf3Xyf4Iip4UZW4Yqq4d3/4qhp4qiJ4v//5Jay5Zq15ubm5+fn6KS96Ke/7G9W7LTI7LbK7LrK7P//8vLy9ZZ19d3/9f//9+Hp+OHq+/D0/7qS/8aJ/92v/+Ko/+LG///G///K///i///l////+YMcUAAAA99JREFUaN7tm2tf0zAUh4NuDAbIinKNOjaVyZjagXjBywYD7ZQVRNR+/09imvSSW7u1NukLc15sy6V9Tv45SZP9GuAJNjk77u3Bwmyvd3w2ESmAp74rkEnRP09SwZNDqMwOJ4lgVyEWo105+KIFFVvrQgbuQw12LIDdA6jFDlwW7O5DTbbvMuADqM1e0OA+1GivY/A51GrnIdht6QW33ADch5qtT8CXULtdYnBfP7jvg0tosN9k4L0pA/wJgTtlgDseKEVppDU4LQd8Co7KAR+BXjngHuiUA+4AWJIZsAH/N+BHX/110a+XfM4VhA/f48XamKnfxXk/nqsEyyBSZwoHP/7u//rzlqouyVIAljQvu9J5wBKMjXNGUDFYEFasrQYsaN30ojKlYEHrHErnA3Na85UDRdKjLReY05pVmlScis4F5rRmlCZqRJYYcfnAjNakJPAikjm0caHg4PYjSumxILudKnY+MNOtNh1pdgwj3iVpnRNMlTNKE59GUPSoIDAVUM3ErlQCjrVOun0Q3hnBYv9w4MgzXmk+tIsGR1o3+emSG8i5wPRFPDjU2k6YLnOCxZ4jDRnzUfBKKgQRwc4NphUUgpfU+MLWC3Qe5Y5qcZWR4Ak3IXfpWrnAwW254SNGmydROqglxsks4DBIyHVh6krsDVYHW5jDs4JpJT0Jga5B6dCNYKznWbYwtsgdS2Y3NpsbxCkropS9k0C+kldg2tSlh/C3lAdy2qaNdV/UrClb3nQpP7spD+Qpu0U7qbWU1mPpNfFmZ2T2xwZswAZswAZswAbMgY0ZM2bM2D/Y3Y+394Kfd579vj+1dht91r1rzeC5da9UsH6plYLDjDB1s1hH+23sUh1vwttEaqbEt1WUuEaf7YLAP5+SfwlOBDBV4ifx79snhYHxjZHGfi4dXEKJ/1XHjs0Ipv5ykYKDBvkpDkyVVDxyVaU4MOlDkmLBdMkq8QKl5OBadqnpFAumSuJwlwZXDSwrA4fBLQUvA6ucFltgSxE46mP5FLMFBrOAiWp1Lws4PaoHwKtNBccjMgs4uKoiHcc1D3gb0+fqChlaH9ZFMJ4WT2TgcFjePJCANxB4MMNDAo1F5PecDIwahqAycNpcPfBfgW2oXVfIgquB370dqAGGawNKQKrB+DVnNU2ukIcU6ulrSYMx2KkqkpjYzSJXUnXCV9l3gKo2S8fSTvzyvqVzFWvRxxWW9HFXmHMSzoIu7oLDHklxNLV5xREO4Vj6+pc7drRbVY2t7soPWjmKJ8+Gk3i0bKgQ3RimHqYbbs6roM5vDqec4kPo7TVrqUD6/JK1tj0UMH8Bt4PfPqA/FOsAAAAASUVORK5CYII=" alt="uHunt" width="80" /><br/><br/></a>
+			<a href="https://www.udebug.com/UVa" target="_new"><img src="https://www.udebug.com/sites/default/files/udebug_logo_small.png" width="150" alt="uDebug" /></a>
+			</div>
+			<!--<div style="border-width:1px;border-style:solid;border-color:#000088;width=100%;text-align:center;margin-top:30px;">
+			<div style="background-color:#000088;color:white;text-align:left;">With the collaboration of</div>
+			<a href="http://www.relint.uva.es" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_uva.jpg" alt="UVa" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://icpc.baylor.edu" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_icpc.jpg" alt="ICPC" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://www.funge.uva.es" target="_new"><img src="https://uva.onlinejudge.org/images/funge_new.png" alt="Funge" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://www.parquecientificouva.es" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_parque.jpg" alt="Parque Cient&iacute;fico UVa" style="padding-top:10px;padding-bottom:10px;"/></a>
+			</div>-->
+		</div>
+    </div>
+<!-- #col1: End -->
+
+<!-- #col2: Right Column of Content -->
+    <div id="col2">
+		<div id="col2_content" class="clearfix">
+						<div class="moduletable">
+							<h3>
+					Our Patreons				</h3>
+				<h2><strong style="color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif; font-size: 13.3328px">Diamond Sponsors</strong></h2><p>Steven &amp; Felix Halim</p><p>Reinardus Pradhitya<span style="font-size: 13.3328px">&nbsp;</span></p><h2><strong style="color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif; font-size: 13.3328px">Gold Sponsors</strong></h2><p style="font-size: 13.3328px">--- YOUR NAME HERE ----<span style="font-size: 13.3328px">&nbsp;</span></p><h2 style="font-size: 13.3328px"><strong style="font-size: 13.3328px; color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif">Silver Sponsors</strong></h2><p style="font-size: 13.3328px"><span style="font-size: 13.3328px">--- YOUR NAME HERE ----</span>&nbsp;<span style="font-size: 13.3328px">&nbsp;</span></p><h2 style="font-size: 13.3328px"><strong style="font-size: 13.3328px; color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif">Bronze Sponsors</strong></h2><p style="font-size: 13.3328px">Christianto Handojo</p><p style="font-size: 13.3328px">Krzysztof Adamek</p><p style="font-size: 13.3328px">Fatima Broom</p><p style="font-size: 13.3328px"><a href="https://techbuy.in/upgrad-referral-code" target="_blank">Amal Augustine<img style="font-size: 13.3328px" src="/images/techbuy_logo.png" alt="TechBuy" width="100" height="27" align="absmiddle" /></a> </p>		</div>
+				<div class="moduletable">
+							<h3>
+					Contribute				</h3>
+				<p style="text-align: center"><a href="https://www.patreon.com/onlinejudge" target="_blank"><img src="images/patronbutton.png" alt="Become a patron" title="Become a patron" width="230" height="76" align="baseline" /></a></p><p style="text-align: center"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=D7XA3E822BTP8&amp;source=url" target="_blank"><img style="font-size: 13.3328px" src="https://www.paypalobjects.com/en_US/ES/i/btn/btn_donateCC_LG.gif" alt="PayPal" title="PayPal" width="152" height="47" /></a> &nbsp;</p><p style="text-align: center"><img src="images/bitcoinqr.png" alt="1ojudgeapLUjJcnUmze67a4w3TJ6WnPxo" title="1ojudgeapLUjJcnUmze67a4w3TJ6WnPxo" width="200" height="200" /></p><p style="text-align: center"><span style="font-size: 13.3328px">Bitcoin:&nbsp;</span></p><p style="text-align: center"><span style="font-size: 13.3328px; text-align: left">1ojudgeapLUjJcnU</span><span style="font-size: 13.3328px; text-align: left">m</span></p><p style="text-align: center"><span style="font-size: 13.3328px; text-align: left">ze</span><span style="font-size: 13.3328px; text-align: left">67a4w3TJ6WnPxo</span><span style="font-size: 13.3328px">&nbsp;</span></p>		</div>
+													</div>
+    </div>
+<!-- #col2: End -->
+
+<!-- #col3: Main Content -->
+    <div id="col3">
+      <div id="col3_content" class="clearfix">
+	  	<div id="col3_content_wrapper" class="floatbox">
+		  <a id="content" name="content"></a>
+							<div class="componentheading">Browse Problems</div>
+
+	<div class="contentheading" style="font-size : 110%;">
+<a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=0">Root</a> :: <a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=2">Contest Volumes (10000...)</a> :: <a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21">Volume 109 (10900-10999)</a>	
+	</div>
+
+	<table cellpadding="4" cellspacing="0" border="0" width="100%">
+		<tr class="sectiontableheader">
+			<td width="1%" class="title"></td>
+			<td width="1%" class="title"></td>
+			<td width="20%" class="title">Title</td>
+			<td width="15%" class="title" colspan="2">Total Submissions / Solving %</td>
+			<td width="15%" class="title" colspan="2">Total Users / Solving %</td>
+		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10900" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1841">10900&nbsp;-&nbsp;So you want to be a 2n-aire?</a></td>
+						<td align="right">1581</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:78.56%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">78.56%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">710</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:93.10%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">93.10%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10901" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1842">10901&nbsp;-&nbsp;Ferry Loading III</a></td>
+						<td align="right">12236</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:30.48%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">30.48%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">3260</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:80.28%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">80.28%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10902" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1843">10902&nbsp;-&nbsp;Pick-up Sticks</a></td>
+						<td align="right">4921</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:38.59%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">38.59%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1175</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:82.81%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">82.81%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10903" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1844">10903&nbsp;-&nbsp;Rock-Paper-Scissors Tournament</a></td>
+						<td align="right">10151</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:32.75%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">32.75%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2639</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:83.33%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">83.33%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10904" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1845">10904&nbsp;-&nbsp;Structural Equivalence</a></td>
+						<td align="right">484</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:34.71%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">34.71%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">124</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:70.16%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">70.16%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10905" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1846">10905&nbsp;-&nbsp;Children's Game</a></td>
+						<td align="right">29230</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:31.59%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">31.59%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">5984</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:76.92%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">76.92%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10906" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1847">10906&nbsp;-&nbsp;Strange Integration</a></td>
+						<td align="right">781</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:46.48%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">46.48%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">350</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:86.57%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">86.57%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10907" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1848">10907&nbsp;-&nbsp;Art Gallery</a></td>
+						<td align="right">774</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:20.67%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">20.67%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">166</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:64.46%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">64.46%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10908" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1849">10908&nbsp;-&nbsp;Largest Square</a></td>
+						<td align="right">10655</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:40.76%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">40.76%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">3238</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:91.11%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">91.11%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10909" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1850">10909&nbsp;-&nbsp;Lucky Number</a></td>
+						<td align="right">3721</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:32.87%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">32.87%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">602</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:72.59%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">72.59%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10910" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1851">10910&nbsp;-&nbsp;Marks Distribution</a></td>
+						<td align="right">6465</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:52.28%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">52.28%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2421</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:93.35%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">93.35%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10911" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1852">10911&nbsp;-&nbsp;Forming Quiz Teams</a></td>
+						<td align="right">12872</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:49.41%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">49.41%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">4281</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:87.53%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">87.53%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10912" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1853">10912&nbsp;-&nbsp;Simple Minded Hashing</a></td>
+						<td align="right">6497</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:40.40%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">40.40%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1865</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:89.17%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">89.17%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10913" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1854">10913&nbsp;-&nbsp;Walking on a Grid</a></td>
+						<td align="right">3908</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:38.64%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">38.64%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1197</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:85.46%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">85.46%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10914" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1855">10914&nbsp;-&nbsp;Abundance and Perfect Numbers</a></td>
+						<td align="right">1344</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:41.52%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">41.52%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">348</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:79.02%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">79.02%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10915" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1856">10915&nbsp;-&nbsp;War on Weather</a></td>
+						<td align="right">805</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:54.41%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">54.41%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">348</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:91.67%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">91.67%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10916" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1857">10916&nbsp;-&nbsp;Factstone Benchmark</a></td>
+						<td align="right">4625</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:63.96%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">63.96%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2273</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:94.68%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">94.68%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10917" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1858">10917&nbsp;-&nbsp;Walk Through the Forest</a></td>
+						<td align="right">6918</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:39.56%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">39.56%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1330</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:85.04%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">85.04%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10918" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1859">10918&nbsp;-&nbsp;Tri Tiling</a></td>
+						<td align="right">5406</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:60.25%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">60.25%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2353</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:96.47%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">96.47%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10919" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1860">10919&nbsp;-&nbsp;Prerequisites?</a></td>
+						<td align="right">6218</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:68.90%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">68.90%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">3340</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:96.29%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">96.29%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10920" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1861">10920&nbsp;-&nbsp;Spiral Tap</a></td>
+						<td align="right">8611</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:45.41%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">45.41%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">3270</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:88.59%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">88.59%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10921" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1862">10921&nbsp;-&nbsp;Find the Telephone</a></td>
+						<td align="right">24206</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:60.46%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">60.46%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">12084</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:96.56%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">96.56%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10922" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1863">10922&nbsp;-&nbsp;2 the 9s</a></td>
+						<td align="right">17744</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:53.16%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">53.16%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">7012</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:93.98%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">93.98%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10923" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1864">10923&nbsp;-&nbsp;Seven Seas</a></td>
+						<td align="right">1092</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:22.07%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">22.07%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">304</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:54.28%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">54.28%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10924" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1865">10924&nbsp;-&nbsp;Prime Words</a></td>
+						<td align="right">40491</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:40.24%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">40.24%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">11717</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:93.42%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">93.42%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10925" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1866">10925&nbsp;-&nbsp;Krakovia</a></td>
+						<td align="right">8482</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:37.63%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">37.63%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2787</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:87.98%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">87.98%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10926" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1867">10926&nbsp;-&nbsp;How Many Dependencies?</a></td>
+						<td align="right">9300</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:37.04%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">37.04%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2468</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:88.82%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">88.82%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10927" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1868">10927&nbsp;-&nbsp;Bright Lights</a></td>
+						<td align="right">5104</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:28.76%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">28.76%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1089</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:82.09%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">82.09%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10928" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1869">10928&nbsp;-&nbsp;My Dear Neighbours</a></td>
+						<td align="right">7461</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:46.17%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">46.17%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2612</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:91.08%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">91.08%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10929" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1870">10929&nbsp;-&nbsp;You can say 11</a></td>
+						<td align="right">53343</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:34.60%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">34.60%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">14226</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:87.10%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">87.10%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10930" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1871">10930&nbsp;-&nbsp;A-Sequence</a></td>
+						<td align="right">8327</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:23.84%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">23.84%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1864</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:74.52%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">74.52%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10931" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1872">10931&nbsp;-&nbsp;Parity</a></td>
+						<td align="right">27349</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:58.53%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">58.53%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">11223</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:96.30%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">96.30%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10932" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1873">10932&nbsp;-&nbsp;Calculator</a></td>
+						<td align="right">1296</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:26.08%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">26.08%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">328</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:68.29%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">68.29%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10933" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1874">10933&nbsp;-&nbsp;Volleyball</a></td>
+						<td align="right">1234</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:25.69%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">25.69%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">352</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:71.88%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">71.88%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10934" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1875">10934&nbsp;-&nbsp;Dropping water balloons</a></td>
+						<td align="right">4332</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:43.70%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">43.70%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">880</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:89.66%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">89.66%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10935" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1876">10935&nbsp;-&nbsp;Throwing cards away I</a></td>
+						<td align="right">67132</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:31.51%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">31.51%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">10778</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:88.62%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">88.62%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10936" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1877">10936&nbsp;-&nbsp;Land surveyor's job</a></td>
+						<td align="right">575</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:24.87%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">24.87%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">167</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:70.06%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">70.06%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10937" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1878">10937&nbsp;-&nbsp;Blackbeard the Pirate</a></td>
+						<td align="right">4083</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:37.99%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">37.99%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">719</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:87.76%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">87.76%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10938" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1879">10938&nbsp;-&nbsp;Flea circus</a></td>
+						<td align="right">5029</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:37.56%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">37.56%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1256</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:88.77%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">88.77%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10939" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1880">10939&nbsp;-&nbsp;Ants, Aphids and a Ladybug</a></td>
+						<td align="right">570</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:23.68%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">23.68%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">111</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:65.77%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">65.77%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10940" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1881">10940&nbsp;-&nbsp;Throwing cards away II</a></td>
+						<td align="right">11764</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:50.55%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">50.55%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">4299</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:86.25%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">86.25%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10941" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1882">10941&nbsp;-&nbsp;Words adjustment</a></td>
+						<td align="right">804</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:27.61%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">27.61%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">169</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:69.82%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">69.82%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10942" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1883">10942&nbsp;-&nbsp;Can of Beans</a></td>
+						<td align="right">1093</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:46.39%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">46.39%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">478</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:85.98%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">85.98%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10943" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1884">10943&nbsp;-&nbsp;How do you add?</a></td>
+						<td align="right">19474</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:49.59%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">49.59%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">5821</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:93.88%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">93.88%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10944" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1885">10944&nbsp;-&nbsp;Nuts for nuts..</a></td>
+						<td align="right">4037</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:36.26%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">36.26%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">874</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:84.67%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">84.67%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10945" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1886">10945&nbsp;-&nbsp;Mother bear</a></td>
+						<td align="right">28099</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:47.22%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">47.22%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">9660</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:93.59%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">93.59%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10946" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1887">10946&nbsp;-&nbsp;You want what filled?</a></td>
+						<td align="right">10655</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:41.62%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">41.62%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">3374</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:94.01%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">94.01%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10947" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1888">10947&nbsp;-&nbsp;Bear with me, again..</a></td>
+						<td align="right">2196</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:55.56%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">55.56%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">789</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:91.00%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">91.00%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10948" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1889">10948&nbsp;-&nbsp;The primary problem</a></td>
+						<td align="right">13157</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:42.98%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">42.98%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">4147</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:91.17%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">91.17%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10949" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1890">10949&nbsp;-&nbsp;Kids in a Grid</a></td>
+						<td align="right">3769</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:15.07%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">15.07%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">429</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:42.66%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">42.66%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10950" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1891">10950&nbsp;-&nbsp;Bad Code</a></td>
+						<td align="right">2509</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:27.42%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">27.42%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">581</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:82.96%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">82.96%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10951" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1892">10951&nbsp;-&nbsp;Polynomial GCD</a></td>
+						<td align="right">946</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:37.21%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">37.21%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">217</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:83.41%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">83.41%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10952" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1893">10952&nbsp;-&nbsp;Pattern Transformations</a></td>
+						<td align="right">298</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:30.20%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">30.20%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">59</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:76.27%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">76.27%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/y.gif" width="16" height="16" alt="FILE" />
+                        			</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10953" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1894">10953&nbsp;-&nbsp;Stochastic Digit Generator</a></td>
+						<td align="right">553</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:42.68%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">42.68%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">230</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:78.26%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">78.26%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10954" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1895">10954&nbsp;-&nbsp;Add All</a></td>
+						<td align="right">52299</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:42.55%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">42.55%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">13518</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:85.45%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">85.45%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10955" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1896">10955&nbsp;-&nbsp;Playfair Cipher</a></td>
+						<td align="right">175</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:19.43%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">19.43%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">26</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:57.69%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">57.69%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10956" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1897">10956&nbsp;-&nbsp;Prime Suspect</a></td>
+						<td align="right">955</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:42.09%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">42.09%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">198</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:70.71%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">70.71%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10957" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1898">10957&nbsp;-&nbsp;So Doku Checker</a></td>
+						<td align="right">2795</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:51.63%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">51.63%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">680</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:88.68%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">88.68%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10958" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1899">10958&nbsp;-&nbsp;How Many Solutions?</a></td>
+						<td align="right">1791</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:35.46%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">35.46%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">451</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:83.37%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">83.37%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10959" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1900">10959&nbsp;-&nbsp;The Party, Part I</a></td>
+						<td align="right">9282</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:44.43%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">44.43%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2855</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:91.87%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">91.87%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10960" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1901">10960&nbsp;-&nbsp;The Party, Part II</a></td>
+						<td align="right">325</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:33.23%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">33.23%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">101</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:74.26%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">74.26%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10961" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1902">10961&nbsp;-&nbsp;Chasing After Don Giovanni</a></td>
+						<td align="right">580</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:36.90%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">36.90%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">195</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:77.95%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">77.95%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10962" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1903">10962&nbsp;-&nbsp;Don Giovanni's Last Dinner</a></td>
+						<td align="right">553</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:29.11%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">29.11%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">177</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:73.45%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">73.45%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10963" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1904">10963&nbsp;-&nbsp;The Swallowing Ground</a></td>
+						<td align="right">21378</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:29.68%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">29.68%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">5538</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:89.36%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">89.36%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10964" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1905">10964&nbsp;-&nbsp;Strange Planet</a></td>
+						<td align="right">1076</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:48.33%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">48.33%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">471</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:90.02%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">90.02%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10965" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1906">10965&nbsp;-&nbsp;Khepel's Problem</a></td>
+						<td align="right">481</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:25.99%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">25.99%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">131</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:67.18%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">67.18%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10966" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1907">10966&nbsp;-&nbsp;3KP-BASH Project</a></td>
+						<td align="right">578</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:10.03%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">10.03%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">64</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:59.38%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">59.38%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10967" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1908">10967&nbsp;-&nbsp;The Great Escape</a></td>
+						<td align="right">1113</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:28.39%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">28.39%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">233</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:81.97%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">81.97%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10968" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1909">10968&nbsp;-&nbsp;KuPellaKeS</a></td>
+						<td align="right">1164</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:31.87%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">31.87%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">286</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:81.12%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">81.12%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/y.gif" width="16" height="16" alt="FILE" />
+                        			</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10969" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1910">10969&nbsp;-&nbsp;Sweet Dream</a></td>
+						<td align="right">1049</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:29.65%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">29.65%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">185</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:55.14%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">55.14%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10970" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1911">10970&nbsp;-&nbsp;Big Chocolate</a></td>
+						<td align="right">33697</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:68.51%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">68.51%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">15755</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:97.40%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">97.40%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10971" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1912">10971&nbsp;-&nbsp;Building Construction</a></td>
+						<td align="right">103</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:8.74%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">8.74%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">37</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:21.62%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">21.62%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10972" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1913">10972&nbsp;-&nbsp;RevolC FaeLoN</a></td>
+						<td align="right">2358</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:34.61%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">34.61%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">287</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:80.49%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">80.49%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10973" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1914">10973&nbsp;-&nbsp;Triangle Counting</a></td>
+						<td align="right">2762</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:33.16%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">33.16%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">621</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:81.48%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">81.48%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10974" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1915">10974&nbsp;-&nbsp;The Ridiculous Game</a></td>
+						<td align="right">147</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:8.16%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">8.16%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">21</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:38.10%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">38.10%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10975" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1916">10975&nbsp;-&nbsp;Dueue's Quiz</a></td>
+						<td align="right">1452</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:19.90%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">19.90%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">153</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:56.86%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">56.86%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10976" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1917">10976&nbsp;-&nbsp;Fractions Again?!</a></td>
+						<td align="right">25044</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:49.89%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">49.89%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">6762</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:94.37%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">94.37%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10977" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1918">10977&nbsp;-&nbsp;Enchanted Forest</a></td>
+						<td align="right">6032</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:29.76%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">29.76%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1053</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:87.08%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">87.08%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10978" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1919">10978&nbsp;-&nbsp;Let's Play Magic!</a></td>
+						<td align="right">3701</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:53.07%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">53.07%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1562</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:91.87%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">91.87%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10979" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1920">10979&nbsp;-&nbsp;How Many Triangles?</a></td>
+						<td align="right">592</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:29.05%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">29.05%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">172</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:76.16%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">76.16%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10980" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1921">10980&nbsp;-&nbsp;Lowest Price in Town</a></td>
+						<td align="right">4751</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:34.48%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">34.48%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1074</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:89.66%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">89.66%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10981" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1922">10981&nbsp;-&nbsp;String Morphing</a></td>
+						<td align="right">1071</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:25.40%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">25.40%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">237</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:64.98%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">64.98%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/y.gif" width="16" height="16" alt="FILE" />
+                        			</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10982" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1923">10982&nbsp;-&nbsp;Troublemakers</a></td>
+						<td align="right">1976</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:38.56%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">38.56%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">503</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:84.69%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">84.69%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10983" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1924">10983&nbsp;-&nbsp;Buy one, get the rest free</a></td>
+						<td align="right">2347</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:37.11%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">37.11%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">576</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:82.99%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">82.99%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10984" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1925">10984&nbsp;-&nbsp;Double NP-hard</a></td>
+						<td align="right">1061</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:22.90%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">22.90%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">243</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:59.67%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">59.67%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10985" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1926">10985&nbsp;-&nbsp;Rings'n'Ropes</a></td>
+						<td align="right">1098</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:50.09%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">50.09%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">303</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:86.80%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">86.80%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10986" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1927">10986&nbsp;-&nbsp;Sending email</a></td>
+						<td align="right">36699</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:41.31%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">41.31%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">8221</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:89.30%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">89.30%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10987" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1928">10987&nbsp;-&nbsp;Antifloyd</a></td>
+						<td align="right">1517</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:33.03%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">33.03%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">447</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:81.66%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">81.66%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10988" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1929">10988&nbsp;-&nbsp;From G to H and back</a></td>
+						<td align="right">386</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:12.95%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">12.95%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">105</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:31.43%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">31.43%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10989" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1930">10989&nbsp;-&nbsp;Bomb, Divide and Conquer</a></td>
+						<td align="right">2328</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:34.36%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">34.36%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">507</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:80.87%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">80.87%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10990" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1931">10990&nbsp;-&nbsp;Another New Function</a></td>
+						<td align="right">4184</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:63.48%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">63.48%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1372</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:95.26%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">95.26%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/y.gif" width="16" height="16" alt="FILE" />
+                        			</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10991" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1932">10991&nbsp;-&nbsp;Region</a></td>
+						<td align="right">3155</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:72.84%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">72.84%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">1715</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:97.14%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">97.14%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10992" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1933">10992&nbsp;-&nbsp;The Ghost of Programmers</a></td>
+						<td align="right">2921</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:25.06%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">25.06%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">803</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:71.98%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">71.98%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10993" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1934">10993&nbsp;-&nbsp;Ignoring Digits</a></td>
+						<td align="right">983</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:35.91%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">35.91%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">283</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:75.62%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">75.62%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10994" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1935">10994&nbsp;-&nbsp;Simple Addition</a></td>
+						<td align="right">11481</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:29.43%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">29.43%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">2699</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:64.88%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">64.88%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10995" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1936">10995&nbsp;-&nbsp;Educational Journey</a></td>
+						<td align="right">290</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:56.90%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">56.90%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">146</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:88.36%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">88.36%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10996" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1937">10996&nbsp;-&nbsp;Go</a></td>
+						<td align="right">217</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:47.93%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">47.93%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">106</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:81.13%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">81.13%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10997" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1938">10997&nbsp;-&nbsp;Medals</a></td>
+						<td align="right">643</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:39.19%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">39.19%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">241</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:83.40%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">83.40%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry1">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10998" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1939">10998&nbsp;-&nbsp;Flipping Colors</a></td>
+						<td align="right">600</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:58.83%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">58.83%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">321</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:91.28%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">91.28%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+				<tr class="sectiontableentry2">
+			<td align="center">
+			                                <img src="components/com_onlinejudge/images/g.gif" width="16" height="16" alt="FILE" />
+						</td>
+			<td>
+						<a href="https://www.udebug.com/UVa/10999" target=="_new"><img src="/images/12x12_Bug.png" width="12" height="12" alt="uDebug" /></a>
+						</td>
+			<td><a href="index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;page=show_problem&amp;problem=1940">10999&nbsp;-&nbsp;Crabbles</a></td>
+						<td align="right">2006</td>
+			<td>
+			
+
+			
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:34.45%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">34.45%</div>
+	</div>
+
+
+			
+			</td>
+
+
+									<td align="right">460</td>
+			<td>
+	<div style="width:150px;height:15px;background-color:#ff0000;position:relative;">
+	<div style="width:78.04%;height:100%;background-color:#00ff00;"></div>
+	<div style="width:100%;height:100%;text-align:center;position:absolute;top:-2px;left:0;font-size:13;font-family:Tahoma,Verdana,Arial,sans-serif;">78.04%</div>
+	</div>
+
+
+
+			</td>
+                        		</tr>
+			</table>
+	<table cellpadding="4" cellspacing="0" border="0" width="100%">
+		<tr class="sectiontableheader">
+			<td colspan="3" align="center">
+			<span class="pagenav">&lt;&lt;&nbsp;Start</span> <span class="pagenav">&lt;&nbsp;Prev</span> <span class="pagenav">1</span> <span class="pagenav">Next&nbsp;&gt;</span> <span class="pagenav">End&nbsp;&gt;&gt;</span>			</td>
+		</tr>
+		<tr class="sectiontableentry">
+			<td align="right" width="48%">Display #</td>
+			<td align="center" width="4%">
+			
+<select name="limit" class="inputbox" size="1" onchange="document.location.href='https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21&amp;limit=' + this.options[selectedIndex].value + '&amp;limitstart=0';">
+	<option value="5">5</option>
+	<option value="10">10</option>
+	<option value="15">15</option>
+	<option value="20">20</option>
+	<option value="25">25</option>
+	<option value="30">30</option>
+	<option value="50">50</option>
+</select>
+			</td>
+			<td align="left" width="48%">
+			Results 1 - 100 of 100			</td>
+		</tr>
+	</table>
+					</div>
+      </div>
+	  
+      <!-- IE Column Clearing -->
+         <div id="ie_clearing">&nbsp;</div>
+      <!-- Ende: IE Column Clearing -->	  
+	</div>
+<!-- #main: Content End -->
+
+</div>
+
+<!-- #footer: Start -->
+<div id="footer" style="text-align:center;">
+<!--	<a href="http://www.hieblmedia.de"><img src="https://onlinejudge.org/templates/hm_yaml_2_5/img/hieblmedia_logo.jpg" border="0" alt="HieblMedia WebSolutions"/></a><br />
+-->
+<!--		<a href="http://yaml.to-joomla.de" target="_blank">YAML to Joomla Template</a> &copy; 2006 - 2022 by Reinhard Hiebl [ <a href="http://www.hieblmedia.de">HieblMedia</a> ]<br />
+	-->
+	
+<!--    <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img
+            src="http://www.w3.org/Icons/valid-xhtml10"
+	            alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+
+<a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=207390&amp;t=209" target="_new"><img border="0" alt="Firefox 2" title="Firefox 2" src="http://sfx-images.mozilla.org/affiliates/Buttons/firefox2/firefox-spread-btn-1.png"/></a> -->
+
+<script type="text/javascript">
+google_ad_client = "ca-pub-2439032012840386";
+google_ad_slot = "7763957826";
+google_ad_width = 728;
+google_ad_height = 90;
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+
+
+<!--	<a href="http://validator.w3.org/check?uri=http://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21" target="_blank">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=21" target="_blank">CSS</a> | -->
+
+	
+<!--	 <hr />	<div align="center">
+	&copy; 2022 Online Judge</div>
+
+<div align="center">
+	<a href="http://www.joomla.org">Joomla!</a> is Free Software released under the GNU/GPL License.</div> -->
+<!--	<br /><div id="loading_template_time">Load Total: 0,025 sec. </div>-->
+</div>
+<!-- #footer: End -->
+
+</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9887308-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+<!-- 1659440376 -->

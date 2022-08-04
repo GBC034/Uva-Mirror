@@ -1,0 +1,887 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<!-- EfA Scripts -->
+<script type="text/javascript" src="https://onlinejudge.org/templates/hm_yaml_2_5/js/efa/cookies.js"></script>
+<!-- // -->
+<title>Online Judge</title>
+<meta name="description" content="Online Judge" />
+<meta name="keywords" content="programming, contest, online, judge, problemset" />
+<meta name="Generator" content="Joomla! - Copyright (C) 2005 - 2007 Open Source Matters. All rights reserved." />
+<meta name="robots" content="index, follow" />
+<link rel="stylesheet" href="components/com_onlinejudge/css/onlinejudge.css" type="text/css" />
+<link rel="stylesheet" href="components/com_onlinejudge/css/tabber.css" type="text/css" />
+<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/layout_3col_vlines.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+	<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/explorer/iehacks_3col_vlines.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style type="text/css">
+#page_margins {min-width: 756px; max-width: 90em; }
+</style>
+
+			<!--[if lt IE 7]>
+				<script defer type="text/javascript" src="https://onlinejudge.org/templates/hm_yaml_2_5/js/pngfix.js"></script>
+			<![endif]-->
+		
+
+		<style type="text/css">
+		#page_margins {
+			margin:auto;
+		}
+		</style>
+		
+<link href="https://onlinejudge.org/templates/hm_yaml_2_5/css/navigation/nav_vlist.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="https://onlinejudge.org/images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="audience" content="All"/>
+<meta name="revisit-after" content="1 Day"/>
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-floating"};
+</script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+
+
+
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:10000;"></div>
+<!-- <script type="text/javascript">if (efa_fontSize) efa_fontSize.efaInit();</script> -->
+<a id="start" name="start"></a>
+
+<div id="page_margins">
+<div id="page" class="hold_floats">
+
+<!-- #header: Start -->
+<div id="header">
+	<div id="topnav">
+		<a class="skip" href="#navigation" title="Direkt zur Navigation springen">Zur Navigation springen</a>
+		<a class="skip" href="#content" title="Direkt zum Content springen">Zum Content springen</a>	
+			</div>
+	<img src="https://onlinejudge.org/templates/hm_yaml_2_5/./img/ojlogo2.svg.png" alt="Online Judge"/>
+	<div id="headbanner" style="width:728px;height:90px;position:absolute;right:25px;top:25px;">
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-2439032012840386";
+	google_ad_slot = "8272437788";
+	google_ad_width = 728;
+	google_ad_height = 90;
+	</script>
+	<script type="text/javascript"
+	src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+	--> 
+	</div>
+</div>
+<!-- #header: End -->
+
+<!-- #nav: Start -->
+<div id="nav">
+	<a id="navigation" name="navigation"></a>
+	<div id="nav_main" >
+			</div>
+</div>
+<!-- #nav: End -->
+
+<!-- #toolbar_box: Start -->
+<div class="clearfix" id="toolbar_box">
+	<div class="tool_pathway">
+		<span class="pathway"><a href="https://onlinejudge.org/index.php" class="pathway">Home</a> <img src="https://onlinejudge.org/templates/hm_yaml_2_5/images/arrow.png" border="0" alt="arrow" /> <a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=5&amp;Itemid=18" class="pathway">Site Statistics</a> <img src="https://onlinejudge.org/templates/hm_yaml_2_5/images/arrow.png" border="0" alt="arrow" />   Yearly Statistics </span>	</div>
+<!--	<div class="tool_searchbox">
+		<form action="index.php" method="get">
+			<input class="inputbox" type="text" name="searchword" size="25" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" />
+			<input type="hidden" name="option" value="com_search" />
+		</form>
+	</div>-->
+	<div class="tool_fontsize">
+		<script type="text/javascript">	
+	<!--		if (efa_fontSize) document.write(efa_fontSize.allLinks);	-->
+		</script>
+	</div>
+	</div>
+<!-- #toolbar_box: End -->
+
+<!-- #main: Content Start -->
+<div id="main">
+
+
+<!-- #col1: Left Column of Content -->
+    <div id="col1">
+		<div id="col1_content" class="clearfix">
+			<!-- <div style="width:100%;text-align:center;">
+			<iframe src="http://www.indiegogo.com/project/361690/widget/2710044" width="224px" height="486px" frameborder="0" scrolling="no"></iframe></div> -->
+                        		<div class="moduletable">
+							<h3>
+					Login				</h3>
+				<form action="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=login" method="post" id="mod_loginform" style="margin:0px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mod_login">
+<tr><td><span id="mod_login_usernametext"><label for="mod_login_username">Username</label></span><br />
+<input type="text" name="username" id="mod_login_username" class="inputbox" size="10" /><br />
+<span id="mod_login_passwordtext"><label for="mod_login_password">Password</label></span><br /><span><input type="password" name="passwd" id="mod_login_password" class="inputbox" size="10" /></span><br />
+<input type="hidden" name="op2" value="login" />
+<input type="hidden" name="lang" value="english" />
+<input type="hidden" name="force_session" value="1" />
+<input type="hidden" name="return" value="B:aHR0cDovL29ubGluZWp1ZGdlLm9yZy9pbmRleC5waHA/b3B0aW9uPWNvbV9vbmxpbmVqdWRnZSZhbXA7SXRlbWlkPTIzJmFtcDtleHBhbmQ9MjAyMg==" />
+<input type="hidden" name="message" value="0" />
+<input type="hidden" name="loginfrom" value="loginmodule" />
+<input type="hidden" name="cbsecuritym3" value="cbm_6ad4bdb1_0cdff67e_071fee88246a32fda6775938136b894b" />
+<input type="hidden" name="jf56b215638be61c315e8642d50b6142d" value="1" />
+<input type="checkbox" name="remember" id="mod_login_remember" value="yes" /> <span id="mod_login_remembermetext"><label for="mod_login_remember">Remember me</label></span><br />
+<input type="submit" name="Submit" class="button" value="Login" /></td></tr>
+<tr><td><a href="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=lostPassword" class="mod_login">Forgot login?</a></td></tr>
+<tr><td>No account yet? <a href="https://onlinejudge.org/index.php?option=com_comprofiler&amp;task=registers" class="mod_login">Register</a></td></tr>
+</table></form>		</div>
+							<div class="moduletable">
+			<!-- SiteSearch Google -->
+
+<form action="https://www.google.com/cse" id="cse-search-box" target="_blank">
+<div>
+<input type="hidden" name="cx" value="partner-pub-2439032012840386:3416984485" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="text" name="q" size="19" />
+<input type="submit" name="sa" value="Search" />
+</div>
+</form>
+<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+<!-- SiteSearch Google -->
+		</div>
+				<div class="moduletable">
+							<h3>
+					Main Menu				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_frontpage&amp;Itemid=1" class="mainlevel" >Home</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_contact&amp;Itemid=4" class="mainlevel" >Contact Us</a></td></tr>
+<tr align="left"><td><a href="http://livearchive.onlinejudge.org" target="_blank" class="mainlevel" >ICPC Live Archive</a></td></tr>
+</table>		</div>
+				<div class="moduletable">
+							<h3>
+					Online Judge				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="http://uhunt.felix-halim.net/id/0" target="_blank" class="mainlevel" >My uHunt with Virtual Contest Service</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8" class="mainlevel" >Browse Problems</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/local/online_judge/search_uva.html" target="_blank" class="mainlevel" >Quick access, info and search</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=44" class="mainlevel" >Problemsetters' Credits</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/local/online_judge/public_uva.html" target="_blank" class="mainlevel" >Live Rankings</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=5&amp;Itemid=18" class="mainlevel" >Site Statistics</a>
+
+<div style="padding-left: 4px"><img src="https://onlinejudge.org/templates/hm_yaml_2_5/images/indent1.png" alt="" /><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=19" class="sublevel" >Last 50 Submissions</a></div>
+<div style="padding-left: 4px"><img src="https://onlinejudge.org/templates/hm_yaml_2_5/images/indent1.png" alt="" /><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=20" class="sublevel" >Authors Ranklist</a></div>
+<div style="padding-left: 4px"><img src="https://onlinejudge.org/templates/hm_yaml_2_5/images/indent1.png" alt="" /><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=23" class="sublevel" id="active_menu">Yearly Statistics</a></div>
+</td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=10" class="mainlevel" >Contests</a></td></tr>
+<tr align="left"><td><a href="https://uva.onlinejudge.org/board/" class="mainlevel" >Electronic Board</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=29" class="mainlevel" >Additional Information</a></td></tr>
+<tr align="left"><td><a href="https://onlinejudge.org/index.php?option=com_content&amp;task=view&amp;id=17&amp;Itemid=32" class="mainlevel" >Other Links</a></td></tr>
+</table>		</div>
+														<div style="text-align:center;">
+			<a href="http://uhunt.felix-halim.net/" target="_new">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAABGdBTUEAALGPC/xhBQAAAQtQTFRFRkZGRkZpRkaJRmmoRonGUVFRXFxcXV1daGhoaUZGaajic3NzdHR0fn5+iUZGicb/ioqKlZWVoqKiqGlGqMb/qOL/q6urra2tt7e3uLi4wsLCwxdWwxd1wxeSw0avw2/KxMTExiVgxolGxsb/xuL/xv//yjNqyjRrzhdWzkF1zpbl0lB/0lGA1V2J1xdW1xeS17r/2WyU2W2V3Hqe3Xuf3Xyf4Iip4UZW4Yqq4d3/4qhp4qiJ4v//5Jay5Zq15ubm5+fn6KS96Ke/7G9W7LTI7LbK7LrK7P//8vLy9ZZ19d3/9f//9+Hp+OHq+/D0/7qS/8aJ/92v/+Ko/+LG///G///K///i///l////+YMcUAAAA99JREFUaN7tm2tf0zAUh4NuDAbIinKNOjaVyZjagXjBywYD7ZQVRNR+/09imvSSW7u1NukLc15sy6V9Tv45SZP9GuAJNjk77u3Bwmyvd3w2ESmAp74rkEnRP09SwZNDqMwOJ4lgVyEWo105+KIFFVvrQgbuQw12LIDdA6jFDlwW7O5DTbbvMuADqM1e0OA+1GivY/A51GrnIdht6QW33ADch5qtT8CXULtdYnBfP7jvg0tosN9k4L0pA/wJgTtlgDseKEVppDU4LQd8Co7KAR+BXjngHuiUA+4AWJIZsAH/N+BHX/110a+XfM4VhA/f48XamKnfxXk/nqsEyyBSZwoHP/7u//rzlqouyVIAljQvu9J5wBKMjXNGUDFYEFasrQYsaN30ojKlYEHrHErnA3Na85UDRdKjLReY05pVmlScis4F5rRmlCZqRJYYcfnAjNakJPAikjm0caHg4PYjSumxILudKnY+MNOtNh1pdgwj3iVpnRNMlTNKE59GUPSoIDAVUM3ErlQCjrVOun0Q3hnBYv9w4MgzXmk+tIsGR1o3+emSG8i5wPRFPDjU2k6YLnOCxZ4jDRnzUfBKKgQRwc4NphUUgpfU+MLWC3Qe5Y5qcZWR4Ak3IXfpWrnAwW254SNGmydROqglxsks4DBIyHVh6krsDVYHW5jDs4JpJT0Jga5B6dCNYKznWbYwtsgdS2Y3NpsbxCkropS9k0C+kldg2tSlh/C3lAdy2qaNdV/UrClb3nQpP7spD+Qpu0U7qbWU1mPpNfFmZ2T2xwZswAZswAZswAbMgY0ZM2bM2D/Y3Y+394Kfd579vj+1dht91r1rzeC5da9UsH6plYLDjDB1s1hH+23sUh1vwttEaqbEt1WUuEaf7YLAP5+SfwlOBDBV4ifx79snhYHxjZHGfi4dXEKJ/1XHjs0Ipv5ykYKDBvkpDkyVVDxyVaU4MOlDkmLBdMkq8QKl5OBadqnpFAumSuJwlwZXDSwrA4fBLQUvA6ucFltgSxE46mP5FLMFBrOAiWp1Lws4PaoHwKtNBccjMgs4uKoiHcc1D3gb0+fqChlaH9ZFMJ4WT2TgcFjePJCANxB4MMNDAo1F5PecDIwahqAycNpcPfBfgW2oXVfIgquB370dqAGGawNKQKrB+DVnNU2ukIcU6ulrSYMx2KkqkpjYzSJXUnXCV9l3gKo2S8fSTvzyvqVzFWvRxxWW9HFXmHMSzoIu7oLDHklxNLV5xREO4Vj6+pc7drRbVY2t7soPWjmKJ8+Gk3i0bKgQ3RimHqYbbs6roM5vDqec4kPo7TVrqUD6/JK1tj0UMH8Bt4PfPqA/FOsAAAAASUVORK5CYII=" alt="uHunt" width="80" /><br/><br/></a>
+			<a href="https://www.udebug.com/UVa" target="_new"><img src="https://www.udebug.com/sites/default/files/udebug_logo_small.png" width="150" alt="uDebug" /></a>
+			</div>
+			<!--<div style="border-width:1px;border-style:solid;border-color:#000088;width=100%;text-align:center;margin-top:30px;">
+			<div style="background-color:#000088;color:white;text-align:left;">With the collaboration of</div>
+			<a href="http://www.relint.uva.es" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_uva.jpg" alt="UVa" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://icpc.baylor.edu" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_icpc.jpg" alt="ICPC" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://www.funge.uva.es" target="_new"><img src="https://uva.onlinejudge.org/images/funge_new.png" alt="Funge" style="padding-top:10px;padding-bottom:10px;"/></a>
+			<a href="http://www.parquecientificouva.es" target="_new"><img src="https://uva.onlinejudge.org/images/collaborators_parque.jpg" alt="Parque Cient&iacute;fico UVa" style="padding-top:10px;padding-bottom:10px;"/></a>
+			</div>-->
+		</div>
+    </div>
+<!-- #col1: End -->
+
+<!-- #col2: Right Column of Content -->
+    <div id="col2">
+		<div id="col2_content" class="clearfix">
+						<div class="moduletable">
+							<h3>
+					Our Patreons				</h3>
+				<h2><strong style="color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif; font-size: 13.3328px">Diamond Sponsors</strong></h2><p>Steven &amp; Felix Halim</p><p>Reinardus Pradhitya<span style="font-size: 13.3328px">&nbsp;</span></p><h2><strong style="color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif; font-size: 13.3328px">Gold Sponsors</strong></h2><p style="font-size: 13.3328px">--- YOUR NAME HERE ----<span style="font-size: 13.3328px">&nbsp;</span></p><h2 style="font-size: 13.3328px"><strong style="font-size: 13.3328px; color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif">Silver Sponsors</strong></h2><p style="font-size: 13.3328px"><span style="font-size: 13.3328px">--- YOUR NAME HERE ----</span>&nbsp;<span style="font-size: 13.3328px">&nbsp;</span></p><h2 style="font-size: 13.3328px"><strong style="font-size: 13.3328px; color: #660000; font-family: &quot;Lucida Grande&quot;, Verdana, Arial, sans-serif">Bronze Sponsors</strong></h2><p style="font-size: 13.3328px">Christianto Handojo</p><p style="font-size: 13.3328px">Krzysztof Adamek</p><p style="font-size: 13.3328px">Fatima Broom</p><p style="font-size: 13.3328px"><a href="https://techbuy.in/upgrad-referral-code" target="_blank">Amal Augustine<img style="font-size: 13.3328px" src="/images/techbuy_logo.png" alt="TechBuy" width="100" height="27" align="absmiddle" /></a> </p>		</div>
+				<div class="moduletable">
+							<h3>
+					Contribute				</h3>
+				<p style="text-align: center"><a href="https://www.patreon.com/onlinejudge" target="_blank"><img src="images/patronbutton.png" alt="Become a patron" title="Become a patron" width="230" height="76" align="baseline" /></a></p><p style="text-align: center"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=D7XA3E822BTP8&amp;source=url" target="_blank"><img style="font-size: 13.3328px" src="https://www.paypalobjects.com/en_US/ES/i/btn/btn_donateCC_LG.gif" alt="PayPal" title="PayPal" width="152" height="47" /></a> &nbsp;</p><p style="text-align: center"><img src="images/bitcoinqr.png" alt="1ojudgeapLUjJcnUmze67a4w3TJ6WnPxo" title="1ojudgeapLUjJcnUmze67a4w3TJ6WnPxo" width="200" height="200" /></p><p style="text-align: center"><span style="font-size: 13.3328px">Bitcoin:&nbsp;</span></p><p style="text-align: center"><span style="font-size: 13.3328px; text-align: left">1ojudgeapLUjJcnU</span><span style="font-size: 13.3328px; text-align: left">m</span></p><p style="text-align: center"><span style="font-size: 13.3328px; text-align: left">ze</span><span style="font-size: 13.3328px; text-align: left">67a4w3TJ6WnPxo</span><span style="font-size: 13.3328px">&nbsp;</span></p>		</div>
+													</div>
+    </div>
+<!-- #col2: End -->
+
+<!-- #col3: Main Content -->
+    <div id="col3">
+      <div id="col3_content" class="clearfix">
+	  	<div id="col3_content_wrapper" class="floatbox">
+		  <a id="content" name="content"></a>
+						
+	<script type="text/javascript" src="components/com_onlinejudge/Graphs/excanvas.js"></script>
+	<script type="text/javascript" src="components/com_onlinejudge/Graphs/prototype.js"></script>
+	<script type="text/javascript" src="components/com_onlinejudge/Graphs/plotr.js"></script>
+
+	<div class="componentheading" style="margin-bottom:15px;">Yearly Statistics</div>
+
+	<table cellpadding="4" cellspacing="0" border="0" style="width:70%;" align="center">
+	<tr class="sectiontableheader">
+	<td></td>
+	<td align="center">Total</td>
+		<td colspan="2" align="center">ANSI C</td>
+		<td colspan="2" align="center">JAVA</td>
+		<td colspan="2" align="center">C++</td>
+		<td colspan="2" align="center">PASCAL</td>
+		<td colspan="2" align="center">C++11</td>
+		<td colspan="2" align="center">PYTH3</td>
+		</tr>
+
+				<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=1997">1997</a></td>
+			<td align="right">4031</td>
+						<td align="right">3390</td>
+			<td align="right">84.10%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">639</td>
+			<td align="right">15.85%</td>
+						<td align="right">2</td>
+			<td align="right">0.05%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																											<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=1998">1998</a></td>
+			<td align="right">42375</td>
+						<td align="right">24697</td>
+			<td align="right">58.28%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">13859</td>
+			<td align="right">32.71%</td>
+						<td align="right">3819</td>
+			<td align="right">9.01%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=1999">1999</a></td>
+			<td align="right">109202</td>
+						<td align="right">44860</td>
+			<td align="right">41.08%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">42226</td>
+			<td align="right">38.67%</td>
+						<td align="right">22116</td>
+			<td align="right">20.25%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2000">2000</a></td>
+			<td align="right">199523</td>
+						<td align="right">71895</td>
+			<td align="right">36.03%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">95173</td>
+			<td align="right">47.70%</td>
+						<td align="right">32455</td>
+			<td align="right">16.27%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2001">2001</a></td>
+			<td align="right">345305</td>
+						<td align="right">124223</td>
+			<td align="right">35.97%</td>
+						<td align="right">3029</td>
+			<td align="right">0.88%</td>
+						<td align="right">187852</td>
+			<td align="right">54.40%</td>
+						<td align="right">30201</td>
+			<td align="right">8.75%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2002">2002</a></td>
+			<td align="right">610151</td>
+						<td align="right">227779</td>
+			<td align="right">37.33%</td>
+						<td align="right">13567</td>
+			<td align="right">2.22%</td>
+						<td align="right">305969</td>
+			<td align="right">50.15%</td>
+						<td align="right">62836</td>
+			<td align="right">10.30%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2003">2003</a></td>
+			<td align="right">874762</td>
+						<td align="right">282206</td>
+			<td align="right">32.26%</td>
+						<td align="right">37726</td>
+			<td align="right">4.31%</td>
+						<td align="right">481173</td>
+			<td align="right">55.01%</td>
+						<td align="right">73657</td>
+			<td align="right">8.42%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2004">2004</a></td>
+			<td align="right">998194</td>
+						<td align="right">279821</td>
+			<td align="right">28.03%</td>
+						<td align="right">41387</td>
+			<td align="right">4.15%</td>
+						<td align="right">607279</td>
+			<td align="right">60.84%</td>
+						<td align="right">69707</td>
+			<td align="right">6.98%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2005">2005</a></td>
+			<td align="right">1050528</td>
+						<td align="right">275220</td>
+			<td align="right">26.20%</td>
+						<td align="right">64898</td>
+			<td align="right">6.18%</td>
+						<td align="right">662432</td>
+			<td align="right">63.06%</td>
+						<td align="right">47978</td>
+			<td align="right">4.57%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2006">2006</a></td>
+			<td align="right">999155</td>
+						<td align="right">221526</td>
+			<td align="right">22.17%</td>
+						<td align="right">61752</td>
+			<td align="right">6.18%</td>
+						<td align="right">684062</td>
+			<td align="right">68.46%</td>
+						<td align="right">31815</td>
+			<td align="right">3.18%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2007">2007</a></td>
+			<td align="right">914504</td>
+						<td align="right">208229</td>
+			<td align="right">22.77%</td>
+						<td align="right">64815</td>
+			<td align="right">7.09%</td>
+						<td align="right">619607</td>
+			<td align="right">67.75%</td>
+						<td align="right">21853</td>
+			<td align="right">2.39%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2008">2008</a></td>
+			<td align="right">730266</td>
+						<td align="right">148037</td>
+			<td align="right">20.27%</td>
+						<td align="right">66985</td>
+			<td align="right">9.17%</td>
+						<td align="right">507514</td>
+			<td align="right">69.50%</td>
+						<td align="right">7730</td>
+			<td align="right">1.06%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2009">2009</a></td>
+			<td align="right">782065</td>
+						<td align="right">150784</td>
+			<td align="right">19.28%</td>
+						<td align="right">80082</td>
+			<td align="right">10.24%</td>
+						<td align="right">543717</td>
+			<td align="right">69.52%</td>
+						<td align="right">7482</td>
+			<td align="right">0.96%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2010">2010</a></td>
+			<td align="right">828697</td>
+						<td align="right">135284</td>
+			<td align="right">16.32%</td>
+						<td align="right">89154</td>
+			<td align="right">10.76%</td>
+						<td align="right">592933</td>
+			<td align="right">71.55%</td>
+						<td align="right">11326</td>
+			<td align="right">1.37%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2011">2011</a></td>
+			<td align="right">1104715</td>
+						<td align="right">201236</td>
+			<td align="right">18.22%</td>
+						<td align="right">118430</td>
+			<td align="right">10.72%</td>
+						<td align="right">776199</td>
+			<td align="right">70.26%</td>
+						<td align="right">8850</td>
+			<td align="right">0.80%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2012">2012</a></td>
+			<td align="right">1468476</td>
+						<td align="right">236197</td>
+			<td align="right">16.08%</td>
+						<td align="right">165517</td>
+			<td align="right">11.27%</td>
+						<td align="right">1054852</td>
+			<td align="right">71.83%</td>
+						<td align="right">11910</td>
+			<td align="right">0.81%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2013">2013</a></td>
+			<td align="right">1798658</td>
+						<td align="right">274865</td>
+			<td align="right">15.28%</td>
+						<td align="right">205596</td>
+			<td align="right">11.43%</td>
+						<td align="right">1308937</td>
+			<td align="right">72.77%</td>
+						<td align="right">9260</td>
+			<td align="right">0.51%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2014">2014</a></td>
+			<td align="right">1784857</td>
+						<td align="right">268945</td>
+			<td align="right">15.07%</td>
+						<td align="right">200874</td>
+			<td align="right">11.25%</td>
+						<td align="right">1035314</td>
+			<td align="right">58.01%</td>
+						<td align="right">5062</td>
+			<td align="right">0.28%</td>
+						<td align="right">274662</td>
+			<td align="right">15.39%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2015">2015</a></td>
+			<td align="right">1880405</td>
+						<td align="right">259711</td>
+			<td align="right">13.81%</td>
+						<td align="right">205255</td>
+			<td align="right">10.92%</td>
+						<td align="right">902175</td>
+			<td align="right">47.98%</td>
+						<td align="right">9855</td>
+			<td align="right">0.52%</td>
+						<td align="right">503409</td>
+			<td align="right">26.77%</td>
+						<td align="right">0</td>
+			<td align="right">0.00%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2016">2016</a></td>
+			<td align="right">1903677</td>
+						<td align="right">250799</td>
+			<td align="right">13.17%</td>
+						<td align="right">208087</td>
+			<td align="right">10.93%</td>
+						<td align="right">681812</td>
+			<td align="right">35.82%</td>
+						<td align="right">6621</td>
+			<td align="right">0.35%</td>
+						<td align="right">728725</td>
+			<td align="right">38.28%</td>
+						<td align="right">27633</td>
+			<td align="right">1.45%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2017">2017</a></td>
+			<td align="right">1974711</td>
+						<td align="right">231972</td>
+			<td align="right">11.75%</td>
+						<td align="right">170582</td>
+			<td align="right">8.64%</td>
+						<td align="right">577703</td>
+			<td align="right">29.26%</td>
+						<td align="right">2620</td>
+			<td align="right">0.13%</td>
+						<td align="right">938582</td>
+			<td align="right">47.53%</td>
+						<td align="right">53252</td>
+			<td align="right">2.70%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2018">2018</a></td>
+			<td align="right">1948501</td>
+						<td align="right">232143</td>
+			<td align="right">11.91%</td>
+						<td align="right">164059</td>
+			<td align="right">8.42%</td>
+						<td align="right">517906</td>
+			<td align="right">26.58%</td>
+						<td align="right">2804</td>
+			<td align="right">0.14%</td>
+						<td align="right">971810</td>
+			<td align="right">49.87%</td>
+						<td align="right">59779</td>
+			<td align="right">3.07%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2019">2019</a></td>
+			<td align="right">1715180</td>
+						<td align="right">242462</td>
+			<td align="right">14.14%</td>
+						<td align="right">133015</td>
+			<td align="right">7.76%</td>
+						<td align="right">391190</td>
+			<td align="right">22.81%</td>
+						<td align="right">1690</td>
+			<td align="right">0.10%</td>
+						<td align="right">889742</td>
+			<td align="right">51.87%</td>
+						<td align="right">57081</td>
+			<td align="right">3.33%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2020">2020</a></td>
+			<td align="right">1445197</td>
+						<td align="right">97414</td>
+			<td align="right">6.74%</td>
+						<td align="right">130078</td>
+			<td align="right">9.00%</td>
+						<td align="right">290135</td>
+			<td align="right">20.08%</td>
+						<td align="right">815</td>
+			<td align="right">0.06%</td>
+						<td align="right">863676</td>
+			<td align="right">59.76%</td>
+						<td align="right">63079</td>
+			<td align="right">4.36%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry1"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2021">2021</a></td>
+			<td align="right">1161143</td>
+						<td align="right">61319</td>
+			<td align="right">5.28%</td>
+						<td align="right">86107</td>
+			<td align="right">7.42%</td>
+						<td align="right">228717</td>
+			<td align="right">19.70%</td>
+						<td align="right">352</td>
+			<td align="right">0.03%</td>
+						<td align="right">727811</td>
+			<td align="right">62.68%</td>
+						<td align="right">56837</td>
+			<td align="right">4.89%</td>
+						</tr>
+																																																																													<tr class="sectiontableentry2"><td><a href="index.php?option=com_onlinejudge&amp;Itemid=23">2022</a></td>
+			<td align="right">572652</td>
+						<td align="right">32412</td>
+			<td align="right">5.66%</td>
+						<td align="right">27295</td>
+			<td align="right">4.77%</td>
+						<td align="right">87215</td>
+			<td align="right">15.23%</td>
+						<td align="right">96</td>
+			<td align="right">0.02%</td>
+						<td align="right">396425</td>
+			<td align="right">69.23%</td>
+						<td align="right">29209</td>
+			<td align="right">5.10%</td>
+						</tr>
+					<tr><td align="right">January</td>
+			<td align="right">88445</td>
+						<td align="right">4741			</td>
+			<td align="right">5.36%</td>
+						<td align="right">5889			</td>
+			<td align="right">6.66%</td>
+						<td align="right">12895			</td>
+			<td align="right">14.58%</td>
+						<td align="right">13			</td>
+			<td align="right">0.01%</td>
+						<td align="right">58691			</td>
+			<td align="right">66.36%</td>
+						<td align="right">6216			</td>
+			<td align="right">7.03%</td>
+						</tr>
+						<tr><td align="right">February</td>
+			<td align="right">76161</td>
+						<td align="right">3777			</td>
+			<td align="right">4.96%</td>
+						<td align="right">4518			</td>
+			<td align="right">5.93%</td>
+						<td align="right">9653			</td>
+			<td align="right">12.67%</td>
+						<td align="right">15			</td>
+			<td align="right">0.02%</td>
+						<td align="right">54126			</td>
+			<td align="right">71.07%</td>
+						<td align="right">4072			</td>
+			<td align="right">5.35%</td>
+						</tr>
+						<tr><td align="right">March</td>
+			<td align="right">93090</td>
+						<td align="right">5229			</td>
+			<td align="right">5.62%</td>
+						<td align="right">5224			</td>
+			<td align="right">5.61%</td>
+						<td align="right">12145			</td>
+			<td align="right">13.05%</td>
+						<td align="right">13			</td>
+			<td align="right">0.01%</td>
+						<td align="right">65150			</td>
+			<td align="right">69.99%</td>
+						<td align="right">5329			</td>
+			<td align="right">5.72%</td>
+						</tr>
+						<tr><td align="right">April</td>
+			<td align="right">82760</td>
+						<td align="right">4804			</td>
+			<td align="right">5.80%</td>
+						<td align="right">3636			</td>
+			<td align="right">4.39%</td>
+						<td align="right">11959			</td>
+			<td align="right">14.45%</td>
+						<td align="right">19			</td>
+			<td align="right">0.02%</td>
+						<td align="right">58120			</td>
+			<td align="right">70.23%</td>
+						<td align="right">4222			</td>
+			<td align="right">5.10%</td>
+						</tr>
+						<tr><td align="right">May</td>
+			<td align="right">78365</td>
+						<td align="right">4701			</td>
+			<td align="right">6.00%</td>
+						<td align="right">3562			</td>
+			<td align="right">4.55%</td>
+						<td align="right">14776			</td>
+			<td align="right">18.86%</td>
+						<td align="right">14			</td>
+			<td align="right">0.02%</td>
+						<td align="right">51850			</td>
+			<td align="right">66.16%</td>
+						<td align="right">3462			</td>
+			<td align="right">4.42%</td>
+						</tr>
+						<tr><td align="right">June</td>
+			<td align="right">74795</td>
+						<td align="right">5010			</td>
+			<td align="right">6.70%</td>
+						<td align="right">2493			</td>
+			<td align="right">3.33%</td>
+						<td align="right">15401			</td>
+			<td align="right">20.59%</td>
+						<td align="right">14			</td>
+			<td align="right">0.02%</td>
+						<td align="right">48158			</td>
+			<td align="right">64.39%</td>
+						<td align="right">3719			</td>
+			<td align="right">4.97%</td>
+						</tr>
+						<tr><td align="right">July</td>
+			<td align="right">76355</td>
+						<td align="right">4079			</td>
+			<td align="right">5.34%</td>
+						<td align="right">1845			</td>
+			<td align="right">2.42%</td>
+						<td align="right">9989			</td>
+			<td align="right">13.08%</td>
+						<td align="right">8			</td>
+			<td align="right">0.01%</td>
+						<td align="right">58277			</td>
+			<td align="right">76.32%</td>
+						<td align="right">2157			</td>
+			<td align="right">2.82%</td>
+						</tr>
+						<tr><td align="right">August</td>
+			<td align="right">2681</td>
+						<td align="right">71			</td>
+			<td align="right">2.65%</td>
+						<td align="right">128			</td>
+			<td align="right">4.77%</td>
+						<td align="right">397			</td>
+			<td align="right">14.81%</td>
+						<td align="right">0			</td>
+			<td align="right">0.00%</td>
+						<td align="right">2053			</td>
+			<td align="right">76.58%</td>
+						<td align="right">32			</td>
+			<td align="right">1.19%</td>
+						</tr>
+					<tr class="sectiontableheader">
+		<td align="center">Total</td>
+		<td align="right">27246930</td>
+				<td align="right">4587426</td>
+		<td align="right">16.84%</td>
+				<td align="right">2338290</td>
+		<td align="right">8.58%</td>
+				<td align="right">13196590</td>
+		<td align="right">48.43%</td>
+				<td align="right">482912</td>
+		<td align="right">1.77%</td>
+				<td align="right">6294842</td>
+		<td align="right">23.10%</td>
+				<td align="right">346870</td>
+		<td align="right">1.27%</td>
+				</tr>
+	</table>
+
+	<div align="center" style="margin-top:50px;"><div><canvas id="langs" width="600" height="400"></canvas></div></div>
+
+	
+	<script type="text/javascript">
+		var dataset = {
+			'ANSI C': [[0,8],[1,2],[2,51],[3,5],[4,51],[5,47],[6,953],[7,1693],[8,580],[9,922],[10,818],[11,505],[12,343],[13,1495],[14,2653],[15,5254],[16,2344],[17,2093],[18,3140],[19,3108],[20,2022],[21,2492],[22,2962],[23,2700],[24,4081],[25,1842],[26,2241],[27,2959],[28,4246],[29,5695],[30,5954],[31,5798],[32,3890],[33,4667],[34,2977],[35,3229],[36,4802],[37,3510],[38,4915],[39,5554],[40,7690],[41,8359],[42,10544],[43,8923],[44,6725],[45,9045],[46,7531],[47,6795],[48,5624],[49,7526],[50,7964],[51,9908],[52,12126],[53,12942],[54,16466],[55,13217],[56,15079],[57,12226],[58,19527],[59,18765],[60,13885],[61,19163],[62,16440],[63,21080],[64,22604],[65,26084],[66,23963],[67,20397],[68,13645],[69,28533],[70,28474],[71,21224],[72,18259],[73,21702],[74,21755],[75,21417],[76,25130],[77,22546],[78,30194],[79,19671],[80,23301],[81,21177],[82,27679],[83,25444],[84,20847],[85,19687],[86,17545],[87,19540],[88,21163],[89,26679],[90,31705],[91,25074],[92,23281],[93,33294],[94,25274],[95,27012],[96,24864],[97,24915],[98,26981],[99,20433],[100,21004],[101,17189],[102,19786],[103,17128],[104,17340],[105,15205],[106,15035],[107,23775],[108,16163],[109,18858],[110,18903],[111,22543],[112,18938],[113,18811],[114,19355],[115,18288],[116,15652],[117,17645],[118,16672],[119,26373],[120,23552],[121,21191],[122,18150],[123,17574],[124,17777],[125,10800],[126,12556],[127,13974],[128,11965],[129,13363],[130,15326],[131,22200],[132,15769],[133,10720],[134,8531],[135,8731],[136,8720],[137,10157],[138,10564],[139,12610],[140,11346],[141,9798],[142,9964],[143,16653],[144,11867],[145,13216],[146,10499],[147,10830],[148,11183],[149,13196],[150,10525],[151,15057],[152,17996],[153,10956],[154,10490],[155,18578],[156,15629],[157,12016],[158,8187],[159,9872],[160,10034],[161,10016],[162,10841],[163,9154],[164,9511],[165,9879],[166,10331],[167,17468],[168,20467],[169,19731],[170,19735],[171,17207],[172,19784],[173,18658],[174,19421],[175,14561],[176,13994],[177,15000],[178,15162],[179,28090],[180,22067],[181,20721],[182,17131],[183,25393],[184,19867],[185,15002],[186,19994],[187,18218],[188,19552],[189,18367],[190,21142],[191,30030],[192,25917],[193,23495],[194,23788],[195,22486],[196,15961],[197,20837],[198,22503],[199,22750],[200,27589],[201,21512],[202,26970],[203,27921],[204,20841],[205,19039],[206,17328],[207,16664],[208,17948],[209,20474],[210,27492],[211,25359],[212,27397],[213,26190],[214,26463],[215,31556],[216,23830],[217,20929],[218,21296],[219,14446],[220,14585],[221,18652],[222,23526],[223,18835],[224,19403],[225,15468],[226,16776],[227,34696],[228,26050],[229,22891],[230,26303],[231,19062],[232,23290],[233,16442],[234,20654],[235,14015],[236,15152],[237,14735],[238,19362],[239,33220],[240,29477],[241,17398],[242,15142],[243,21438],[244,14356],[245,13285],[246,19890],[247,17454],[248,16215],[249,16799],[250,16723],[251,27767],[252,22482],[253,24056],[254,18184],[255,23988],[256,13080],[257,15020],[258,15623],[259,15806],[260,22615],[261,41013],[262,19531],[263,33678],[264,23737],[265,21751],[266,10313],[267,18536],[268,13127],[269,15169],[270,18649],[271,16229],[272,10729],[273,11336],[274,9534],[275,14811],[276,11675],[277,8262],[278,5089],[279,4900],[280,6211],[281,6616],[282,6970],[283,5685],[284,6325],[285,8554],[286,5835],[287,5253],[288,5005],[289,3918],[290,3922],[291,3338],[292,3829],[293,5485],[294,5030],[295,5606],[296,5544],[297,4741],[298,3777],[299,5229],[300,4804],[301,4701],[302,5010],[303,4079],[304,71]],
+'JAVA': [[0,0],[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0],[10,0],[11,0],[12,0],[13,0],[14,0],[15,0],[16,0],[17,0],[18,0],[19,0],[20,0],[21,0],[22,0],[23,0],[24,0],[25,0],[26,0],[27,0],[28,0],[29,0],[30,0],[31,0],[32,0],[33,0],[34,0],[35,0],[36,0],[37,0],[38,0],[39,0],[40,0],[41,0],[42,0],[43,0],[44,0],[45,0],[46,0],[47,0],[48,0],[49,0],[50,2],[51,0],[52,0],[53,0],[54,1542],[55,856],[56,629],[57,687],[58,788],[59,719],[60,797],[61,933],[62,911],[63,862],[64,892],[65,1672],[66,2341],[67,1784],[68,1181],[69,981],[70,1121],[71,1342],[72,3262],[73,3203],[74,1669],[75,1659],[76,2818],[77,9028],[78,6477],[79,4026],[80,2140],[81,3765],[82,4402],[83,2084],[84,4094],[85,2001],[86,2560],[87,2098],[88,1597],[89,6865],[90,6526],[91,3514],[92,1881],[93,2946],[94,4329],[95,5890],[96,7430],[97,4500],[98,5308],[99,3304],[100,3253],[101,9785],[102,9243],[103,5685],[104,3225],[105,3713],[106,7042],[107,6232],[108,5808],[109,3013],[110,3166],[111,2116],[112,2480],[113,7056],[114,12853],[115,6603],[116,1670],[117,4481],[118,6495],[119,6244],[120,5839],[121,2599],[122,2083],[123,1658],[124,2267],[125,11338],[126,8727],[127,8970],[128,4114],[129,6089],[130,8660],[131,7610],[132,4458],[133,3768],[134,3233],[135,3101],[136,2914],[137,7643],[138,9136],[139,5524],[140,4849],[141,4361],[142,3421],[143,7004],[144,7516],[145,7403],[146,5270],[147,3984],[148,6625],[149,11802],[150,12233],[151,6729],[152,3734],[153,5607],[154,6533],[155,7391],[156,8088],[157,7799],[158,7253],[159,5052],[160,5833],[161,10294],[162,10803],[163,8994],[164,5507],[165,5622],[166,7081],[167,8410],[168,11252],[169,13840],[170,9930],[171,9428],[172,9744],[173,14516],[174,12694],[175,8649],[176,7264],[177,9392],[178,9637],[179,13070],[180,15464],[181,12552],[182,11116],[183,14090],[184,14866],[185,17269],[186,18523],[187,16854],[188,12684],[189,12878],[190,14075],[191,15992],[192,15611],[193,17121],[194,17361],[195,17472],[196,16400],[197,20086],[198,24122],[199,19762],[200,14716],[201,14073],[202,18647],[203,19015],[204,17488],[205,16968],[206,13545],[207,15313],[208,16307],[209,22447],[210,19821],[211,14923],[212,12327],[213,13209],[214,16138],[215,21827],[216,16591],[217,17893],[218,19098],[219,15094],[220,15263],[221,18379],[222,21440],[223,18096],[224,12227],[225,16580],[226,20989],[227,16986],[228,18399],[229,15224],[230,17697],[231,15505],[232,15885],[233,18330],[234,23316],[235,16381],[236,12795],[237,13024],[238,14334],[239,17121],[240,16037],[241,12111],[242,13288],[243,12368],[244,14075],[245,17110],[246,18188],[247,12703],[248,10223],[249,13851],[250,11091],[251,14924],[252,14532],[253,11485],[254,10826],[255,12926],[256,14374],[257,16426],[258,18747],[259,12744],[260,12133],[261,15841],[262,15507],[263,14371],[264,11791],[265,12531],[266,9419],[267,9320],[268,8660],[269,8432],[270,10437],[271,9053],[272,7653],[273,8680],[274,10105],[275,9573],[276,9850],[277,7426],[278,9152],[279,6178],[280,6679],[281,13041],[282,12370],[283,18031],[284,18993],[285,6836],[286,6797],[287,6505],[288,6205],[289,4816],[290,3665],[291,7132],[292,5910],[293,8045],[294,9797],[295,10531],[296,9868],[297,5889],[298,4518],[299,5224],[300,3636],[301,3562],[302,2493],[303,1845],[304,128]],
+'C++': [[0,0],[1,0],[2,0],[3,0],[4,0],[5,1],[6,125],[7,358],[8,155],[9,453],[10,463],[11,152],[12,225],[13,391],[14,470],[15,2206],[16,1964],[17,1833],[18,2311],[19,1896],[20,1495],[21,1291],[22,1980],[23,2021],[24,2363],[25,1279],[26,1289],[27,3055],[28,5117],[29,5813],[30,6047],[31,7408],[32,4563],[33,4248],[34,4755],[35,5153],[36,7134],[37,5022],[38,5435],[39,10293],[40,8206],[41,12345],[42,12873],[43,11505],[44,8204],[45,12225],[46,10878],[47,11029],[48,11222],[49,10554],[50,11444],[51,13469],[52,18522],[53,22205],[54,31413],[55,20212],[56,14679],[57,12997],[58,13803],[59,15635],[60,16554],[61,17754],[62,19168],[63,35723],[64,37374],[65,38990],[66,39833],[67,38187],[68,19951],[69,27869],[70,27530],[71,30849],[72,36027],[73,36626],[74,39541],[75,43885],[76,46901],[77,53737],[78,58634],[79,40654],[80,38920],[81,40680],[82,41317],[83,49911],[84,41944],[85,40353],[86,49167],[87,62707],[88,58937],[89,65626],[90,71468],[91,50100],[92,35069],[93,38350],[94,47457],[95,56619],[96,51095],[97,53122],[98,56231],[99,60828],[100,66742],[101,66475],[102,70803],[103,50350],[104,44360],[105,43152],[106,48544],[107,58887],[108,48725],[109,55549],[110,48507],[111,62833],[112,83277],[113,73673],[114,67885],[115,51522],[116,41508],[117,45658],[118,39653],[119,60164],[120,52638],[121,56009],[122,54886],[123,64718],[124,67526],[125,44720],[126,45312],[127,47158],[128,41165],[129,40473],[130,38234],[131,47005],[132,37490],[133,35737],[134,38476],[135,43524],[136,47355],[137,49604],[138,52764],[139,39396],[140,37456],[141,30514],[142,37688],[143,42542],[144,42708],[145,40758],[146,39240],[147,49778],[148,53394],[149,60697],[150,56318],[151,44622],[152,45458],[153,49153],[154,39873],[155,51759],[156,51955],[157,49437],[158,42672],[159,55299],[160,60721],[161,48680],[162,53513],[163,47242],[164,42629],[165,42039],[166,43902],[167,61381],[168,67123],[169,73541],[170,64807],[171,68187],[172,77441],[173,73692],[174,76872],[175,64925],[176,62289],[177,61223],[178,73239],[179,96665],[180,80084],[181,82219],[182,69081],[183,98805],[184,94974],[185,88519],[186,111915],[187,102940],[188,95188],[189,97180],[190,98309],[191,129524],[192,106925],[193,110169],[194,94657],[195,113873],[196,106166],[197,104162],[198,123581],[199,118146],[200,106245],[201,104632],[202,100791],[203,107498],[204,84576],[205,74489],[206,61768],[207,93751],[208,90700],[209,82657],[210,85440],[211,80894],[212,68118],[213,75487],[214,76520],[215,90005],[216,81718],[217,68227],[218,69979],[219,78601],[220,79823],[221,74536],[222,77932],[223,67693],[224,61654],[225,54452],[226,51216],[227,74900],[228,61646],[229,57496],[230,49723],[231,59177],[232,56490],[233,58708],[234,64151],[235,48539],[236,45314],[237,39413],[238,49136],[239,68441],[240,71785],[241,48123],[242,39425],[243,56110],[244,43131],[245,40021],[246,45690],[247,37850],[248,38578],[249,39205],[250,35968],[251,60179],[252,49731],[253,46059],[254,27478],[255,52443],[256,47018],[257,38960],[258,43012],[259,38815],[260,39038],[261,40387],[262,33122],[263,41792],[264,39832],[265,32104],[266,21647],[267,38378],[268,35900],[269,25775],[270,31304],[271,27660],[272,23289],[273,25506],[274,30027],[275,29075],[276,26903],[277,19206],[278,18058],[279,26146],[280,26456],[281,21934],[282,22521],[283,21829],[284,22474],[285,32465],[286,20937],[287,22431],[288,18932],[289,17493],[290,17877],[291,29188],[292,19387],[293,12496],[294,13856],[295,11084],[296,12571],[297,12895],[298,9653],[299,12145],[300,11959],[301,14776],[302,15401],[303,9989],[304,397]],
+'PASCAL': [[0,0],[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,2],[9,4],[10,84],[11,420],[12,411],[13,389],[14,327],[15,430],[16,222],[17,544],[18,481],[19,278],[20,229],[21,366],[22,343],[23,384],[24,1059],[25,887],[26,1361],[27,2299],[28,2967],[29,3093],[30,4574],[31,2652],[32,2131],[33,2439],[34,2560],[35,3012],[36,3959],[37,1923],[38,2136],[39,2913],[40,4044],[41,2807],[42,2969],[43,2505],[44,1188],[45,1525],[46,2146],[47,2611],[48,2002],[49,2576],[50,3062],[51,3283],[52,3231],[53,3318],[54,2889],[55,2077],[56,1481],[57,2563],[58,2849],[59,4209],[60,4146],[61,4501],[62,4484],[63,6681],[64,9131],[65,8611],[66,7431],[67,3955],[68,4275],[69,4357],[70,4541],[71,5104],[72,6152],[73,5951],[74,6062],[75,6014],[76,5405],[77,5981],[78,8047],[79,7716],[80,8327],[81,8383],[82,6107],[83,5666],[84,5154],[85,4629],[86,6520],[87,6048],[88,4990],[89,7188],[90,5428],[91,4701],[92,4893],[93,4421],[94,6823],[95,3682],[96,3151],[97,3720],[98,5564],[99,2680],[100,4321],[101,4178],[102,3942],[103,3368],[104,2128],[105,3085],[106,3666],[107,2510],[108,2009],[109,2032],[110,3246],[111,2662],[112,2753],[113,2745],[114,2855],[115,2096],[116,2156],[117,2276],[118,2178],[119,2324],[120,2131],[121,2157],[122,1655],[123,1598],[124,2164],[125,1500],[126,898],[127,1496],[128,1476],[129,942],[130,474],[131,897],[132,635],[133,654],[134,495],[135,404],[136,598],[137,883],[138,698],[139,396],[140,654],[141,447],[142,433],[143,476],[144,392],[145,509],[146,693],[147,665],[148,825],[149,452],[150,910],[151,580],[152,1100],[153,742],[154,380],[155,873],[156,542],[157,1034],[158,570],[159,1285],[160,2758],[161,1046],[162,524],[163,587],[164,985],[165,870],[166,642],[167,412],[168,380],[169,585],[170,726],[171,1175],[172,1231],[173,943],[174,395],[175,734],[176,757],[177,1088],[178,548],[179,1065],[180,910],[181,1047],[182,911],[183,737],[184,2205],[185,821],[186,779],[187,702],[188,1097],[189,545],[190,465],[191,798],[192,669],[193,654],[194,934],[195,961],[196,1016],[197,503],[198,769],[199,1040],[200,906],[201,421],[202,390],[203,548],[204,318],[205,419],[206,343],[207,437],[208,445],[209,309],[210,414],[211,589],[212,429],[213,689],[214,911],[215,607],[216,447],[217,541],[218,310],[219,610],[220,1794],[221,640],[222,1562],[223,1008],[224,736],[225,1054],[226,822],[227,665],[228,457],[229,948],[230,212],[231,260],[232,451],[233,732],[234,417],[235,303],[236,300],[237,414],[238,356],[239,376],[240,487],[241,117],[242,159],[243,153],[244,66],[245,64],[246,158],[247,87],[248,183],[249,125],[250,213],[251,114],[252,60],[253,248],[254,65],[255,682],[256,559],[257,134],[258,198],[259,288],[260,118],[261,86],[262,154],[263,202],[264,232],[265,192],[266,128],[267,286],[268,154],[269,49],[270,108],[271,45],[272,54],[273,31],[274,54],[275,32],[276,57],[277,54],[278,55],[279,151],[280,171],[281,49],[282,81],[283,30],[284,50],[285,39],[286,32],[287,45],[288,24],[289,37],[290,19],[291,25],[292,28],[293,15],[294,25],[295,30],[296,33],[297,13],[298,15],[299,13],[300,19],[301,14],[302,14],[303,8],[304,0]],
+'C++11': [[0,0],[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0],[10,0],[11,0],[12,0],[13,0],[14,0],[15,0],[16,0],[17,0],[18,0],[19,0],[20,0],[21,0],[22,0],[23,0],[24,0],[25,0],[26,0],[27,0],[28,0],[29,0],[30,0],[31,0],[32,0],[33,0],[34,0],[35,0],[36,0],[37,0],[38,0],[39,0],[40,0],[41,0],[42,0],[43,0],[44,0],[45,0],[46,0],[47,0],[48,0],[49,0],[50,0],[51,0],[52,0],[53,0],[54,0],[55,0],[56,0],[57,0],[58,0],[59,0],[60,0],[61,0],[62,0],[63,0],[64,0],[65,0],[66,0],[67,0],[68,0],[69,0],[70,0],[71,0],[72,0],[73,0],[74,0],[75,0],[76,0],[77,0],[78,0],[79,0],[80,0],[81,0],[82,0],[83,0],[84,0],[85,0],[86,0],[87,0],[88,0],[89,0],[90,0],[91,0],[92,0],[93,0],[94,0],[95,0],[96,0],[97,0],[98,0],[99,0],[100,0],[101,0],[102,0],[103,0],[104,0],[105,0],[106,0],[107,0],[108,0],[109,0],[110,0],[111,0],[112,0],[113,0],[114,0],[115,0],[116,0],[117,0],[118,0],[119,0],[120,0],[121,0],[122,0],[123,0],[124,0],[125,0],[126,0],[127,0],[128,0],[129,0],[130,0],[131,0],[132,0],[133,0],[134,0],[135,0],[136,0],[137,0],[138,0],[139,0],[140,0],[141,0],[142,0],[143,0],[144,0],[145,0],[146,0],[147,0],[148,0],[149,0],[150,0],[151,0],[152,0],[153,0],[154,0],[155,0],[156,0],[157,0],[158,0],[159,0],[160,0],[161,0],[162,0],[163,0],[164,0],[165,0],[166,0],[167,0],[168,0],[169,0],[170,0],[171,0],[172,0],[173,0],[174,0],[175,0],[176,0],[177,0],[178,0],[179,0],[180,0],[181,0],[182,0],[183,0],[184,0],[185,0],[186,0],[187,0],[188,0],[189,0],[190,0],[191,0],[192,0],[193,0],[194,0],[195,0],[196,0],[197,0],[198,0],[199,0],[200,0],[201,7023],[202,19861],[203,24946],[204,21033],[205,18600],[206,18643],[207,27466],[208,25887],[209,30904],[210,29058],[211,25211],[212,26030],[213,30676],[214,35636],[215,42900],[216,35217],[217,31564],[218,37792],[219,45526],[220,55490],[221,50199],[222,48819],[223,47087],[224,42503],[225,42071],[226,48980],[227,68612],[228,55316],[229,57703],[230,56047],[231,66740],[232,66599],[233,67602],[234,82618],[235,59634],[236,56803],[237,68425],[238,71961],[239,91225],[240,79790],[241,73136],[242,69881],[243,97715],[244,85531],[245,73595],[246,91806],[247,74084],[248,61433],[249,71596],[250,77275],[251,104429],[252,82630],[253,80656],[254,69354],[255,93456],[256,84781],[257,84533],[258,84923],[259,72890],[260,65287],[261,73768],[262,72670],[263,93748],[264,76254],[265,81565],[266,58536],[267,83131],[268,79491],[269,69761],[270,74710],[271,65846],[272,60262],[273,62973],[274,78891],[275,90520],[276,98282],[277,79965],[278,66449],[279,74661],[280,63629],[281,68519],[282,64555],[283,53310],[284,61922],[285,74443],[286,57071],[287,68646],[288,65078],[289,60425],[290,49763],[291,62325],[292,58439],[293,57242],[294,64048],[295,54699],[296,55632],[297,58691],[298,54126],[299,65150],[300,58120],[301,51850],[302,48158],[303,58277],[304,2053]],
+'PYTH3': [[0,0],[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0],[9,0],[10,0],[11,0],[12,0],[13,0],[14,0],[15,0],[16,0],[17,0],[18,0],[19,0],[20,0],[21,0],[22,0],[23,0],[24,0],[25,0],[26,0],[27,0],[28,0],[29,0],[30,0],[31,0],[32,0],[33,0],[34,0],[35,0],[36,0],[37,0],[38,0],[39,0],[40,0],[41,0],[42,0],[43,0],[44,0],[45,0],[46,0],[47,0],[48,0],[49,0],[50,0],[51,0],[52,0],[53,0],[54,0],[55,0],[56,0],[57,0],[58,0],[59,0],[60,0],[61,0],[62,0],[63,0],[64,0],[65,0],[66,0],[67,0],[68,0],[69,0],[70,0],[71,0],[72,0],[73,0],[74,0],[75,0],[76,0],[77,0],[78,0],[79,0],[80,0],[81,0],[82,0],[83,0],[84,0],[85,0],[86,0],[87,0],[88,0],[89,0],[90,0],[91,0],[92,0],[93,0],[94,0],[95,0],[96,0],[97,0],[98,0],[99,0],[100,0],[101,0],[102,0],[103,0],[104,0],[105,0],[106,0],[107,0],[108,0],[109,0],[110,0],[111,0],[112,0],[113,0],[114,0],[115,0],[116,0],[117,0],[118,0],[119,0],[120,0],[121,0],[122,0],[123,0],[124,0],[125,0],[126,0],[127,0],[128,0],[129,0],[130,0],[131,0],[132,0],[133,0],[134,0],[135,0],[136,0],[137,0],[138,0],[139,0],[140,0],[141,0],[142,0],[143,0],[144,0],[145,0],[146,0],[147,0],[148,0],[149,0],[150,0],[151,0],[152,0],[153,0],[154,0],[155,0],[156,0],[157,0],[158,0],[159,0],[160,0],[161,0],[162,0],[163,0],[164,0],[165,0],[166,0],[167,0],[168,0],[169,0],[170,0],[171,0],[172,0],[173,0],[174,0],[175,0],[176,0],[177,0],[178,0],[179,0],[180,0],[181,0],[182,0],[183,0],[184,0],[185,0],[186,0],[187,0],[188,0],[189,0],[190,0],[191,0],[192,0],[193,0],[194,0],[195,0],[196,0],[197,0],[198,0],[199,0],[200,0],[201,0],[202,0],[203,0],[204,0],[205,0],[206,0],[207,0],[208,0],[209,0],[210,0],[211,0],[212,0],[213,0],[214,0],[215,0],[216,0],[217,0],[218,0],[219,0],[220,0],[221,0],[222,0],[223,0],[224,0],[225,0],[226,1596],[227,2209],[228,2792],[229,2707],[230,2385],[231,2377],[232,2129],[233,2730],[234,3364],[235,2573],[236,2771],[237,3571],[238,5369],[239,6747],[240,4922],[241,3985],[242,3514],[243,2899],[244,2988],[245,6445],[246,5007],[247,4319],[248,3486],[249,3538],[250,5136],[251,5375],[252,5517],[253,4748],[254,2409],[255,3019],[256,5954],[257,6695],[258,6294],[259,5900],[260,5194],[261,7560],[262,5320],[263,5586],[264,5219],[265,4648],[266,2783],[267,3123],[268,4550],[269,4793],[270,5038],[271,5152],[272,3309],[273,2956],[274,4601],[275,4607],[276,5132],[277,5372],[278,4715],[279,2960],[280,9643],[281,6273],[282,5386],[283,6245],[284,5189],[285,5188],[286,7427],[287,4398],[288,6012],[289,4073],[290,4481],[291,4059],[292,3332],[293,4688],[294,4999],[295,3524],[296,4656],[297,6216],[298,4072],[299,5329],[300,4222],[301,3462],[302,3719],[303,2157],[304,32]],
+'TOTAL': [[0,8],[1,2],[2,51],[3,5],[4,51],[5,48],[6,1078],[7,2051],[8,737],[9,1379],[10,1365],[11,1077],[12,979],[13,2275],[14,3450],[15,7890],[16,4530],[17,4470],[18,5932],[19,5282],[20,3746],[21,4149],[22,5285],[23,5105],[24,7503],[25,4008],[26,4891],[27,8313],[28,12330],[29,14601],[30,16575],[31,15858],[32,10584],[33,11354],[34,10292],[35,11394],[36,15895],[37,10455],[38,12486],[39,18760],[40,19940],[41,23511],[42,26386],[43,22933],[44,16117],[45,22795],[46,20555],[47,20435],[48,18848],[49,20656],[50,22472],[51,26660],[52,33879],[53,38465],[54,52310],[55,36362],[56,31868],[57,28473],[58,36967],[59,39328],[60,35382],[61,42351],[62,41003],[63,64346],[64,70001],[65,75357],[66,73568],[67,64323],[68,39052],[69,61740],[70,61666],[71,58519],[72,63700],[73,67482],[74,69027],[75,72975],[76,80254],[77,91292],[78,103352],[79,72067],[80,72688],[81,74005],[82,79505],[83,83105],[84,72039],[85,66670],[86,75792],[87,90393],[88,86687],[89,106358],[90,115127],[91,83389],[92,65124],[93,79011],[94,83883],[95,93203],[96,86540],[97,86257],[98,94084],[99,87245],[100,95320],[101,97627],[102,103774],[103,76531],[104,67053],[105,65155],[106,74287],[107,91404],[108,72705],[109,79452],[110,73822],[111,90154],[112,107448],[113,102285],[114,102948],[115,78509],[116,60986],[117,70060],[118,64998],[119,95105],[120,84160],[121,81956],[122,76774],[123,85548],[124,89734],[125,68358],[126,67493],[127,71598],[128,58720],[129,60867],[130,62694],[131,77712],[132,58352],[133,50879],[134,50735],[135,55760],[136,59587],[137,68287],[138,73162],[139,57926],[140,54305],[141,45120],[142,51506],[143,66675],[144,62483],[145,61886],[146,55702],[147,65257],[148,72027],[149,86147],[150,79986],[151,66988],[152,68288],[153,66458],[154,57276],[155,78601],[156,76214],[157,70286],[158,58682],[159,71508],[160,79346],[161,70036],[162,75681],[163,65977],[164,58632],[165,58410],[166,61956],[167,87671],[168,99222],[169,107697],[170,95198],[171,95997],[172,108200],[173,107809],[174,109382],[175,88869],[176,84304],[177,86703],[178,98586],[179,138890],[180,118525],[181,116539],[182,98239],[183,139025],[184,131912],[185,121611],[186,151211],[187,138714],[188,128521],[189,128970],[190,133991],[191,176344],[192,149122],[193,151439],[194,136740],[195,154792],[196,139543],[197,145588],[198,170975],[199,161698],[200,149456],[201,147661],[202,166659],[203,179928],[204,144256],[205,129515],[206,111627],[207,153631],[208,151287],[209,156791],[210,162225],[211,146976],[212,134301],[213,146251],[214,155668],[215,186895],[216,157803],[217,139154],[218,148475],[219,154277],[220,166955],[221,162406],[222,173279],[223,152719],[224,136523],[225,129625],[226,140379],[227,198068],[228,164660],[229,156969],[230,152367],[231,163121],[232,164844],[233,164544],[234,194520],[235,141445],[236,133135],[237,139582],[238,160518],[239,217130],[240,202498],[241,154870],[242,141409],[243,190683],[244,160147],[245,150520],[246,180739],[247,146497],[248,130118],[249,145114],[250,146406],[251,212788],[252,174952],[253,167252],[254,128316],[255,186514],[256,165766],[257,161768],[258,168797],[259,146443],[260,144385],[261,178655],[262,146304],[263,189377],[264,157065],[265,152791],[266,102826],[267,152774],[268,141882],[269,123979],[270,140246],[271,123985],[272,105296],[273,111482],[274,133212],[275,148618],[276,151899],[277,120285],[278,103518],[279,114996],[280,112789],[281,116432],[282,111883],[283,105130],[284,114953],[285,127525],[286,98099],[287,107278],[288,101256],[289,90762],[290,79727],[291,106067],[292,90925],[293,87971],[294,97755],[295,85474],[296,88304],[297,88445],[298,76161],[299,93090],[300,82760],[301,78365],[302,74795],[303,76355],[304,2681]]
+		} ;
+
+		var options = { legend: { style: { width: '100px' }, position: { left: '60px' } },
+				background: { color: '#e5e5e5' }, 
+				padding: { left: 50, right: 0, top: 10,	bottom: 30 } } ;
+
+		Object.extend(options,{
+			shouldFill: false,
+			colorScheme: new Hash({
+				'ANSI C': '#1c4a7e','JAVA': '#bb5b3d','C++': '#3a8133','PASCAL': '#ffb324','C++11': '#813379','PYTH3': '','TOTAL': '#ff0000'
+			})
+		}) ;
+
+		Object.extend(options,{
+			axis: {
+			y: { tickPrecision: 0,
+			ticks: [
+			{v:0},{v:20000},{v:40000},{v:60000},{v:80000},{v:100000},{v:120000},{v:140000},{v:160000},{v:180000},{v:200000}			]
+			
+			},
+			x: { tickPrecision: 0,
+			ticks: [
+		{v:0,label:'APR 1997'},{v:12,label:'APR 1998'},{v:24,label:'APR 1999'},{v:36,label:'APR 2000'},{v:48,label:'APR 2001'},{v:60,label:'APR 2002'},{v:72,label:'APR 2003'},{v:84,label:'APR 2004'},{v:96,label:'APR 2005'},{v:108,label:'APR 2006'},{v:120,label:'APR 2007'},{v:132,label:'APR 2008'},{v:144,label:'APR 2009'},{v:156,label:'APR 2010'},{v:168,label:'APR 2011'},{v:180,label:'APR 2012'},{v:192,label:'APR 2013'},{v:204,label:'APR 2014'},{v:216,label:'APR 2015'},{v:228,label:'APR 2016'},{v:240,label:'APR 2017'},{v:252,label:'APR 2018'},{v:264,label:'APR 2019'},{v:276,label:'APR 2020'},{v:288,label:'APR 2021'},{v:300,label:'APR 2022'}
+			] } } });
+			
+
+		var line = new Plotr.LineChart('langs',options) ;
+		line.addDataset(dataset) ;
+		line.render() ;
+	</script>
+
+	<div class="componentheading" style="margin-bottom:15px;">Usage Statistics</div>
+	Data taken from Google Analytics, corresponding to the last 365 days.<br/><br/>
+	<div align="center">
+	<iframe src="http://www.seethestats.com/stats/9054/Visits_c1118dc9e_ifr.html" style="width:700px;height:300px;border:1px solid #cccccc;" scrolling="no" frameborder="0"></iframe><br/><br/>
+	<iframe src="http://www.seethestats.com/stats/9054/Pageviews_c442021e5_ifr.html" style="width:700px;height:300px;border:1px solid #cccccc;" scrolling="no" frameborder="0"></iframe><br/><br/>
+	<iframe src="http://www.seethestats.com/stats/9054/UniquePageviews_00c55aa63_ifr.html" style="width:700px;height:300px;border:1px solid #cccccc;" scrolling="no" frameborder="0"></iframe><br/><br/>
+	<iframe src="http://www.seethestats.com/stats/9054/Visitors_4d47839a1_ifr.html" style="width:700px;height:300px;border:1px solid #cccccc;" scrolling="no" frameborder="0"></iframe><br/><br/>
+	<iframe src="http://www.seethestats.com/stats/9054/VisitsByCountry_4373f7804_ifr.html" style="width:700px;height:300px;border:1px solid #cccccc;" scrolling="no" frameborder="0"></iframe><br/><br/>
+	<iframe src="http://www.seethestats.com/stats/9054/VisitsByCity_7f98edad0_ifr.html" style="width:700px;height:300px;border:1px solid #cccccc;" scrolling="no" frameborder="0"></iframe><br/><br/>
+	</div>
+					</div>
+      </div>
+	  
+      <!-- IE Column Clearing -->
+         <div id="ie_clearing">&nbsp;</div>
+      <!-- Ende: IE Column Clearing -->	  
+	</div>
+<!-- #main: Content End -->
+
+</div>
+
+<!-- #footer: Start -->
+<div id="footer" style="text-align:center;">
+<!--	<a href="http://www.hieblmedia.de"><img src="https://onlinejudge.org/templates/hm_yaml_2_5/img/hieblmedia_logo.jpg" border="0" alt="HieblMedia WebSolutions"/></a><br />
+-->
+<!--		<a href="http://yaml.to-joomla.de" target="_blank">YAML to Joomla Template</a> &copy; 2006 - 2022 by Reinhard Hiebl [ <a href="http://www.hieblmedia.de">HieblMedia</a> ]<br />
+	-->
+	
+<!--    <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img
+            src="http://www.w3.org/Icons/valid-xhtml10"
+	            alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+
+<a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=207390&amp;t=209" target="_new"><img border="0" alt="Firefox 2" title="Firefox 2" src="http://sfx-images.mozilla.org/affiliates/Buttons/firefox2/firefox-spread-btn-1.png"/></a> -->
+
+<script type="text/javascript">
+google_ad_client = "ca-pub-2439032012840386";
+google_ad_slot = "7763957826";
+google_ad_width = 728;
+google_ad_height = 90;
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+
+
+<!--	<a href="http://validator.w3.org/check?uri=http://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2022" target="_blank">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=23&amp;expand=2022" target="_blank">CSS</a> | -->
+
+	
+<!--	 <hr />	<div align="center">
+	&copy; 2022 Online Judge</div>
+
+<div align="center">
+	<a href="http://www.joomla.org">Joomla!</a> is Free Software released under the GNU/GPL License.</div> -->
+<!--	<br /><div id="loading_template_time">Load Total: 0,016 sec. </div>-->
+</div>
+<!-- #footer: End -->
+
+</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9887308-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+<!-- 1659440950 -->

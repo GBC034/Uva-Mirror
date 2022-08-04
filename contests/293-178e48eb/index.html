@@ -1,0 +1,498 @@
+<HTML>
+<HEAD><TITLE>7th Contest of Newbies</TITLE>
+<META content="7th Contest of Newbies" name=description>
+<META content=1036 name=keywords>
+<META content=document name=resource-type>
+<META content=global name=distribution>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR>
+
+</HEAD>
+
+<BODY>
+
+<center>
+<p><img src="newbies.gif" border=1>
+
+<h3>General instructions:</h3>
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=1 CELLSPACING=1 STYLE="page-break-inside: avoid">
+	<COL WIDTH=20*>
+	<COL *>
+		<TR>
+			<TD VALIGN=TOP ALIGN=RIGHT>*</TD>
+			<TD>Unless otherwise specified,<ul>
+				<li>The default memory limit is 32 MB.</li>
+				<li>Each input file contains multiple test cases.</li>
+				<li>Each test case starts on a new line.</li>
+				<li>Input is terminated by EOF (end of file).</li>
+				<li>The size of input file is less than 100kB.</li>
+				<li>Double precision is sufficient for floating-point computations.</li>
+				<li>Take <i>&pi;</i> = 2 <i>cos</i><sup>-1</sup>0.</li>
+			</ul></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=RIGHT>*</TD>
+			<TD><b>Be careful of the data types you use in your codes!!</b></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=RIGHT>*</TD>
+			<TD>For clarification, please send an email to <u>clarify AT acm.uva.es</u> .</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=RIGHT>*</TD>
+			<TD>Clarification replies will be given by email, but they may also be put on the <a href="http://online-judge.uva.es/board/viewforum.php?f=18&sid=281c515ece1257cf6951c39a1912b2ec" target="_blank">Clarification Board</a> if they are of general interest. Press the F5 key often!</TD>
+		</TR>
+		<TR>
+			<TD ALIGN=RIGHT>*</TD>
+			<TD>Hints will be posted on the <a href="http://online-judge.uva.es/board/viewforum.php?f=18&sid=281c515ece1257cf6951c39a1912b2ec" target="_blank">Clarification Board</a> during the <b>last hour</b> of the contest.</TD>
+		</TR>
+</TABLE>
+
+ 
+
+<h3>The Problemset</h3>
+ 
+
+<TABLE BORDER=0 CELLPADDING=1 CELLSPACING=1 STYLE="page-break-inside: avoid">
+	<COL WIDTH=20*>
+	<COL WIDTH=300*>
+	<COL WIDTH=100*>
+		<TR>
+			<TD ALIGN=RIGHT> </TD>
+			<TD ALIGN=LEFT><font size=+1>(A) Roman Numerals</font></TD>
+			<TD><a href="12397.html">Click here</a></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=RIGHT> </TD>
+			<TD ALIGN=LEFT><font size=+1>(B) NumPuzz I</font></TD>
+			<TD><a href="12398.html">Click here</a></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=RIGHT> </TD>
+			<TD ALIGN=LEFT><font size=+1>(C) NumPuzz II</font></TD>
+			<TD><a href="12399.html">Click here</a></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=RIGHT> </TD>
+			<TD ALIGN=LEFT><font size=+1>(D) 3, 2, 1, 0</font></TD>
+			<TD><a href="12400.html">Click here</a></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=RIGHT> </TD>
+			<TD ALIGN=LEFT><font size=+1>(E) Metal Powers</font></TD>
+			<TD><a href="12401.html">Click here</a></TD>
+		</TR>
+		<TR>
+			<TD ALIGN=RIGHT> </TD>
+			<TD ALIGN=LEFT><font size=+1>(F) Parallel Missions</font></TD>
+			<TD><a href="12402.html">Click here</a></TD>
+		</TR>
+</TABLE>
+<P><TABLE WIDTH=100% BORDER=0 CELLPADDING=1 CELLSPACING=1 STYLE="page-break-inside: avoid">
+	<COL WIDTH=20*>
+	<COL *>
+		<TR>
+			<TD VALIGN=TOP ALIGN=RIGHT>*</TD>
+			<TD><a href="all.pdf" target="_blank">Here</a> is the entire problemset in PDF.</TD>
+		</TR>
+</TABLE>
+
+<p><b>Special Thanks</b> to Prof. Miguel Revilla and Shahriar Manzoor for their support and help.</p>
+</center>
+
+<!--
+<a name="a">
+<p>
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-inside: avoid;page-break-before:always">
+	<COL WIDTH=256*>
+	<COL WIDTH=256*>
+	<THEAD>
+		<TR VALIGN=BOTTOM>
+			<TD WIDTH=100% BGCOLOR="#554488">
+				<P><FONT COLOR="#ffffff"><FONT FACE="Arial Black" SIZE=6>Problem
+				A: Roman Numerals</FONT></FONT></P>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+
+<p><font size=6>W</font>e would like to build Roman numerals with matches.
+   As you know, Roman numerals are based on the following seven characters: I, V, X, L, C, D, M.
+   Here we introduce the LUSIVERS font, in which the respective characters look like this:
+
+<p><center><img src="images/roman1.jpg"></center>
+
+<p><b>Write a program</b> that counts the number of matches used to build Roman numerals in the LUSIVERS font.
+   This number is exactly the total number of "match heads" in the characters. For instance, to make the number <b>14</b> (=XIV), <b>five</b> matches are used.
+
+<p><center><img src="images/roman2.jpg"></center>
+
+<p>You must follow the "standard modern Roman numerals" (as shown on the Wikipedia page).
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Input</FONT></A></H2>
+<P>Input contains multiple lines, each giving a value of <b><i>N</i></b> (1 &le; <b><i>N</i></b> &le; 3999).
+
+<P><H2><A name=SECTION00002000000000000000><FONT color=#554488>Output</FONT></A></H2>
+<P>For each test case, output the number of matches required to build the number <b><i>N</i></b> in Roman numerals.
+
+<P><H2><A name=SECTION00003000000000000000><FONT color=#554488>Sample Input</FONT></A></H2>
+
+<PRE>
+14
+2011
+</PRE>
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Output</FONT></A></H2>
+
+<PRE>
+5
+11
+</PRE>
+
+<P><HR><address>Problemsetter: Mak Yan Kei<br />
+The LUSIVERS font is available on FontSpace as a freeware</address></p>
+
+<p><a href="#t">Top</a> 
+<a href="#a">A</a> <a href="#b">B</a> <a href="#c">C</a> 
+<a href="#d">D</a> <a href="#e">E</a> <a href="#f">F</a> </p>
+
+<a name="b">
+<p>
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-inside: avoid;page-break-before:always">
+	<COL WIDTH=256*>
+	<COL WIDTH=256*>
+	<THEAD>
+		<TR VALIGN=BOTTOM>
+			<TD WIDTH=100% BGCOLOR="#554488">
+				<P><FONT COLOR="#ffffff"><FONT FACE="Arial Black" SIZE=6>
+				Problem B: NumPuzz I</FONT></P>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+
+<P><img align=right src="images/num_00.gif" width=80>
+
+<P><font size=6>I</font> have recently downloaded an iPhone app called NumPuzz, developed by Marmottajr. I do not read Portugese, but I find this little game quite suitable for our newbies contest. (The app is available for free at the time this problem description is written.)
+   
+<P>You are given a 3-by-3 square matrix with integer entries that may range from 0 to 9, and your task is to make all the entries zeros. You may click on a square and have that entry, together with its neighbouring entries, decreased by one. If an entry to be reduced is a zero, it becomes a 9 after the click. Of course, you aim at solving the puzzle with the fewest clicks possible.
+
+<p><center><img src="images/num_01.gif" height=150></center>
+
+<p>As a simple example, let us suppose that your initial matrix has two zeros in the last two squares, and 1s everywhere else. If you click on the upper right corner, three of the ones turn into zeros. Now it takes just one more click to solve the puzzle. See the illustration below.
+
+<p><center><img src="images/num_02.gif" height=150> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/num_03.gif" width=150> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/num_04.gif" width=150></center>
+
+<p>A player shows you his sequence of clicks to solve a NumPuzz instance (not necessarily optimal). <b>Write a program</b> that returns the initial configuration.
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Input</FONT></A></H2>
+
+<p>Input contains no more than 100 lines. Each line gives a string of length not exceeding 200, describing the sequence of the player's moves. The meanings of the characters are as follows:
+
+<p><center><img src="images/num_05.gif" height=150></center>
+
+<p>The solution discussed above is described by "<b>cd</b>" (click first on c, then on d).
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Output</FONT></A></H2>
+
+<p>For each test case, print the corresponding matrix in the beginning of the game, using the format shown below.
+
+<p>Notice that the second line in sample input is empty. It means that no clicks are required to solve that puzzle.
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Input</FONT></A></H2>
+
+<PRE>
+cd
+
+cdifbgah
+</PRE>
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Output</FONT></A></H2>
+
+<PRE>
+Case #1:
+1 1 1
+1 1 1
+1 0 0
+Case #2:
+0 0 0
+0 0 0
+0 0 0
+Case #3:
+3 3 3
+3 4 3
+3 3 3
+</PRE>
+
+<P><HR><ADDRESS>Problemsetter: Mak Yan Kei<br />NumPuzz is an app by Marmottajr</ADDRESS></p>
+<p><a href="#t">Top</a> 
+<a href="#a">A</a> <a href="#b">B</a> <a href="#c">C</a> 
+<a href="#d">D</a> <a href="#e">E</a> <a href="#f">F</a> </p>
+
+
+<a name="c">
+<p>
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-inside: avoid;page-break-before:always">
+	<COL WIDTH=256*>
+	<COL WIDTH=256*>
+	<THEAD>
+		<TR VALIGN=BOTTOM>
+			<TD WIDTH=100% BGCOLOR="#554488">
+				<P><FONT COLOR="#ffffff"><FONT FACE="Arial Black" SIZE=6>
+				Problem C: NumPuzz II</FONT></P>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+
+<P><img align=right src="images/numpuzz.jpg" height=250>
+
+<P><font size=6>W</font>e consider again the iPhone game NumPuzz. Please refer to <a href="num.html">Problem B: NumPuzz I</a> for details of the game. 
+   
+<P>This task may be thought of as the opposite of Problem B. <b>Write a program</b> that accepts as input an initial configuation of a game instance, and returns a solution that takes the fewest clicks possible.
+
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Input</FONT></A></H2>
+
+<p>The input format here corresponds exactly to the output format of Problem B. The first line of each case gives the case number, and the following three lines contains the matrix entries at the start of the game.
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Output</FONT></A></H2>
+
+<p>For each test case, output a string that describes an optimal solution to the given puzzle. Use "<b>a</b>" to represent the upper left corner, "<b>b</b>" for the square to its right, etc. Print an empty line if no clicks are required. If the puzzle is unsolvable, output "<b>No solution.</b>" instead.
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Input</FONT></A></H2>
+
+<PRE>
+Case #1:
+1 1 1
+1 1 1
+1 0 0
+Case #2:
+0 0 0
+0 0 0
+0 0 0
+Case #3:
+3 3 3
+3 4 3
+3 3 3
+</PRE>
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Output</FONT></A></H2>
+
+<PRE>
+cd
+
+cdifbgah
+</PRE>
+
+<P><HR><ADDRESS>Problemsetter: Mak Yan Kei<br />NumPuzz is an app by Marmottajr</ADDRESS></p>
+<p><a href="#t">Top</a> 
+<a href="#a">A</a> <a href="#b">B</a> <a href="#c">C</a> 
+<a href="#d">D</a> <a href="#e">E</a> <a href="#f">F</a> </p>
+
+
+<a name="d">
+<p>
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-inside: avoid">
+	<COL WIDTH=256*>
+	<COL WIDTH=256*>
+	<THEAD>
+		<TR VALIGN=BOTTOM>
+			<TD WIDTH=100% BGCOLOR="#554488">
+				<P><FONT COLOR="#ffffff"><FONT FACE="Arial Black" SIZE=6>
+				Problem D: 3, 2, 1, 0</FONT></P>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+
+<P><img src="images/32.png" align=right width=200>
+
+<P><font size=6>T</font>his  problem relates the digits 3, 2, 1 and 0. Everyone knows that binary numbers are built of 1's and 0's.
+   Now suppose that you are given <b><i>N</i></b> cards of 3 and <b><i>M</i></b> cards of 2.
+   Is it possible to pick <b><i>K</i></b> cards out of them to build a <b><i>K</i></b>-digit decimal number such that all the <b><i>K</i></b> least significant digits of its binary representation are zeros?
+
+<p>For example, if you are given one card of each type, you can form the number 32, 
+   whose binary representation 100000 ends with &ge; 2 zeros.
+   However, if both cards have the same value, you cannot form a 2-digit number that satisfies the requirement.
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Input</FONT></A></H2>
+
+<p>Input contains no more than 1000 test cases, each given in a line with three non-negative integers <b><i>N</i></b>, <b><i>M</i></b> and <b><i>K</i></b>. All input numbers are smaller than 1000.
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Output</FONT></A></H2>
+
+<p>For each test case, output the <b>smallest</b> satisfying <b><i>K</i></b>-digit number if found, or "<b>Impossible.</b>" otherwise.
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Input</FONT></A></H2>
+
+<PRE>
+1 1 2
+2 0 2
+</PRE>
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Output</FONT></A></H2>
+
+<PRE>
+32
+Impossible.
+</PRE>
+
+<P><HR><ADDRESS>Problemsetter: Mak Yan Kei
+</ADDRESS>
+<p><a href="#t">Top</a> 
+<a href="#a">A</a> <a href="#b">B</a> <a href="#c">C</a> 
+<a href="#d">D</a> <a href="#e">E</a> <a href="#f">F</a> </p>
+
+
+<a name="e">
+<p>
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-inside: avoid">
+	<COL WIDTH=256*>
+	<COL WIDTH=256*>
+	<THEAD>
+		<TR VALIGN=BOTTOM>
+			<TD WIDTH=100% BGCOLOR="#554488">
+				<P><FONT COLOR="#ffffff"><FONT FACE="Arial Black" SIZE=6>Problem
+				E: Metal Powers</FONT></FONT></P>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+
+<br>
+
+<p><a href="images/ratio0.gif"><img src="images/ratio0.gif" height=100 align=right border=0></a>
+
+<p><font size=6>I</font> suppose everyone here has heard of the famous <b>golden ratio</b> <i>&phi;</i> = <img src="images/ratio1.gif" height=30> &asymp; 1.618.
+   This number possesses numerous interesting properties, one of which is illustrated by the following brain-teaser:
+
+<blockquote>
+<i>"What is the 200th significant digit of <i>&phi;</i><sup>600</sup> (<i>&phi;</i> to the 600th power)?"</i>
+</blockquote>
+
+<p>The answer is <b>9</b>. This is because <i>&phi;</i><sup><i>n</i></sup> + (1 - <i>&phi;</i>)<sup><i>n</i></sup> is an integer for any positive integer <i>n</i>,
+   and (1 - <i>&phi;</i>)<sup>600</sup> is an extremely small positive number.
+
+<p><a href="images/phi.gif"><img src="images/phi.gif" align=right width=140 border=0></a>
+
+<p>In this problem we introduce two more "metal ratios": the <b>silver ratio</b> <img src="images/ratio2.gif" height=30> &asymp; 2.414 and the <b>bronze ratio</b> <img src="images/ratio3.gif" height=30> &asymp; 3.303.
+   (These terms are certainly not made up by us; try searching "silver ratio" in MathWorld and you'll see the numbers. Oh wait, Bronze is NOT a metal, hmm...)
+   Curiously, each of these three ratios, when raised to the <i>n</i>th power (for <i>n</i> large enough), is very close to an integer. (Perhaps it is not that curious for those who know <i>difference equations</i>.)
+   Let us call these approximate integers "the Metal Powers". Your job is to <b>write a program</b> that computes them.
+
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Input</FONT></A></H2>
+<P>Input has no more than 250 lines, each containing a value of <i>n</i> (0 &le; <i>n</i> &le; 100000000)
+   followed by one of the uppercase letters "G" (for "Golden"), "S" (for "Silver") or "B" (for "Bronze").
+
+<P><H2><A name=SECTION00002000000000000000><FONT color=#554488>Output</FONT></A></H2>
+<P>For each case, your program should give the corresponding "Metal Power".
+(For example, the 600th Golden Power means the closest integer to <i>&phi;</i><sup>600</sup>.)
+If any result contains <b>more than nine digits</b>, you only need to give its first three and last three significant digits, together with its total number of digits, as shown in the sample output.
+You must use the suffixes "th", "st", "nd" and "rd" appropriately.
+
+<P><H2><A name=SECTION00003000000000000000><FONT color=#554488>Sample Input</FONT></A></H2>
+
+<PRE>
+0 G
+2 S
+27 B
+</PRE>
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Output</FONT></A></H2>
+
+<PRE>
+The 0th Golden Power is 1.
+The 2nd Silver Power is 6.
+The 27th Bronze Power is 102...036(15 digits).
+</PRE>
+
+
+<P><H2><A name=SECTION00005000000000000000><FONT color=#554488>Explanation</FONT></A></H2>
+<p>The exact value for the third sample case is:
+<pre>102266868132036</pre>
+
+<P><HR><address>Problemsetter: Mak Yan Kei<br />
+Images taken from Wikimedia Commons</address></p>
+<p><a href="#t">Top</a> 
+<a href="#a">A</a> <a href="#b">B</a> <a href="#c">C</a> 
+<a href="#d">D</a> <a href="#e">E</a> <a href="#f">F</a> </p>
+
+
+<a name="f">
+<p>
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-inside: avoid;page-break-before:always">
+	<COL WIDTH=256*>
+	<COL WIDTH=256*>
+	<THEAD>
+		<TR VALIGN=BOTTOM>
+			<TD WIDTH=100% BGCOLOR="#554488">
+				<P><FONT COLOR="#ffffff"><FONT FACE="Arial Black" SIZE=6>
+				Problem F: Parallel Missions</FONT></P>
+			</TD>
+		</TR>
+	</THEAD>
+</TABLE>
+
+<P><font size=6>R</font>ay has always been a fan of <b>Lineage II</b>, the (previously) most popular MMORPG (Massively Multi-player Online Role-Playing Game) in Korea and Hong Kong.
+   If you have ever tried the game, you'll know that the procedures of the missions are harsh and 
+   time consuming. Most of the time is spent on travelling around the world, to kill a definite amount of a specific kind of monster, 
+   or to talk to some NPCs (Non-Player Characters). You may of course avoid the optional missions, but some missions are inevitable.
+
+<P>In order to have stronger combat skills or special abilities (e.g. High grade weapon/armor creation), you need to upgrade to 
+   advanced jobs (e.g. from Priest to Bishop) through finishing several extremely
+   tiring missions. One way to minimise the duration is to solve several missions simutaneously.
+   Here's an example:<br>
+   <pre>   Mission 1 asks player to travel in the following order: 2 &rarr; 3 &rarr; 5 &rarr; 1 &rarr; 2
+   Mission 2 asks player to travel in the following order: 5 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5
+   Mission 3 asks player to travel in the following order: 4 &rarr; 2 &rarr; 4 &rarr; 1 &rarr; 4</pre>
+   Suppose the player is currently in city 4 and assume that the time needed to travel between the cities are the same (say, <b>1 time unit</b>).
+   The following route is optimal, taking only 8 time units:
+   <pre>   4 &rarr; 5 &rarr; 2 &rarr; 3 &rarr; 4 &rarr; 5 &rarr; 1 &rarr; 2 &rarr; 4</pre>
+
+<P>It's not always easy to pick an optimal path. You are going to <b>write a program</b> to help.
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Input</FONT></A></H2>
+
+<p>Input contains several test cases. The first line of each case gives a single integer which indicates the number of missions to be solved simutaneously. The first number of the next
+   lines indicate the number of procedures of the missions. The integers following are the cities needed to be travelled (in order). The last line of the case consists of
+   a single integer which locates the starting position of the player.
+
+<p>To make this problem easier we impose the following small input ranges:
+<ul>
+<li>There are no more <b>10</b> cities in the world, and at most <b>10</b> missions.</li>
+<li>The number of procedures of each mission does not exceed <b>6</b>.</li>
+<li>For an optimal path, travelling time required is always less than <b>20</b>.
+</ul>
+
+
+<P><H2><A name=SECTION00001000000000000000><FONT color=#554488>Output</FONT></A></H2>
+
+<p>For each test case, output a path such that the travelling time is minimized.
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Input</FONT></A></H2>
+
+<PRE>
+3
+5 2 3 5 1 2
+5 5 2 3 4 5
+5 4 2 4 1 4
+4
+</PRE>
+
+<P><H2><A name=SECTION00004000000000000000><FONT color=#554488>Sample Output</FONT></A></H2>
+
+<PRE>
+4 5 2 3 4 5 1 2 4
+</PRE>
+
+<P><HR><ADDRESS>Problemsetter: Raymond Chun
+</ADDRESS>
+<p><a href="#t">Top</a> 
+<a href="#a">A</a> <a href="#b">B</a> <a href="#c">C</a> 
+<a href="#d">D</a> <a href="#e">E</a> <a href="#f">F</a> </p>
+-->
+
+</BODY>
+</HTML>

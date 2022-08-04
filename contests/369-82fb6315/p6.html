@@ -1,0 +1,177 @@
+<HTML>
+<TITLE>Edid Tistance</TITLE>
+<CENTER>
+<TABLE bgColor=#0060f0>
+  <TBODY align=center>
+  <TR>
+    <TD><b><font color="#c0ffff" size="5">&nbsp;</font><font size="5" color="#C0FFFF">G - Edid 
+    Tistance
+    </font>&nbsp;</b></TR></TBODY></TABLE></CENTER>
+
+<p style="margin-bottom: 0" align="right">&nbsp;</p>
+<p style="margin-bottom: 0" align="right"><i>Time is the longest distance 
+between two places.</i></p>
+<p style="margin-top: 0" align="right">Tennessee Williams</p>
+
+<h2><O:P><span style="COLOR: #0070e8; mso-ansi-language: EN">Context</span></O:P></h2>
+
+<p style="margin-top: 0" align="left">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+In computer science, edit distance is a way of quantifying how dissimilar two 
+strings (e.g., words) are to one another by counting the minimum number of 
+operations required to transform one string into the other. Edit distances find 
+applications in natural language processing, where automatic spelling correction 
+can determine candidate corrections for a misspelled word by selecting words 
+from a dictionary that have a low distance to the word in question. In 
+bioinformatics, it can be used to quantify the similarity of DNA sequences, 
+which can be viewed as strings of the letters A, C, G and T.</span></p>
+
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+Different definitions of an edit distance use different sets of string 
+operations. The Levenshtein distance operations are the removal, insertion, or 
+substitution of a character in the string. Being the most common metric, the 
+Levenshtein distance is usually what is meant by &quot;edit distance&quot;.</span></p>
+<p class="MsoNormal"><b>
+<span lang="EN-US" style="font-family: 'Times New Roman',serif"><font size="4">
+Formal definition and properties</font></span></b></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+Given two strings <i>a</i> and <i>b</i> on an alphabet </span>
+<span style="font-size: 12.0pt; font-family: 'Times New Roman',serif">&#931;</span><span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">, 
+the edit distance d(<i>a</i>, <i>b</i>) is the minimum-weight series of edit 
+operations that transforms <i>a</i> into <i>b</i>. One of the simplest sets of 
+edit operations is that defined by Levenshtein in 1966: </span></p>
+<p class="MsoNormal" style="margin-left:36.0pt"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+Insertion</span></b><span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif"> 
+of a single symbol. If <i>a</i> = <i>uv</i>, then inserting the symbol <i>x</i> 
+produces <i>uxv</i>. This can also be denoted </span>
+<span style="font-size: 12.0pt; font-family: 'Times New Roman',serif">&#949;</span><span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">&#8594;<i>x</i>, 
+using </span>
+<span style="font-size: 12.0pt; font-family: 'Times New Roman',serif">&#949;</span><span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif"> 
+to denote the empty string.</span></p>
+<p class="MsoNormal" style="margin-left:36.0pt"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+Deletion</span></b><span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif"> 
+of a single symbol changes <i>uxv</i> to <i>uv</i> (<i>x</i>&#8594;</span><span style="font-size: 12.0pt; font-family: 'Times New Roman',serif">&#949;</span><span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">).</span></p>
+<p class="MsoNormal" style="margin-left:36.0pt"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+Substitution</span></b><span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif"> 
+of a single symbol <i>x</i> for a symbol <i>y</i> &#8800; <i>x</i> changes <i>uxv</i> 
+to <i>uyv</i> (<i>x</i>&#8594;<i>y</i>).</span></p>
+<p>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+In Levenshtein's original definition, each of these operations has unit cost 
+(except that substitution of a character by itself has zero cost), so the 
+Levenshtein distance is equal to the minimum <i>number</i> of operations 
+required to transform <i>a</i> to <i>b</i>.</span></p>
+<p class="MsoNormal"><b>
+<span lang="EN-US" style="font-size: 13.5pt; font-family: 'Times New Roman',serif">
+Example</span></b></p>
+<p class="MsoNormal">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+The Levenshtein distance between &quot;flow&quot; and &quot;grown&quot; is 3. A minimal edit script 
+that transforms the former into the latter is:</span></p>
+<ol start="1" type="1" style="margin-bottom: 0cm">
+  <li class="MsoNormal"><b>
+  <span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+  f</span></b><span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">low 
+  &#8594; <b>g</b>rown (substitution of &quot;f&quot; for &quot;g&quot;)</span></li>
+  <li class="MsoNormal">
+  <span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+  f<b>l</b>ow &#8594; g<b>r</b>own (substitution of &quot;l&quot; for &quot;r&quot;)</span></li>
+  <li class="MsoNormal">
+  <span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+  flow &#8594; grow<b>n</b> (insertion of &quot;n&quot; at the end).</span></li>
+</ol>
+<p>&nbsp;</p>
+
+<h2><span lang="EN" style="COLOR: #0070e8; mso-ansi-language: EN">The Problem</span></h2>
+<p>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+Given two strings <i>a</i> and <i>b</i> on an alphabet </span>
+<span style="font-size: 12.0pt; font-family: 'Times New Roman',serif">&#931;</span><span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif"> 
+(the set of standard ASCII characters), obtain </span>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+the Levenshtein distance between <i>a</i> and <i>b</i>, where 0 </span>
+<span lang="EN-US" style="font-size: 12.0pt">&#8804; length (<i>a</i>), length (<i>b</i>) 
+&#8804; 100.</span></p>
+<p>&nbsp;</p>
+<H2><FONT color=#0070e8><A name=SECTION0001003000000000000000>The 
+Input</A></FONT></H2>
+<P><font face="Times New Roman"><span lang="EN-US">The first line of the input 
+contains an integer,</span></font><span lang="EN-US" style="font-family: Calibri,sans-serif"><em><span style="font-family: Times New Roman">&nbsp;t</span></em></span><font face="Times New Roman"><span lang="EN-US">, 
+indicating the number of test cases. For each test case, two lines appear, the 
+first one 
+containing the first string </span> </font>
+<span lang="EN-US" style="font-size: 12.0pt"><i>a </i></span><font face="Times New Roman"><span lang="EN-US">
+and the second one containing the second string </span> </font>
+<span lang="EN-US" style="font-size: 12.0pt"><i>b</i></span><span style="font-family: Times New Roman">.</span><P><span lang="EN" style="mso-ansi-language: EN"><H2><FONT color=#0070e8>The Output</FONT></H2>
+<P><span lang="EN-US" style="font-family: Times New Roman">For each test case 
+the output should contain a single line, which consists of </span>
+
+</span><span style="mso-ansi-language: EN">the </span>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: 'Times New Roman',serif">
+corresponding Levenshtein distance</span>.<P>&nbsp;<span lang="EN" style="mso-ansi-language: EN"><H2><FONT color=#0070e8>Sample Input</FONT></H2>
+
+</span>
+
+<pre style="margin-top: 0; margin-bottom: 0"><span style="mso-ansi-language: EN">6</span><span lang="EN" style="mso-ansi-language: EN">
+</span><span style="mso-ansi-language: EN">impossible</span><span lang="EN" style="mso-ansi-language: EN">
+</span><span style="mso-ansi-language: EN">possible</span></pre>
+
+<pre style="margin-top: 0; margin-bottom: 0">&nbsp;</pre>
+
+<pre style="margin-top: 0; margin-bottom: 0"><span style="mso-ansi-language: EN">possible</span></pre>
+
+<pre style="margin-top: 0; margin-bottom: 0">sorry</pre>
+
+<pre style="margin-top: 0; margin-bottom: 0">scared<span lang="EN" style="mso-ansi-language: EN">
+</span><span style="mso-ansi-language: EN">excused</span></pre>
+
+<pre style="margin-top: 0; margin-bottom: 0">&nbsp;</pre>
+
+<pre style="margin-top: 0; margin-bottom: 0">counted</pre>
+
+<pre style="margin-top: 0; margin-bottom: 0">proud</pre>
+
+<pre style="margin-top: 0; margin-bottom: 0">two people</pre>
+
+<pre style="margin-top: 0; margin-bottom: 0">to</pre>
+
+<pre style="margin-top: 0; margin-bottom: 0"><span lang="EN" style="mso-ansi-language: EN">
+</pre>
+
+<H2><FONT color=#0070e8>Sample Output</FONT></H2>
+
+</span>
+
+
+
+<pre style="margin-top: 0; margin-bottom: 0"><span style="mso-ansi-language: EN">2</span><span lang="EN" style="mso-ansi-language: EN">
+</span><span style="mso-ansi-language: EN">8</span><span lang="EN" style="mso-ansi-language: EN">
+</span><span style="mso-ansi-language: EN">4</span><span lang="EN" style="mso-ansi-language: EN">
+</span><span style="mso-ansi-language: EN">7</span></pre>
+
+
+
+<pre style="margin-top: 0; margin-bottom: 0">5</pre>
+
+
+
+
+
+<pre style="margin-top: 0; margin-bottom: 0">8</pre>
+
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'16</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad
+de Informática<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad
+de Murcia</a></small></small></p>
+
+
+
+
+</HTML>

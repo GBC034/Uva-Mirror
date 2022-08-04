@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta name="autor" content="Gines, Murcia 19/9/15, dedicated to Rocio">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Angry bids</title>
+
+</head>
+<body lang="EN">
+<div align="center">
+<center>
+<table bgcolor="#0060f0" border="0">
+<tbody>
+<tr>
+<td><font color="#c0ffff" size="5"><b>&nbsp;D
+- Angry Bids&nbsp;</b></font></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<h2><a name="SECTION1"><font color="#0070e8">Context</font></a></h2>
+<p>Deciding the price of a product is not an easy matter. If the
+price is high, then consumers get angry because they think it is too
+expensive. But if the price is low, then producers get angry because they
+do not earn enough money.</p>
+<p>In this problem, you have to bid for the price that produces
+the minimum number of angry people.</p>
+<h2><a name="SECTION1"><font color="#0070e8">The
+Problem</font></a></h2>
+<p>For a given product, we have a set of producers and a set of
+consumers. Each producer has suggested his/her ideal price for the
+product. If your bid is below that ideal price, then the producer will
+get angry. Also, each consumer has suggested his/her ideal price for
+the product. If your bid is above that ideal price, then the consumer
+will get angry.</p>
+<p>You have to find the price that produces the minimum number
+of angry people (either producers or consumers). Your bid price should
+always be
+between 0 and 10<sup>9</sup>. And if there is more than one
+optimal solution, you have to output the lowest one.
+</p>
+<h2><a name="SECTION2"><font color="#0070e8">The
+Input</font></a></h2>
+<p>The input consists of a series of test cases. The first line
+contains a number that indicates the number of test cases.</p>
+<p>Each test case consists of three lines. The first one contains
+two
+integers, <span style="font-style: italic;">P</span>
+and <span style="font-style: italic;">C</span>,
+indicating the number of producers and consumers of the product,
+respectively. These numbers will be between 0 and 10<sup>4</sup>.
+Then, the second line contains <span style="font-style: italic;">P</span>
+integer numbers, the ideal prices for the producers. And the third line
+contains <span style="font-style: italic;">C</span>
+integer numbers, the ideal prices for the consumers. The prices are
+between 1 and 10<sup>8</sup>.</p>
+<h2><a name="SECTION2"><font color="#0070e8">The
+Output</font></a></h2>
+<p> For each input case, you have to output two numbers separated
+by one space: the bid price that
+produces the minimum number of angry people; and the total number of
+angry people for that price. Remember
+that if there is more than one optimal solution, you have to output the
+one with lowest price; and the result cannot be a negative number.</p>
+<h2><a name="SECTION3"><font color="#0070e8">Sample
+Input</font></a></h2>
+<pre>4<br>3 3<br>10 16 12<br>21 20 25<br>4 3<br>104 120 98 132<br>120 88 140<br>8 8<br>36 27 52 72 36 37 26 38<br>35 75 36 39 44 82 23 62<br>0 2<br><br>28 71<br></pre>
+<h2><a name="SECTION4"><font color="#0070e8">Sample
+Output</font></a></h2>
+<pre>16 0<br>120 2<br>38 5<br>0 0<br><br></pre>
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'15</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad
+de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad
+de Murcia</a></small></small></p>
+</body></html>

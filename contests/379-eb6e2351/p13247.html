@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Recomputing dependencies</title>
+</head>
+
+<body bgcolor="#FFFFFF" lang="EN">
+<div align="center"><center>
+
+<table border="0" bgcolor="#0060F0">
+<TBODY>
+  <tr>
+    <td><b><font color="#C0FFFF" size="5">&nbsp;G - Recomputing Dependencies</font>&nbsp;</b></td>
+  </tr>
+</TBODY>
+</table>
+</center></div>
+
+<h2><font color="#0070E8">Context</font></h2>
+
+<p>It is weekend and people take the car to go to the seashore. People often travel in groups of several cars, and each car may have to follow another car in front of it. However, at the highway other cars may go in between, making the task of following the car ahead more difficult.</p>
+
+<h2><font color="#0070E8">The Problem</font></h2>
+
+<p>Each car may follow another car that is <i>p</i> positions ahead, where 0 &lt; p &lt; 1000. A large number of cars may go in between during the trip. We know how many cars get in between each car and the car they were following at the end of the trip. You need to make sure that people do not get lost. So your task is to recompute the dependencies of each dependent car.</p>
+
+<p>In the following example, 7 cars leave from the origin, and only 2 of them have dependencies with a previous car (car 5 depends on car 2 &ndash;i.e. 3 positions ahead&ndash;, and car 6 depends on car 4 &ndash;i.e. 2 positions ahead&ndash;). Then, 3 new cars go in between them during the trip.</p>
+
+<p align="center"><img src="cars-fin.jpg"><br>
+<em>Example of starting configuration with 3 new cars at the arrival.</em></p>
+
+<h2><font color="#0070E8">The Input</font></h2>
+
+<p>The program input consists of several lines, each one with a
+sequence of cars with the initial dependencies, and the cars that incorporate during the trip. A dash ('-') means a car with no dependencies. A number means a car with dependencies, indicating the number of positions the dependent car is. A hash ('#') means that a new car has incorporated in that position. These terms are separated by blank spaces.</p>
+
+<p>The input terminates with a
+line with the string 0. Note that the first line of the sample input corresponds to the example in the figure.</p>
+
+<h2><font color="#0070E8">The Output</font></h2>
+
+<p>For each line, your program must print the final configuration, that is, recompute the number of positions that the dependent cars have to follow ahead of them.</p>
+
+<h2><font color="#0070E8">Sample Input</font></h2>
+
+<pre>
+- - # # - # - 3 2 -
+- - # # - # - # 3 2 -
+- - # # - # - # 3 # 2 -
+0
+</pre>
+
+<h2><font color="#0070E8">Sample Output</font></h2>
+
+<pre>
+- - # # - # - 6 2 -
+- - # # - # - # 7 3 -
+- - # # - # - # 7 # 4 -
+</pre>
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'17</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad de Murcia</a></small></small></p>
+</body></html>

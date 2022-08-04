@@ -1,0 +1,64 @@
+<html><head>
+<meta name="autor" content="Gines, Murcia 30/9/17, dedicated to Rocio">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Blade Ranas 2040</title></head>
+<body lang="EN">
+<div align="center">
+<center>
+<table bgcolor="#0060f0" border="0">
+<tbody>
+<tr>
+<td><font color="#c0ffff" size="5"><b>&nbsp;A - Blade Ranas 2040&nbsp;</b></font></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+<h2><a name="SECTION1"><font color="#0070e8">Context</font></a></h2>
+<p>In a futuristic planet dominated by a superior race of intelligent frogs, Blade Ranas is a special police corps dedicated to eat (or ''retire'') robotic replicant frogs.</p>
+<p style="text-align: center;"><img alt="Blade Ranas 2040" src="blader.jpg"></p>
+<p>The Blade Ranas live in the city of Los Angeles, which can be represented as a rectangular grid of locations. They use their very long tongues to capture and eat the replicants. They can throw their tongues in horizontal, vertical or diagonal directions.</p>
+<p>You have to help Blade Ranas find the optimal location of the city to eat the greatest number of replicants.</p>
+<h2><a name="SECTION1"><font color="#0070e8">The Problem</font></a></h2>
+<p>The city is described as a rectangular grid of locations. In each location, there can be a replicant, an empty space, or a wall. When a Blade Rana is located at a given position, he can eat all the replicants that are in the same horizontal, vertical or diagonal direction, but he can not eat through the walls.</p>
+<p>For example, suppose we have the following map of a city, where 'R' represents a replicant, '#' a wall, and '.' is an empty space:</p>
+<p style="text-align: center;"><img alt="Blade Ranas" src="bladeranas.png"></p>
+<p>If the frog is located at (1,1), he can eat 2 replicants; at (1,2) he can eat 4 replicants; at (1,7) he can eat 5 replicants (including the replicant which is at (1,7)); at (5,3) he can eat 6 replicants, and also at (5,11); and at (1,10) he can eat 0 replicants, since there is a wall.</p>
+<p>You have to find the location to eat the highest number of replicants. If there is more than one solution, you have to produce the first in the order from top to bottom, and then from left to right. So, in the previous example, the solution would be (5,3).</p>
+
+
+<h2><a name="SECTION2"><font color="#0070e8">The Input</font></a></h2>
+<p>The input can contain several test cases. The number of test cases is indicated in the first line.</p>
+<p>Each test case begins with two numbers: <i>R</i> and <i>C</i>, indicating the number of rows and columns of the map, and not bigger than 100. Then, there are <i>R</i> rows, each of them with <i>C</i> characters. Characters can be: '.', 'R', '#', for an empty space, a replicant or a wall, respectively.</p>
+<h2><a name="SECTION2"><font color="#0070e8">The Output</font></a></h2>
+<p>For each test case, you have to produce a line with two numbers separated by a blank space: <i>A B</i>, indicating the optimal position, where <i>A</i> is the row, and <i>B</i> is the column. Observe that the top left position is: 1 1</p>
+
+<h2><a name="SECTION3"><font color="#0070e8">Sample Input</font></a></h2>
+<pre>
+3
+5 13
+..R...R..#.R.
+.............
+......R.R....
+.R...###.....
+.....RRR..R..
+5 13
+..R...R..#.R.
+....R.....R..
+......R.R...R
+.R...###....R
+..R..RRR.#R..
+3 3
+R..
+###
+.R.
+</pre>
+
+<h2><a name="SECTION4"><font color="#0070e8">Sample Output</font></a></h2>
+<pre>5 3
+3 5
+1 1</pre>
+<hr>
+<p align="right"><small><small><a href="http://onlinejudge.inf.um.es" target="_blank">OMP'17</a><br>
+<a href="http://www.um.es/informatica" target="_blank">Facultad de Inform&aacute;tica<br>
+</a><a href="http://www.um.es/" target="_blank">Universidad de Murcia</a></small></small></p>
+</body></html>
